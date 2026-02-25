@@ -1,4 +1,4 @@
-27271744823911111
+27275288801406631
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99315,6 +99315,20 @@ cmode choke dual
 0
 4
 4
+SiC_Inverter
+23AH8785-Black
+
+66.9040-21 
+0
+5
+5
+SiC_Inverter
+23AH8786-Red
+
+66.9040-21 
+0
+5
+5
 SiC_Inverter
 2300HT_470
 
