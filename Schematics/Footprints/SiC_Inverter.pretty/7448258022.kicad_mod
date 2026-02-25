@@ -1,0 +1,137 @@
+(footprint "7448258022"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "common mode, inductor, filter, https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl")
+	(tags "cmode choke dual")
+	(property "Reference" "REF**"
+		(at -2 -2 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe155709-2e86-4149-a454-28e3b7c70dd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "7448258022"
+		(at 15 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a5ddf1dd-fdb0-4ff4-b0e9-0a41bd207b17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b413e37f-2d18-4a72-9321-4a5b447176d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcaebfe1-5891-4338-b763-9d5990974e6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 -21)
+		(end 32 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "60c1f502-e2b2-4e01-a304-34b9c4603508")
+	)
+	(fp_rect
+		(start -1 -22)
+		(end 33.5 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "192a4142-d77f-461c-abbd-96a9dbd2111b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 15 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f009783a-aff0-4e54-9485-5ed44146ba0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 3.5 -3)
+		(size 3.1 3.1)
+		(drill 1.35)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7190a5ea-8aee-4541-b134-d08e62de3c58")
+	)
+	(pad "2" thru_hole circle
+		(at 28.5 -3)
+		(size 3.1 3.1)
+		(drill 1.35)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e501c25-ec8b-4b23-baa1-4495e17e0b50")
+	)
+	(pad "3" thru_hole circle
+		(at 28.5 -18)
+		(size 3.1 3.1)
+		(drill 1.35)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aef3abed-a4d1-42e1-aef0-e858d8055a7f")
+	)
+	(pad "4" thru_hole circle
+		(at 3.5 -18)
+		(size 3.1 3.1)
+		(drill 1.35)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5529ffa8-ef05-470e-9ce5-422492c08bb4")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d-models/STP_7448258022_rev1.stp"
+		(offset
+			(xyz 16 10.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

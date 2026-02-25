@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b1e77767-70b7-4978-84c5-4926e3163f16")
+	(paper "A4")
+	(lib_symbols)
+	(text "- CISPR‑grade Input Filter sheet → for future AC mains compliance (DM + CM + X/Y caps)\n"
+		(exclude_from_sim no)
+		(at 124.46 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b80e9740-f63d-4099-9aa3-1581916c0b53")
+	)
+)

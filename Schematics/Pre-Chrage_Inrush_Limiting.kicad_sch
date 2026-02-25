@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f4b352cf-a161-44bf-8221-9cd9798f743b")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "BUS+_Precharge"
+		(shape input)
+		(at 76.2 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1079e40c-33b8-4bfd-a7bc-240fad2c1d32")
+	)
+	(hierarchical_label "DC-_Precharge"
+		(shape input)
+		(at 193.04 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1934b020-224b-4db7-88c1-b8b1d343ce25")
+	)
+	(hierarchical_label "DC+_Precharge"
+		(shape input)
+		(at 193.04 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de0bfcf4-e095-4635-b17d-c20ae419f0f7")
+	)
+	(hierarchical_label "BUS-_Precharge"
+		(shape input)
+		(at 76.2 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2c20045-6a56-4f79-8773-f028384aed1c")
+	)
+)

@@ -1,0 +1,238 @@
+(footprint "2300HT_470"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "2300HT-470-H-RC ")
+	(property "Reference" "REF**"
+		(at 14.351 -18 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "afb9d59e-4dcb-4d0c-9c0d-058bb87e47da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2300HT_470"
+		(at 14.351 18 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "64db6d82-bc1c-4ecb-9b22-807355330f5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79385163-0a23-4b47-afb0-3084c7ddc34d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60a920fb-f367-47db-816c-8fc320814f1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.429 0)
+		(end -2.159 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ab36c5a-6279-4e29-924e-abbb8e82f5c1")
+	)
+	(fp_line
+		(start -2.794 -0.635)
+		(end -2.794 0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a7d919e-f025-48a2-83ee-5c241aac268a")
+	)
+	(fp_circle
+		(center 14.351 0)
+		(end 30.734 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "704e82b6-7b66-4736-9e68-e4c3b4a42d73")
+	)
+	(fp_line
+		(start -2.159 -6.798236)
+		(end 7.552764 -16.51)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "372f6b04-8696-4510-af9c-47dbfc4d98f0")
+	)
+	(fp_line
+		(start -2.159 6.798236)
+		(end -2.159 -6.798236)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "100a8bc3-4a9d-4b16-b3bd-9ea0eebd0094")
+	)
+	(fp_line
+		(start 7.552764 -16.51)
+		(end 21.149236 -16.51)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ee008a5-6f96-41a3-824d-083ca6de7d42")
+	)
+	(fp_line
+		(start 7.552764 16.51)
+		(end -2.159 6.798236)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31976620-03b4-48d0-a6e1-fe663599529f")
+	)
+	(fp_line
+		(start 21.149236 -16.51)
+		(end 30.861 -6.798236)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8654723-09c4-4f17-ae3d-d656a511256e")
+	)
+	(fp_line
+		(start 21.149236 16.51)
+		(end 7.552764 16.51)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "073666f1-2780-4ae6-973f-0b2fbeb08104")
+	)
+	(fp_line
+		(start 30.861 -6.798236)
+		(end 30.861 6.798236)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4041e18-4931-47a1-aa6d-91ef7af655c4")
+	)
+	(fp_line
+		(start 30.861 6.798236)
+		(end 21.149236 16.51)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf7262da-0a04-4639-a834-4eee0bee9c64")
+	)
+	(fp_line
+		(start -3.429 0)
+		(end -2.159 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93e14465-e64a-41e9-82b6-fdf7109c42f5")
+	)
+	(fp_line
+		(start -2.794 -0.635)
+		(end -2.794 0.635)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37c7bb70-553d-467e-9a3d-73ecdde28619")
+	)
+	(fp_circle
+		(center 14.351 0)
+		(end 30.607 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9b8e4299-cdc0-42f1-a6f7-a84ea1220bb8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 14 20 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "466ddca0-420f-4ea4-bf03-7826a4ab5add")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.8288 1.8288)
+		(drill 1.3208)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7aebba57-6d9b-4bd5-8cfd-df7d88e3881b")
+	)
+	(pad "2" thru_hole circle
+		(at 28.702 0)
+		(size 1.8288 1.8288)
+		(drill 1.3208)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c19f4995-8997-4124-a28c-b5c3707b25cf")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d-models/2300HT-470-H-RC.stp"
+		(offset
+			(xyz 14.4 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
