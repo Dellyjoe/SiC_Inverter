@@ -96,4 +96,15 @@
 		(uuid "b61f2c7f-d626-45f1-a82b-ab406246f37f")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d-models/R71P1410050H6K.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
