@@ -652,7 +652,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+VDC"
+		(symbol "power:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -665,7 +665,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -2.54 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -673,8 +673,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+VDC"
-				(at 0 6.35 0)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -699,7 +699,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+VDC\""
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -717,45 +717,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "+VDC_0_1"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy -1.143 3.175) (xy 1.143 3.175)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.175)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 4.318)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -766,133 +731,9 @@
 					)
 				)
 			)
-			(symbol "+VDC_1_1"
+			(symbol "GND_1_1"
 				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:-VDC"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "-VDC"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-VDC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "-VDC_0_1"
-				(polyline
-					(pts
-						(xy -1.143 3.175) (xy 1.143 3.175)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.175)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "-VDC_1_1"
-				(pin power_in line
-					(at 0 0 90)
+					(at 0 0 270)
 					(length 0)
 					(name "~"
 						(effects
@@ -927,7 +768,7 @@
 	)
 	(text "Differential-Mode LC Filter paired with a Common Mode Choke"
 		(exclude_from_sim no)
-		(at 170.434 87.884 0)
+		(at 169.926 87.884 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1025,20 +866,20 @@
 		(uuid "e0792373-614d-4e7d-b831-5b49d1afd15e")
 	)
 	(junction
-		(at 200.66 113.03)
+		(at 203.2 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6baf11b0-6f46-4881-997b-478ad8defcfa")
 	)
 	(junction
-		(at 200.66 102.87)
+		(at 203.2 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb77da70-4cb1-425d-abd1-a5e650802c68")
 	)
 	(wire
 		(pts
-			(xy 200.66 102.87) (xy 200.66 104.14)
+			(xy 203.2 102.87) (xy 203.2 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1048,7 +889,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 110.49) (xy 231.14 110.49)
+			(xy 236.22 110.49) (xy 233.68 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1058,7 +899,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 105.41) (xy 231.14 105.41)
+			(xy 236.22 105.41) (xy 233.68 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1068,7 +909,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 102.87) (xy 200.66 102.87)
+			(xy 223.52 102.87) (xy 203.2 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1078,7 +919,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 113.03) (xy 200.66 111.76)
+			(xy 203.2 113.03) (xy 203.2 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1088,7 +929,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 116.84) (xy 200.66 116.84)
+			(xy 182.88 116.84) (xy 203.2 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1098,7 +939,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 99.06) (xy 200.66 102.87)
+			(xy 203.2 99.06) (xy 203.2 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1108,7 +949,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 110.49) (xy 220.98 113.03)
+			(xy 223.52 110.49) (xy 223.52 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +959,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 102.87) (xy 220.98 105.41)
+			(xy 223.52 102.87) (xy 223.52 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +969,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 116.84) (xy 200.66 113.03)
+			(xy 203.2 116.84) (xy 203.2 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +979,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 113.03) (xy 200.66 113.03)
+			(xy 223.52 113.03) (xy 203.2 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1148,7 +989,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 99.06) (xy 186.69 99.06)
+			(xy 182.88 99.06) (xy 189.23 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1158,7 +999,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 99.06) (xy 200.66 99.06)
+			(xy 196.85 99.06) (xy 203.2 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1859,7 +1700,7 @@
 		)
 	)
 	(label "BUS-_RAW"
-		(at 200.66 116.84 0)
+		(at 203.2 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1869,7 +1710,7 @@
 		(uuid "c463088b-89d1-4e6d-a3e6-d56c47ad7bbe")
 	)
 	(label "BUS+_RAW"
-		(at 200.66 99.06 0)
+		(at 203.2 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1880,7 +1721,7 @@
 	)
 	(hierarchical_label "BUS-_Filtered"
 		(shape input)
-		(at 233.68 110.49 0)
+		(at 236.22 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1891,7 +1732,7 @@
 	)
 	(hierarchical_label "BUS+_Filtered"
 		(shape input)
-		(at 233.68 105.41 0)
+		(at 236.22 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1900,9 +1741,20 @@
 		)
 		(uuid "43a22470-fb85-4262-a886-1cadec590e29")
 	)
+	(hierarchical_label "+VIN_EMI"
+		(shape input)
+		(at 182.88 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d20ad0cc-24f2-4f27-af05-b6f8cada8bbd")
+	)
 	(symbol
 		(lib_id "SiC_Inverter:2300HT_470")
-		(at 190.5 99.06 90)
+		(at 193.04 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1910,7 +1762,7 @@
 		(dnp no)
 		(uuid "2422a569-325c-4e59-9eed-62784634f7bc")
 		(property "Reference" "L1"
-			(at 190.5 97.028 90)
+			(at 193.04 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1770,7 @@
 			)
 		)
 		(property "Value" "47 uH"
-			(at 190.5 100.584 90)
+			(at 193.04 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +1778,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:2300HT_470"
-			(at 202.946 87.122 0)
+			(at 205.486 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +1787,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/3/40/1/2300ht_series.pdf"
-			(at 207.01 73.914 0)
+			(at 209.55 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +1796,7 @@
 			)
 		)
 		(property "Description" "Power Inductors - Leaded 47uH 15% Horizontal"
-			(at 205.232 81.28 0)
+			(at 207.772 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,140 +1820,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-VDC")
-		(at 179.07 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5bcc326c-276e-4ea4-a3f9-6de677d584bd")
-		(property "Reference" "#PWR04"
-			(at 179.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-VIN"
-			(at 177.038 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 179.07 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7cdb2062-da53-42e2-b91a-77c7a3ce7c8b")
-		)
-		(instances
-			(project "SiC_Single_Phase_Inverter"
-				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/7998be36-55a1-424f-a315-c3fdbc8a6aca"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+VDC")
-		(at 179.07 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ee02edb-d522-45d6-b6eb-c189af9b6037")
-		(property "Reference" "#PWR03"
-			(at 179.07 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VIN"
-			(at 176.53 92.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 179.07 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8ca6790-cc9d-44e5-b88c-97a881a584cf")
-		)
-		(instances
-			(project "SiC_Single_Phase_Inverter"
-				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/7998be36-55a1-424f-a315-c3fdbc8a6aca"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SiC_Inverter:7448258022")
-		(at 226.06 107.95 0)
+		(at 228.6 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2109,7 +1829,7 @@
 		(dnp no)
 		(uuid "60aedbb1-6726-4689-a513-1505d9df24c8")
 		(property "Reference" "L2"
-			(at 226.06 102.616 0)
+			(at 228.6 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +1837,7 @@
 			)
 		)
 		(property "Value" "2.2 mH"
-			(at 226.06 112.014 0)
+			(at 228.6 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2125,7 +1845,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:7448258022"
-			(at 224.79 115.57 0)
+			(at 227.33 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,7 +1854,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7448258022.pdf"
-			(at 250.952 117.348 0)
+			(at 253.492 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,7 +1863,7 @@
 			)
 		)
 		(property "Description" "Common Mode Chokes / Filters WE-CMB Choke Type XL 2.2mH 8A 14mOhm"
-			(at 249.682 119.38 0)
+			(at 252.222 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,8 +1893,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 182.88 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d82c9b4d-41d3-4e30-89bc-59c499d3ba9c")
+		(property "Reference" "#PWR04"
+			(at 182.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5637413-161b-43fe-8415-0cda7f498a8b")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/7998be36-55a1-424f-a315-c3fdbc8a6aca"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SiC_Inverter:R71PI410050H6K")
-		(at 200.66 107.95 0)
+		(at 203.2 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2183,7 +1969,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9c3272f-9cf7-48ce-9c3e-5a010d286d54")
 		(property "Reference" "C1"
-			(at 204.47 106.6799 0)
+			(at 207.01 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,7 +1978,7 @@
 			)
 		)
 		(property "Value" "1 uF"
-			(at 204.47 109.2199 0)
+			(at 207.01 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +1987,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:R71PI410050H6K"
-			(at 201.6252 111.76 0)
+			(at 204.1652 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,7 +1996,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/3/72/1/R71PI410050H6K.pdf"
-			(at 352.552 123.19 0)
+			(at 355.092 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,7 +2005,7 @@
 			)
 		)
 		(property "Description" "Film Capacitors 630V 1.0uF 85C 10% LS=15mm"
-			(at 222.758 119.38 0)
+			(at 225.298 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

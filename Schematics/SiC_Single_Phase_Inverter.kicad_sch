@@ -840,6 +840,26 @@
 		)
 		(uuid 66186ceb-e398-4f10-a8ee-8ffa392f4af1)
 	)
+	(text "Every Sub sheet should have its own PCB, I know this will be alot of PCBs\nbut it will allow you to upgrade as you go on.\n"
+		(exclude_from_sim no)
+		(at 101.346 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "764c3e1f-8e9b-4ce1-9a30-2708ed110905")
+	)
+	(text "Keep Carrying over the GND to the rest of the Sub sheets when it is time to do so. \n"
+		(exclude_from_sim no)
+		(at 103.378 112.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f030aba-a9fc-426a-899b-7ecb67ff0552")
+	)
 	(text "Connectors"
 		(exclude_from_sim no)
 		(at 33.02 151.384 0)
@@ -852,7 +872,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 88.9) (xy 76.2 88.9)
+			(xy 91.44 88.9) (xy 95.25 88.9)
 		)
 		(stroke
 			(width 0)
@@ -862,7 +882,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 93.98) (xy 112.522 93.98)
+			(xy 125.73 93.98) (xy 131.572 93.98)
 		)
 		(stroke
 			(width 0)
@@ -872,7 +892,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 91.44) (xy 76.2 91.44)
+			(xy 56.134 91.44) (xy 60.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d9d59f-02aa-4b7a-bfa1-d6365c56f930")
+	)
+	(wire
+		(pts
+			(xy 91.44 91.44) (xy 95.25 91.44)
 		)
 		(stroke
 			(width 0)
@@ -882,7 +912,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 96.52) (xy 112.522 96.52)
+			(xy 125.73 96.52) (xy 131.572 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1161,7 +1191,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 85.09)
+		(at 95.25 85.09)
 		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1177,7 +1207,7 @@
 		)
 		(uuid "2ce2cec5-32d3-4a43-a037-f5e3105f4dec")
 		(property "Sheetname" "Pre-Chrage_Inrush_Limiting"
-			(at 76.2 84.3784 0)
+			(at 95.25 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +1216,7 @@
 			)
 		)
 		(property "Sheetfile" "Pre-Chrage_Inrush_Limiting.kicad_sch"
-			(at 76.2 104.7246 0)
+			(at 95.25 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,7 +1226,7 @@
 			)
 		)
 		(pin "BUS+_Precharge" input
-			(at 76.2 88.9 180)
+			(at 95.25 88.9 180)
 			(uuid "9328bba8-d692-44e4-8985-9509fc1ab895")
 			(effects
 				(font
@@ -1206,7 +1236,7 @@
 			)
 		)
 		(pin "BUS-_Precharge" input
-			(at 76.2 91.44 180)
+			(at 95.25 91.44 180)
 			(uuid "3d31f21e-8527-4e4b-bda8-2a05849c66d4")
 			(effects
 				(font
@@ -1216,7 +1246,7 @@
 			)
 		)
 		(pin "DC+_Precharge" input
-			(at 106.68 93.98 0)
+			(at 125.73 93.98 0)
 			(uuid "8207671a-38c3-4dc0-a041-585f54d3792c")
 			(effects
 				(font
@@ -1226,7 +1256,7 @@
 			)
 		)
 		(pin "DC-_Precharge" input
-			(at 106.68 96.52 0)
+			(at 125.73 96.52 0)
 			(uuid "3193766f-386c-4340-8fd3-e0a14081a23e")
 			(effects
 				(font
@@ -1244,7 +1274,7 @@
 		)
 	)
 	(sheet
-		(at 41.91 85.09)
+		(at 60.96 85.09)
 		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1260,7 +1290,7 @@
 		)
 		(uuid "7998be36-55a1-424f-a315-c3fdbc8a6aca")
 		(property "Sheetname" "EMI_Input_Filter"
-			(at 41.91 84.3784 0)
+			(at 60.96 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +1299,7 @@
 			)
 		)
 		(property "Sheetfile" "EMI_Input_Filter.kicad_sch"
-			(at 41.91 104.7246 0)
+			(at 60.96 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1309,7 @@
 			)
 		)
 		(pin "BUS+_Filtered" input
-			(at 72.39 88.9 0)
+			(at 91.44 88.9 0)
 			(uuid "89fad6fa-06a7-4b69-9592-e1f03b270877")
 			(effects
 				(font
@@ -1289,13 +1319,23 @@
 			)
 		)
 		(pin "BUS-_Filtered" input
-			(at 72.39 91.44 0)
+			(at 91.44 91.44 0)
 			(uuid "3f439ada-1da3-4265-9ef1-90b2e5dd8a1f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "+VIN_EMI" input
+			(at 60.96 91.44 180)
+			(uuid "820b6ba0-b930-415c-a981-7ac858b0a902")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1349,7 +1389,7 @@
 		)
 	)
 	(sheet
-		(at 41.91 59.055)
+		(at 60.96 59.055)
 		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1365,7 +1405,7 @@
 		)
 		(uuid "881dbdac-7ecf-454b-9d42-4e4e0581671c")
 		(property "Sheetname" "CISPR‑grade_Filter"
-			(at 41.91 58.3434 0)
+			(at 60.96 58.3434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1414,7 @@
 			)
 		)
 		(property "Sheetfile" "CISPR‑grade_Filter.kicad_sch"
-			(at 41.91 78.6896 0)
+			(at 60.96 78.6896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1432,7 @@
 		)
 	)
 	(sheet
-		(at 112.522 85.09)
+		(at 131.572 85.09)
 		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1408,7 +1448,7 @@
 		)
 		(uuid "9842b604-3f48-4932-a302-ed67fb523541")
 		(property "Sheetname" "DC_Link_Caps"
-			(at 112.522 84.3784 0)
+			(at 131.572 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1457,7 @@
 			)
 		)
 		(property "Sheetfile" "DC_Link_Caps.kicad_sch"
-			(at 112.522 104.7246 0)
+			(at 131.572 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +1467,7 @@
 			)
 		)
 		(pin "DC+" input
-			(at 112.522 93.98 180)
+			(at 131.572 93.98 180)
 			(uuid "7978935d-177a-4497-8db4-3238047ef689")
 			(effects
 				(font
@@ -1437,7 +1477,7 @@
 			)
 		)
 		(pin "DC-" input
-			(at 112.522 96.52 180)
+			(at 131.572 96.52 180)
 			(uuid "91439d48-89d9-408f-a777-6cb8ea61a8bf")
 			(effects
 				(font
@@ -1534,6 +1574,58 @@
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.654 84.836)
+		(size 30.48 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf3acd45-2ee3-4687-9429-99700ff01ea1")
+		(property "Sheetname" "Input_Protection"
+			(at 25.654 84.1244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Input_Protection.kicad_sch"
+			(at 25.654 104.4706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+VIN_Protected" input
+			(at 56.134 91.44 0)
+			(uuid "0f4fbe7b-92f1-4497-993d-7852b2fb93ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16"
+					(page "11")
 				)
 			)
 		)
