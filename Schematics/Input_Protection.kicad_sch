@@ -1483,7 +1483,7 @@
 		(uuid "e3ead82b-0502-4805-8786-ac43f9402aeb")
 	)
 	(hierarchical_label "+VIN_Protected"
-		(shape input)
+		(shape output)
 		(at 170.18 91.44 0)
 		(effects
 			(font
@@ -1493,7 +1493,7 @@
 		)
 		(uuid "dde9e60c-7ce2-4aa7-85ac-fca8ae78889d")
 	)
-	(hierarchical_label "Gate_node"
+	(hierarchical_label "Gate_node_Inpro"
 		(shape input)
 		(at 135.89 123.19 180)
 		(effects
