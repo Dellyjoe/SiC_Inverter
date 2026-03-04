@@ -233,32 +233,36 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at -5.08 -6.36)
 		(size 1.5748 1.5748)
 		(drill 1.0668)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "eed89f2f-9090-4556-b34b-bd0861529f17")
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at -5.08 3.799939)
 		(size 1.5748 1.5748)
 		(drill 1.0668)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "ca89de0e-c035-44b4-af0f-26c2fb90b05d")
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at 5.08 -6.36)
 		(size 1.5748 1.5748)
 		(drill 1.0668)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "cc9208ea-380b-4e0d-98fa-49058e96490b")
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at 5.08 3.799939)
 		(size 1.5748 1.5748)
 		(drill 1.0668)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "d0c5c641-d2f9-4c56-b0c5-93cb8c844c5a")
 	)
 	(pad "1" thru_hole circle

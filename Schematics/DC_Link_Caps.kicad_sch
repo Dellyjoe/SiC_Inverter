@@ -6,6 +6,9 @@
 	(paper "A4")
 	(lib_symbols
 		(symbol "SiC_Inverter:ESH226M500AL4AA"
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -68,18 +71,6 @@
 					)
 					(stroke
 						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.016) (xy 1.778 -1.016)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
