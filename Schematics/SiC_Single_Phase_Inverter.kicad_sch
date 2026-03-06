@@ -1436,8 +1436,8 @@
 		)
 	)
 	(sheet
-		(at 170.434 85.09)
-		(size 30.48 19.05)
+		(at 170.434 71.882)
+		(size 30.48 43.942)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1452,7 +1452,7 @@
 		)
 		(uuid "b6e78e1f-718a-4f31-892b-d9c389541b0d")
 		(property "Sheetname" "Full-Bridge"
-			(at 170.434 84.3784 0)
+			(at 170.434 71.1704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1461,7 @@
 			)
 		)
 		(property "Sheetfile" "Full-Bridge.kicad_sch"
-			(at 170.434 104.7246 0)
+			(at 170.434 116.4086 0)
 			(effects
 				(font
 					(size 1.27 1.27)

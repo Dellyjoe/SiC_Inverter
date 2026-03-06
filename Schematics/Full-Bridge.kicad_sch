@@ -5,9 +5,19 @@
 	(uuid "3fa42332-0bf7-4a41-b4c3-7cfd444d1aab")
 	(paper "A4")
 	(lib_symbols)
+	(text "Hi-Side\n"
+		(exclude_from_sim no)
+		(at 214.122 98.806 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "24979670-9686-498e-83f0-28b8a0d15ec2")
+	)
 	(text "Low-Side\n"
 		(exclude_from_sim no)
-		(at 89.662 105.41 0)
+		(at 90.17 114.808 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -15,9 +25,19 @@
 		)
 		(uuid "5b7d89cf-0f7c-459e-929b-ac0a68fa8c09")
 	)
+	(text "Low-Side\n"
+		(exclude_from_sim no)
+		(at 214.376 120.142 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "c233a586-6aba-4d9f-91ba-6e14a380d2d5")
+	)
 	(text "Hi-Side\n"
 		(exclude_from_sim no)
-		(at 89.662 92.202 0)
+		(at 89.916 93.472 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -27,13 +47,63 @@
 	)
 	(polyline
 		(pts
-			(xy 56.642 100.076) (xy 123.444 100.076)
+			(xy 181.102 104.902) (xy 247.904 104.902)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "6d03aae4-c8e2-4a1a-81ca-3e908d476ac9")
+	)
+	(polyline
+		(pts
+			(xy 180.34 89.408) (xy 247.142 89.408)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "6db47308-214a-4dbb-8950-7c6476fd1dbe")
+	)
+	(polyline
+		(pts
+			(xy 56.896 103.886) (xy 123.698 103.886)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
 		(uuid "866a8104-c6e5-404e-ab7e-13b80a48de2a")
+	)
+	(polyline
+		(pts
+			(xy 56.896 99.568) (xy 123.698 99.568)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "950ae1b5-b138-496b-9f03-d4ffe5f981c8")
+	)
+	(polyline
+		(pts
+			(xy 56.134 84.074) (xy 122.936 84.074)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "d071746d-a7cf-4ac4-bf4f-0c1a33ce3164")
+	)
+	(polyline
+		(pts
+			(xy 181.102 109.22) (xy 247.904 109.22)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "deb1fc94-5b01-49b9-a5f2-43382a136011")
 	)
 	(sheet
 		(at 179.578 77.978)
@@ -112,7 +182,7 @@
 			)
 		)
 		(pin "BUS_DC+" input
-			(at 55.626 91.44 180)
+			(at 55.626 81.28 180)
 			(uuid "d1af230b-911c-4dc5-8aed-832c96e659d6")
 			(effects
 				(font
@@ -122,7 +192,7 @@
 			)
 		)
 		(pin "HS_LegA_EN" input
-			(at 55.626 93.98 180)
+			(at 55.626 92.71 180)
 			(uuid "f79d5492-eb98-4296-b7b0-b1e627f7f4e4")
 			(effects
 				(font
@@ -132,7 +202,7 @@
 			)
 		)
 		(pin "HS_LegA_RDY" output
-			(at 124.46 96.52 0)
+			(at 124.46 95.25 0)
 			(uuid "b442819d-fd87-4b09-a4c3-8d53ed49b343")
 			(effects
 				(font
@@ -142,7 +212,7 @@
 			)
 		)
 		(pin "Phase_A_Node" output
-			(at 124.46 91.44 0)
+			(at 124.46 101.6 0)
 			(uuid "e2cb8445-5f08-4d65-8ff9-a93222fdef7d")
 			(effects
 				(font
@@ -152,7 +222,7 @@
 			)
 		)
 		(pin "PWM_A_H" input
-			(at 55.626 96.52 180)
+			(at 55.626 95.25 180)
 			(uuid "75d7d4d5-aa0a-4921-8fa5-0032384ffa17")
 			(effects
 				(font
@@ -162,8 +232,48 @@
 			)
 		)
 		(pin "~{HS_LegA_FLT}" output
-			(at 124.46 93.98 0)
+			(at 124.46 92.71 0)
 			(uuid "97079387-c0ba-4d77-bca7-bcf99c4614e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LS_LegA_EN" input
+			(at 55.626 111.76 180)
+			(uuid "f2cb4933-4086-4dc6-9f8e-b831317b778b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LS_LegA_RDY" output
+			(at 124.46 111.76 0)
+			(uuid "aa29e235-30fb-4c85-b24a-d7c315c7f9a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A_L" input
+			(at 55.626 114.3 180)
+			(uuid "80d4773a-e936-4946-8fbf-0d9908294e20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{LS_LegA_FLT}" output
+			(at 124.46 114.3 0)
+			(uuid "0946a3eb-1f03-4571-8d07-541b4ba4b971")
 			(effects
 				(font
 					(size 1.27 1.27)
