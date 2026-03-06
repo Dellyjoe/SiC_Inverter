@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(text "Hi-Side\n"
 		(exclude_from_sim no)
-		(at 214.122 98.806 0)
+		(at 195.834 92.456 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -17,7 +17,7 @@
 	)
 	(text "Low-Side\n"
 		(exclude_from_sim no)
-		(at 90.17 114.808 0)
+		(at 90.17 113.538 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -27,7 +27,7 @@
 	)
 	(text "Low-Side\n"
 		(exclude_from_sim no)
-		(at 214.376 120.142 0)
+		(at 196.088 113.792 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -37,7 +37,7 @@
 	)
 	(text "Hi-Side\n"
 		(exclude_from_sim no)
-		(at 89.916 93.472 0)
+		(at 89.916 92.202 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -45,9 +45,109 @@
 		)
 		(uuid "f7c59859-b086-43d4-88b9-5e5c44639126")
 	)
+	(wire
+		(pts
+			(xy 124.46 113.03) (xy 128.27 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "023cd50c-8805-42eb-b051-3e8ca6ea85ff")
+	)
+	(wire
+		(pts
+			(xy 52.07 91.44) (xy 55.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f0aa5c-60fd-4f1d-948c-1c8b05ea5165")
+	)
+	(wire
+		(pts
+			(xy 124.46 92.71) (xy 128.27 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b53373a-d02f-47bc-9510-74e92de6ce52")
+	)
+	(wire
+		(pts
+			(xy 160.02 90.17) (xy 162.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7a244c-6870-4567-b4ea-8e385c70d1ba")
+	)
+	(wire
+		(pts
+			(xy 124.46 110.49) (xy 128.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df51a7e-9d7b-4ddd-b542-f3511a236299")
+	)
+	(wire
+		(pts
+			(xy 160.02 92.71) (xy 162.56 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c2cb06-4b6d-4ff4-af67-f7a51d468e2f")
+	)
+	(wire
+		(pts
+			(xy 231.14 113.03) (xy 233.68 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57206fc6-dde4-4c8f-8e61-b0158ab07168")
+	)
+	(wire
+		(pts
+			(xy 231.14 90.17) (xy 233.68 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bedebf1-b35b-4bd3-8185-45b50c4d2b4c")
+	)
+	(wire
+		(pts
+			(xy 52.07 80.01) (xy 55.88 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f11e18-0308-462c-b81e-4e7c63585f77")
+	)
+	(wire
+		(pts
+			(xy 160.02 81.28) (xy 162.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be6d483-8277-4caf-9dab-924ad91fa3ab")
+	)
 	(polyline
 		(pts
-			(xy 181.102 104.902) (xy 247.904 104.902)
+			(xy 163.322 98.552) (xy 230.124 98.552)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +157,7 @@
 	)
 	(polyline
 		(pts
-			(xy 180.34 89.408) (xy 247.142 89.408)
+			(xy 163.576 83.058) (xy 230.378 83.058)
 		)
 		(stroke
 			(width 0)
@@ -65,9 +165,29 @@
 		)
 		(uuid "6db47308-214a-4dbb-8950-7c6476fd1dbe")
 	)
+	(wire
+		(pts
+			(xy 124.46 100.33) (xy 128.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d441fe-a992-491a-aa0c-0616a1a48cb2")
+	)
+	(wire
+		(pts
+			(xy 231.14 115.57) (xy 233.68 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85edca32-9be7-42cc-a75a-12d29cbaffbd")
+	)
 	(polyline
 		(pts
-			(xy 56.896 103.886) (xy 123.698 103.886)
+			(xy 56.896 102.616) (xy 123.698 102.616)
 		)
 		(stroke
 			(width 0)
@@ -75,9 +195,19 @@
 		)
 		(uuid "866a8104-c6e5-404e-ab7e-13b80a48de2a")
 	)
+	(wire
+		(pts
+			(xy 231.14 101.6) (xy 233.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88047f4b-bae9-4520-9694-e15827e1c53a")
+	)
 	(polyline
 		(pts
-			(xy 56.896 99.568) (xy 123.698 99.568)
+			(xy 56.896 98.298) (xy 123.698 98.298)
 		)
 		(stroke
 			(width 0)
@@ -85,9 +215,59 @@
 		)
 		(uuid "950ae1b5-b138-496b-9f03-d4ffe5f981c8")
 	)
+	(wire
+		(pts
+			(xy 52.07 93.98) (xy 55.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a447bf26-731f-467a-8d93-2173c58ece0d")
+	)
+	(wire
+		(pts
+			(xy 52.07 110.49) (xy 55.88 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb71d2a-e908-4e9b-966b-7a8f2e037988")
+	)
+	(wire
+		(pts
+			(xy 160.02 113.03) (xy 162.56 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72637e9-1057-4fd1-aa7e-085b81252af8")
+	)
+	(wire
+		(pts
+			(xy 231.14 93.98) (xy 233.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d9299c-10d6-4463-84db-57d7dfce0c34")
+	)
+	(wire
+		(pts
+			(xy 160.02 115.57) (xy 162.56 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce04eb9d-1d56-4372-a66b-4653c9d799aa")
+	)
 	(polyline
 		(pts
-			(xy 56.134 84.074) (xy 122.936 84.074)
+			(xy 56.134 82.804) (xy 122.936 82.804)
 		)
 		(stroke
 			(width 0)
@@ -97,7 +277,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.102 109.22) (xy 247.904 109.22)
+			(xy 163.83 103.886) (xy 230.632 103.886)
 		)
 		(stroke
 			(width 0)
@@ -105,9 +285,249 @@
 		)
 		(uuid "deb1fc94-5b01-49b9-a5f2-43382a136011")
 	)
+	(wire
+		(pts
+			(xy 124.46 90.17) (xy 128.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e38cb012-0367-433e-88ea-3db7951e239c")
+	)
+	(wire
+		(pts
+			(xy 52.07 113.03) (xy 55.88 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1ad017-7833-4287-9d70-5e75491a16b4")
+	)
+	(hierarchical_label "Phase_A_Node"
+		(shape output)
+		(at 128.27 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02d26e62-668e-4469-abf2-3fe524d3e9cf")
+	)
+	(hierarchical_label "PWM_A_H"
+		(shape input)
+		(at 52.07 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b8408a8-8761-4dd3-9d2f-214d1647cc6f")
+	)
+	(hierarchical_label "LS_LegB_EN"
+		(shape input)
+		(at 160.02 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "225d7add-e12a-43f5-b6ca-43f4a41d004e")
+	)
+	(hierarchical_label "LS_LegA_RDY"
+		(shape output)
+		(at 128.27 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29026b50-0c9e-4292-91da-810162276ff3")
+	)
+	(hierarchical_label "LS_LegB_RDY"
+		(shape output)
+		(at 233.68 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2bf5d037-b8be-40d7-a0a9-6e6e3d0029d5")
+	)
+	(hierarchical_label "~{LS_LegB_FLT}"
+		(shape output)
+		(at 233.68 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31147b44-7548-48d6-9b9f-33867b13871d")
+	)
+	(hierarchical_label "HS_LegA_EN"
+		(shape input)
+		(at 52.07 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "420cbbb8-de18-49fc-98b6-1c924dc3730f")
+	)
+	(hierarchical_label "HS_LegA_RDY"
+		(shape output)
+		(at 128.27 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "445a608d-432b-41ca-b69d-29a03a543afe")
+	)
+	(hierarchical_label "BUS_DC+"
+		(shape input)
+		(at 160.02 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "605dd919-a24a-4412-89c3-f24b00a51d4b")
+	)
+	(hierarchical_label "Phase_B_Node"
+		(shape output)
+		(at 233.68 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a3292a4-c0e2-4a98-ba3c-eb6a0c83300e")
+	)
+	(hierarchical_label "LS_LegA_EN"
+		(shape input)
+		(at 52.07 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83428727-9bcf-4a3f-b367-e5352c7d0969")
+	)
+	(hierarchical_label "~{LS_LegA_FLT}"
+		(shape output)
+		(at 128.27 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8893ba52-3480-4a5d-8aee-8190c29000b5")
+	)
+	(hierarchical_label "PWM_A_L"
+		(shape input)
+		(at 52.07 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e0714d1-bab5-4cc2-8a02-22a455ac4982")
+	)
+	(hierarchical_label "PWM_B_H"
+		(shape input)
+		(at 160.02 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a68380fa-89b0-4a05-b733-a702599ad966")
+	)
+	(hierarchical_label "HS_LegB_RDY"
+		(shape output)
+		(at 233.68 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8e52e4d-d91a-4260-9f8f-a14af4feaa13")
+	)
+	(hierarchical_label "HS_LegB_EN"
+		(shape input)
+		(at 160.02 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c67e4cc7-411a-4a08-8524-b7e69d835a77")
+	)
+	(hierarchical_label "PWM_B_L"
+		(shape input)
+		(at 160.02 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ceb2b7f8-0238-4adb-93da-01d193fc0024")
+	)
+	(hierarchical_label "~{HS_LegB_FLT}"
+		(shape output)
+		(at 233.68 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efca7110-5b9f-4de5-a66b-9c63a3f9edfd")
+	)
+	(hierarchical_label "~{HS_LegA_FLT}"
+		(shape output)
+		(at 128.27 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7a62950-c684-4323-941f-d63e4889003a")
+	)
+	(hierarchical_label "BUS_DC+"
+		(shape input)
+		(at 52.07 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "faa25e32-013d-4a68-8e51-a26b3bdf858b")
+	)
 	(sheet
-		(at 179.578 77.978)
-		(size 69.088 49.022)
+		(at 162.56 76.454)
+		(size 68.58 48.768)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -122,7 +542,7 @@
 		)
 		(uuid "d1761b4e-8a42-4386-8dfd-35f782fbcef3")
 		(property "Sheetname" "Leg_B_Power_Stage"
-			(at 179.578 77.2664 0)
+			(at 162.56 75.7424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131,12 +551,112 @@
 			)
 		)
 		(property "Sheetfile" "Leg_B_Power_Stage.kicad_sch"
-			(at 179.578 127.5846 0)
+			(at 162.56 125.8066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BUS_DC+" input
+			(at 162.56 81.28 180)
+			(uuid "4eee3d89-a15a-4804-9746-eecb2fbf632f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HS_LegB_EN" input
+			(at 162.56 90.17 180)
+			(uuid "fb4d9e7e-69d2-4c20-89ea-beedc3e56f15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HS_LegB_RDY" output
+			(at 231.14 90.17 0)
+			(uuid "71209817-48cc-49af-b562-dd8837c2a1cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LS_LegB_EN" input
+			(at 162.56 113.03 180)
+			(uuid "d10cfc2e-dfca-416f-8f14-7c47fcdf4ddc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LS_LegB_RDY" output
+			(at 231.14 115.57 0)
+			(uuid "413245e9-4edf-4f53-bfff-6b368216fa27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Phase_B_Node" output
+			(at 231.14 101.6 0)
+			(uuid "d6ed6ef2-b43d-4fe3-bfc4-d4e373bf377c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_B_H" input
+			(at 162.56 92.71 180)
+			(uuid "404a99c9-c26b-4309-b4f2-7c35a87d1219")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_B_L" input
+			(at 162.56 115.57 180)
+			(uuid "591a8238-7e89-444a-a792-d0fc20aa1856")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{HS_LegB_FLT}" output
+			(at 231.14 93.98 0)
+			(uuid "c30f010b-c256-4caa-b2a1-3218aa8457d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{LS_LegB_FLT}" output
+			(at 231.14 113.03 0)
+			(uuid "5e26c670-c1dc-4860-b573-69365d1a020c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -148,8 +668,8 @@
 		)
 	)
 	(sheet
-		(at 55.626 77.724)
-		(size 68.834 49.022)
+		(at 55.88 76.454)
+		(size 68.58 48.768)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -164,7 +684,7 @@
 		)
 		(uuid "df0e594b-c560-4977-9819-59c4a1d47101")
 		(property "Sheetname" "Leg_A_Power_Stage"
-			(at 55.626 77.0124 0)
+			(at 55.88 75.7424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173,7 +693,7 @@
 			)
 		)
 		(property "Sheetfile" "Leg_A_Power_Stage.kicad_sch"
-			(at 55.626 127.3306 0)
+			(at 55.88 125.8066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -182,7 +702,7 @@
 			)
 		)
 		(pin "BUS_DC+" input
-			(at 55.626 81.28 180)
+			(at 55.88 80.01 180)
 			(uuid "d1af230b-911c-4dc5-8aed-832c96e659d6")
 			(effects
 				(font
@@ -192,7 +712,7 @@
 			)
 		)
 		(pin "HS_LegA_EN" input
-			(at 55.626 92.71 180)
+			(at 55.88 91.44 180)
 			(uuid "f79d5492-eb98-4296-b7b0-b1e627f7f4e4")
 			(effects
 				(font
@@ -202,7 +722,7 @@
 			)
 		)
 		(pin "HS_LegA_RDY" output
-			(at 124.46 95.25 0)
+			(at 124.46 92.71 0)
 			(uuid "b442819d-fd87-4b09-a4c3-8d53ed49b343")
 			(effects
 				(font
@@ -212,7 +732,7 @@
 			)
 		)
 		(pin "Phase_A_Node" output
-			(at 124.46 101.6 0)
+			(at 124.46 100.33 0)
 			(uuid "e2cb8445-5f08-4d65-8ff9-a93222fdef7d")
 			(effects
 				(font
@@ -222,7 +742,7 @@
 			)
 		)
 		(pin "PWM_A_H" input
-			(at 55.626 95.25 180)
+			(at 55.88 93.98 180)
 			(uuid "75d7d4d5-aa0a-4921-8fa5-0032384ffa17")
 			(effects
 				(font
@@ -232,7 +752,7 @@
 			)
 		)
 		(pin "~{HS_LegA_FLT}" output
-			(at 124.46 92.71 0)
+			(at 124.46 90.17 0)
 			(uuid "97079387-c0ba-4d77-bca7-bcf99c4614e1")
 			(effects
 				(font
@@ -242,7 +762,7 @@
 			)
 		)
 		(pin "LS_LegA_EN" input
-			(at 55.626 111.76 180)
+			(at 55.88 110.49 180)
 			(uuid "f2cb4933-4086-4dc6-9f8e-b831317b778b")
 			(effects
 				(font
@@ -252,7 +772,7 @@
 			)
 		)
 		(pin "LS_LegA_RDY" output
-			(at 124.46 111.76 0)
+			(at 124.46 110.49 0)
 			(uuid "aa29e235-30fb-4c85-b24a-d7c315c7f9a4")
 			(effects
 				(font
@@ -262,7 +782,7 @@
 			)
 		)
 		(pin "PWM_A_L" input
-			(at 55.626 114.3 180)
+			(at 55.88 113.03 180)
 			(uuid "80d4773a-e936-4946-8fbf-0d9908294e20")
 			(effects
 				(font
@@ -272,7 +792,7 @@
 			)
 		)
 		(pin "~{LS_LegA_FLT}" output
-			(at 124.46 114.3 0)
+			(at 124.46 113.03 0)
 			(uuid "0946a3eb-1f03-4571-8d07-541b4ba4b971")
 			(effects
 				(font

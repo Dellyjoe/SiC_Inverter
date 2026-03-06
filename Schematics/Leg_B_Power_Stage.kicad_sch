@@ -3977,7 +3977,7 @@
 		)
 		(uuid "ff41b2e8-9cae-4619-88d6-ff52eed17326")
 	)
-	(label "LegA_LS_COM"
+	(label "LegB_LS_COM"
 		(at 130.81 132.08 180)
 		(effects
 			(font
@@ -3987,7 +3987,7 @@
 		)
 		(uuid "0f6fa6f0-bcca-4c4e-aca0-ca14d7b295e5")
 	)
-	(label "LegA_HS_OUTL"
+	(label "LegB_HS_OUTL"
 		(at 147.32 58.42 180)
 		(effects
 			(font
@@ -3997,7 +3997,7 @@
 		)
 		(uuid "0f8e9617-4b01-4f1e-b4e8-951bd6872a49")
 	)
-	(label "LegA_HS_OUTH"
+	(label "LegB_HS_OUTH"
 		(at 86.36 49.53 0)
 		(effects
 			(font
@@ -4007,7 +4007,7 @@
 		)
 		(uuid "13ad183c-b9ba-4d9d-b85d-64be2a6ebe5d")
 	)
-	(label "LegA_HS_COM"
+	(label "LegB_HS_COM"
 		(at 64.77 69.85 0)
 		(effects
 			(font
@@ -4017,7 +4017,7 @@
 		)
 		(uuid "1b9fe98a-58d0-4f0a-b799-23c42044a3f3")
 	)
-	(label "LegA_HS_COM"
+	(label "LegB_HS_COM"
 		(at 41.91 45.72 0)
 		(effects
 			(font
@@ -4027,7 +4027,7 @@
 		)
 		(uuid "1fb6287c-4631-481a-8637-070a40507c6a")
 	)
-	(label "LegA_HS_Gate"
+	(label "LegB_HS_Gate"
 		(at 48.26 54.61 0)
 		(effects
 			(font
@@ -4037,7 +4037,7 @@
 		)
 		(uuid "21a11365-7c86-41e4-954a-9832149db136")
 	)
-	(label "LegA_LS_COM"
+	(label "LegB_LS_COM"
 		(at 130.81 137.16 180)
 		(effects
 			(font
@@ -4047,7 +4047,7 @@
 		)
 		(uuid "276dbb42-3e68-479c-988b-280513b6aafb")
 	)
-	(label "LegA_LS_COM"
+	(label "LegB_LS_COM"
 		(at 44.45 189.23 0)
 		(effects
 			(font
@@ -4057,7 +4057,7 @@
 		)
 		(uuid "3b84936c-4f81-419f-9a45-c5a26c010fb6")
 	)
-	(label "LegA_HS_Gate"
+	(label "LegB_HS_Gate"
 		(at 147.32 60.96 180)
 		(effects
 			(font
@@ -4067,7 +4067,7 @@
 		)
 		(uuid "4af1338b-ca7b-47ea-bea8-7c6c562f66d9")
 	)
-	(label "LegA_LS_OUTL"
+	(label "LegB_LS_OUTL"
 		(at 86.36 143.51 0)
 		(effects
 			(font
@@ -4077,7 +4077,7 @@
 		)
 		(uuid "4e97d655-5230-476b-b5b4-d612e478e540")
 	)
-	(label "LegA_HS_OUTH"
+	(label "LegB_HS_OUTH"
 		(at 147.32 53.34 180)
 		(effects
 			(font
@@ -4087,7 +4087,7 @@
 		)
 		(uuid "4fb78347-36cc-489f-a4cf-0fc63b007519")
 	)
-	(label "LegA_HS_COM"
+	(label "LegB_HS_COM"
 		(at 34.29 45.72 180)
 		(effects
 			(font
@@ -4097,7 +4097,7 @@
 		)
 		(uuid "5045e9ba-e6a9-45ca-8dd3-204a76604f9c")
 	)
-	(label "LegA_LS_COM"
+	(label "LegB_LS_COM"
 		(at 41.91 130.81 0)
 		(effects
 			(font
@@ -4107,7 +4107,7 @@
 		)
 		(uuid "5277ac01-998e-44de-87b8-9bde4c581007")
 	)
-	(label "LegA_HS_COM"
+	(label "LegB_HS_COM"
 		(at 147.32 45.72 180)
 		(effects
 			(font
@@ -4117,7 +4117,7 @@
 		)
 		(uuid "55515035-09a8-491d-a12b-59da873343c1")
 	)
-	(label "LegA_HS_OUTL"
+	(label "LegB_HS_OUTL"
 		(at 86.36 57.15 0)
 		(effects
 			(font
@@ -4127,7 +4127,7 @@
 		)
 		(uuid "5b4fbe69-c4b6-4a78-99b2-b623d79d9090")
 	)
-	(label "LegA_HS_COM"
+	(label "LegB_HS_COM"
 		(at 147.32 50.8 180)
 		(effects
 			(font
@@ -4137,7 +4137,7 @@
 		)
 		(uuid "5cebdc88-f86a-43be-b460-5df8ba420d66")
 	)
-	(label "LegA_LS_Gate"
+	(label "LegB_LS_Gate"
 		(at 130.81 147.32 180)
 		(effects
 			(font
@@ -4147,7 +4147,7 @@
 		)
 		(uuid "732df2dc-fb3f-4dad-9ed6-855444629d3e")
 	)
-	(label "LegA_LS_COM"
+	(label "LegB_LS_COM"
 		(at 19.05 189.23 0)
 		(effects
 			(font
@@ -4157,7 +4157,7 @@
 		)
 		(uuid "7f18b802-0041-469b-8300-044a396cda8a")
 	)
-	(label "LegA_HS_COM"
+	(label "LegB_HS_COM"
 		(at 147.32 48.26 180)
 		(effects
 			(font
@@ -4167,7 +4167,7 @@
 		)
 		(uuid "80a570d0-d760-475a-90ad-5e5dca2dfae1")
 	)
-	(label "LegA_LS_OUTH"
+	(label "LegB_LS_OUTH"
 		(at 86.36 133.35 0)
 		(effects
 			(font
@@ -4177,7 +4177,7 @@
 		)
 		(uuid "8725fa03-1d84-49f7-95cc-6d8ae3d4d8e8")
 	)
-	(label "LegA_LS_COM"
+	(label "LegB_LS_COM"
 		(at 66.04 154.94 0)
 		(effects
 			(font
@@ -4187,7 +4187,7 @@
 		)
 		(uuid "8e75940a-4698-4d3b-85c9-663d1df26fdc")
 	)
-	(label "LegA_LS_Gate"
+	(label "LegB_LS_Gate"
 		(at 48.26 139.7 0)
 		(effects
 			(font
@@ -4197,7 +4197,7 @@
 		)
 		(uuid "9772a345-e3a4-4868-9907-c851fb5fbdfa")
 	)
-	(label "LegA_HS_COM"
+	(label "LegB_HS_COM"
 		(at 19.05 101.6 0)
 		(effects
 			(font
@@ -4207,7 +4207,7 @@
 		)
 		(uuid "99cdacc6-222b-4a6b-9048-db050984e67c")
 	)
-	(label "LegA_LS_COM"
+	(label "LegB_LS_COM"
 		(at 34.29 128.27 180)
 		(effects
 			(font
@@ -4217,7 +4217,7 @@
 		)
 		(uuid "aef0f4c9-f1f5-4c57-829c-eae88c0ba59e")
 	)
-	(label "LegA_LS_OUTL"
+	(label "LegB_LS_OUTL"
 		(at 130.81 144.78 180)
 		(effects
 			(font
@@ -4227,7 +4227,7 @@
 		)
 		(uuid "b28f2de0-b8be-495a-a503-e217a620404a")
 	)
-	(label "LegA_LS_COM"
+	(label "LegB_LS_COM"
 		(at 130.81 134.62 180)
 		(effects
 			(font
@@ -4237,7 +4237,7 @@
 		)
 		(uuid "bdc518f8-11b1-4d27-b83a-95842e53c14b")
 	)
-	(label "LegA_HS_COM"
+	(label "LegB_HS_COM"
 		(at 44.45 101.6 0)
 		(effects
 			(font
@@ -4247,7 +4247,7 @@
 		)
 		(uuid "cdb3d01d-ec5a-4796-92b2-283c7ea25d2e")
 	)
-	(label "LegA_LS_OUTH"
+	(label "LegB_LS_OUTH"
 		(at 130.81 139.7 180)
 		(effects
 			(font
@@ -4334,7 +4334,7 @@
 		)
 		(uuid "55cac8ae-b399-42af-8b53-eebd35848c4b")
 	)
-	(hierarchical_label "Phase_A_Node"
+	(hierarchical_label "Phase_B_Node"
 		(shape output)
 		(at 34.29 154.94 0)
 		(effects
@@ -4378,7 +4378,7 @@
 		)
 		(uuid "80f8e779-383a-4816-816d-97bd185b2aca")
 	)
-	(hierarchical_label "Phase_A_Node"
+	(hierarchical_label "Phase_B_Node"
 		(shape output)
 		(at 34.29 41.91 180)
 		(effects
@@ -4462,7 +4462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V_ISO_LALS"
+		(property "Value" "+15V_ISO_LBLS"
 			(at 24.13 172.72 0)
 			(effects
 				(font
@@ -4501,6 +4501,12 @@
 			(uuid "aab47533-b2c0-4ff2-9810-b387a15d9526")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR041")
@@ -4527,7 +4533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V__ISO_LAHS"
+		(property "Value" "+15V__ISO_LBHS"
 			(at 43.688 86.36 0)
 			(effects
 				(font
@@ -4566,6 +4572,12 @@
 			(uuid "83ffcfe9-1244-4843-b43e-95be5a1f6f8e")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR043")
@@ -4631,6 +4643,12 @@
 			(uuid "4b3dfc24-fdad-4222-9d7a-b1c79656a96e")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR063")
@@ -4700,6 +4718,12 @@
 			(uuid "dd263c6d-fd81-465f-9c0c-b0f1a503871f")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "D6")
@@ -4769,6 +4793,12 @@
 			(uuid "efda0cc3-8461-4820-8fff-f1fd9d0799c6")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "R20")
@@ -4838,6 +4868,12 @@
 			(uuid "b799b5f5-e08d-4a12-a783-1f3d64b25190")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "R32")
@@ -4905,6 +4941,12 @@
 			(uuid "4393b34c-c3d8-477d-8f3b-c6adb5bc8201")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR054")
@@ -4974,6 +5016,12 @@
 			(uuid "db3983bf-1c70-45b2-a3e7-75784fc016f5")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C43")
@@ -5040,6 +5088,12 @@
 			(uuid "f165d2ff-5636-44f0-b422-c527a9782319")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR055")
@@ -5107,6 +5161,12 @@
 			(uuid "249589fc-7e48-49bd-8863-0eb2a2f416d2")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR061")
@@ -5176,6 +5236,12 @@
 			(uuid "ea24f4c1-d79b-470c-af86-6d7918625348")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C46")
@@ -5245,6 +5311,12 @@
 			(uuid "67e69d6f-6ca7-4be6-a6fe-98e3616918f3")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "R22")
@@ -5312,6 +5384,12 @@
 			(uuid "73ceeeeb-c214-4eed-993e-925db9f9fef6")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR057")
@@ -5381,6 +5459,12 @@
 			(uuid "62de6705-8d4b-4615-b783-d63f3b74b04d")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C36")
@@ -5544,6 +5628,12 @@
 			(uuid "5c6a9dd8-3ad1-427a-8536-33431b3fe525")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "U4")
@@ -5570,7 +5660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V_ISO_LALS"
+		(property "Value" "+15V_ISO_LBLS"
 			(at 44.196 173.99 0)
 			(effects
 				(font
@@ -5609,6 +5699,12 @@
 			(uuid "5cea3503-cc17-4594-ba16-4b6f7e86edf2")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR044")
@@ -5674,6 +5770,12 @@
 			(uuid "eb6c1104-4f0d-4e46-9258-f72419c6d693")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR056")
@@ -5739,6 +5841,12 @@
 			(uuid "3ef4a4f7-610b-4c18-828a-fd1f1c38a330")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR053")
@@ -5806,6 +5914,12 @@
 			(uuid "7db38b77-a3b4-470d-8826-647ca3487e50")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR048")
@@ -5871,6 +5985,12 @@
 			(uuid "b9c281a1-cd3f-456c-903b-ea9816f1801f")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR058")
@@ -5940,6 +6060,12 @@
 			(uuid "8151ebce-9589-4df8-98fb-d026b0116d0b")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "D5")
@@ -6005,6 +6131,12 @@
 			(uuid "733b0a94-2138-4c67-8a3b-91fa3270101c")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR065")
@@ -6074,6 +6206,12 @@
 			(uuid "26309604-480a-4f64-9969-ae6276a14d24")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "R30")
@@ -6143,6 +6281,12 @@
 			(uuid "f0e5911f-7671-4115-ae82-ea4dda88a762")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "R33")
@@ -6210,6 +6354,12 @@
 			(uuid "d3128b0e-1a0f-4748-a463-2e7f0c2c2cd8")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR064")
@@ -6279,6 +6429,12 @@
 			(uuid "67741854-df74-4a34-841d-1b857699dd9b")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C37")
@@ -6348,6 +6504,12 @@
 			(uuid "a0ba0f26-6014-486c-a2a6-9afb7c18f746")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C50")
@@ -6417,6 +6579,12 @@
 			(uuid "729e852e-2e57-4a76-85f9-c3a7fcd29d66")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C45")
@@ -6486,6 +6654,12 @@
 			(uuid "6954a79b-48b2-4cd2-a877-3d2075480f2d")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "R31")
@@ -6555,6 +6729,12 @@
 			(uuid "bcdbd50a-f6d6-4d58-b9e6-1a105708549c")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "R23")
@@ -6632,6 +6812,12 @@
 			(uuid "27e91fcf-29b9-4815-b7c7-416158d68888")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "Q5")
@@ -6697,6 +6883,12 @@
 			(uuid "3ece0626-581b-4e06-8b85-a95434cdae9b")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR067")
@@ -6764,6 +6956,12 @@
 			(uuid "7a39231a-e745-47e8-8435-a91c796ec389")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR069")
@@ -6927,6 +7125,12 @@
 			(uuid "9dc1181b-67fe-48a1-9ec3-81fa3cd89d34")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "U3")
@@ -6996,6 +7200,12 @@
 			(uuid "f29591c1-943c-4dc5-8f5c-7748e7987c56")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C39")
@@ -7061,6 +7271,12 @@
 			(uuid "34e97341-5785-483f-9891-bc796681174e")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR062")
@@ -7087,7 +7303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_ISO_LAHS"
+		(property "Value" "GND_ISO_LBHS"
 			(at 138.938 67.31 0)
 			(effects
 				(font
@@ -7127,6 +7343,12 @@
 			(uuid "a85507f4-b9f7-4f3f-8974-f7c13303e365")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR052")
@@ -7196,6 +7418,12 @@
 			(uuid "b94aef16-eccf-457c-8286-ce6586d8c7d3")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "R27")
@@ -7265,6 +7493,12 @@
 			(uuid "14b1adaa-6daf-4705-a405-1f4c21c9ae0a")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C44")
@@ -7334,6 +7568,12 @@
 			(uuid "de16d49a-36ba-421a-a18a-e0a921043187")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "R21")
@@ -7403,6 +7643,12 @@
 			(uuid "44b44cd7-d9fe-4ca5-9c46-371fc5ec7881")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C38")
@@ -7472,6 +7718,12 @@
 			(uuid "8f42ae19-e014-4b85-b7e1-d822ca618e6b")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C40")
@@ -7538,6 +7790,12 @@
 			(uuid "6057dd12-0d6e-48d7-af51-741c0984adcd")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR059")
@@ -7607,6 +7865,12 @@
 			(uuid "af32c420-a1b1-48bc-9a4e-5696b3c7c10d")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "R26")
@@ -7676,6 +7940,12 @@
 			(uuid "c9a8244a-51dc-4430-8bf4-a82d3fcb4e3a")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C42")
@@ -7702,7 +7972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V__ISO_LAHS"
+		(property "Value" "+15V__ISO_LBHS"
 			(at 24.13 85.09 0)
 			(effects
 				(font
@@ -7741,6 +8011,12 @@
 			(uuid "0d16e35c-7f76-4623-852f-c365d1382377")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR040")
@@ -7818,6 +8094,12 @@
 			(uuid "312fc95c-f65f-4c7c-915d-2edc2eb6882b")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "Q4")
@@ -7844,7 +8126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_ISO_LALS"
+		(property "Value" "GND_ISO_LBLS"
 			(at 29.718 121.92 0)
 			(effects
 				(font
@@ -7883,6 +8165,12 @@
 			(uuid "ceaffdf0-4d8a-4901-a4ac-594ef587a827")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR042")
@@ -7909,7 +8197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_ISO_LALS"
+		(property "Value" "GND_ISO_LBLS"
 			(at 128.524 153.67 0)
 			(effects
 				(font
@@ -7948,6 +8236,12 @@
 			(uuid "974a8276-9930-449f-a550-2533f02039ee")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR050")
@@ -8017,6 +8311,12 @@
 			(uuid "0a602aa2-a55c-43e7-8f65-c1f3744aaad7")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C48")
@@ -8082,6 +8382,12 @@
 			(uuid "5a1c13ea-b1fe-4910-8ffc-d0369194b64a")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR060")
@@ -8108,7 +8414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V__ISO_LAHS"
+		(property "Value" "+15V__ISO_LBHS"
 			(at 125.73 57.15 0)
 			(effects
 				(font
@@ -8147,6 +8453,12 @@
 			(uuid "3176e97f-17fa-4b12-8c29-b58cbc144ed4")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR049")
@@ -8216,6 +8528,12 @@
 			(uuid "59403b46-8924-4ae0-9870-49922c8d02b7")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C35")
@@ -8283,6 +8601,12 @@
 			(uuid "eb416659-a8ca-4f66-b733-b48a377455d4")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR051")
@@ -8348,6 +8672,12 @@
 			(uuid "b1794b83-5cf0-4ab1-ba71-3dc0ec8483c5")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR068")
@@ -8417,6 +8747,12 @@
 			(uuid "2e4db955-3e20-434c-aaf5-1a30b24d1c1f")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C49")
@@ -8486,6 +8822,12 @@
 			(uuid "efe8440c-9b2c-4cde-b662-381cfb528810")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "R25")
@@ -8512,7 +8854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_ISO_LAHS"
+		(property "Value" "GND_ISO_LBHS"
 			(at 112.268 52.07 0)
 			(effects
 				(font
@@ -8552,6 +8894,12 @@
 			(uuid "34a0988f-04f2-47a4-b5a6-7dd92fe64667")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR047")
@@ -8621,6 +8969,12 @@
 			(uuid "ec77a80b-a80c-4025-a938-cf81a4cec51b")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C52")
@@ -8647,7 +9001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V_ISO_LALS"
+		(property "Value" "+15V_ISO_LBLS"
 			(at 109.728 143.51 0)
 			(effects
 				(font
@@ -8686,6 +9040,12 @@
 			(uuid "ad965a84-e980-4094-a9df-ce3932c2ae56")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR046")
@@ -8755,6 +9115,12 @@
 			(uuid "9fdf7a3b-d5ec-4f5f-ba62-b6f82d921aef")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "R28")
@@ -8820,6 +9186,12 @@
 			(uuid "02ac089a-c69c-437f-9bf4-77cec9acf79d")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR066")
@@ -8889,6 +9261,12 @@
 			(uuid "7896dfd6-f42a-476c-8ba6-eff7099ee101")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C51")
@@ -8958,6 +9336,12 @@
 			(uuid "bcfec325-6dfd-4419-a33d-e7a28618e009")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C47")
@@ -9027,6 +9411,12 @@
 			(uuid "874c18b0-289c-42a2-881f-7d5bb4c27b77")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "C41")
@@ -9096,6 +9486,12 @@
 			(uuid "10c1e6a8-ba95-4472-8670-d436462b5232")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "R24")
@@ -9163,6 +9559,12 @@
 			(uuid "f69c279e-b4bf-486e-87e5-6f9e0ca9c0ec")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR045")
@@ -9232,6 +9634,12 @@
 			(uuid "833b8ea6-dde3-46c4-b726-70bd9ace2340")
 		)
 		(instances
+			(project "Leg_B_Power_Stage"
+				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "R29")
@@ -9240,4 +9648,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

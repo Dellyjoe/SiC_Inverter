@@ -655,6 +655,10 @@
     [
       "881dbdac-7ecf-454b-9d42-4e4e0581671c",
       "CISPR‑grade_Filter"
+    ],
+    [
+      "e9f9d5ca-7f9f-4dc3-b303-71fca817b963",
+      "Power"
     ]
   ],
   "text_variables": {}
