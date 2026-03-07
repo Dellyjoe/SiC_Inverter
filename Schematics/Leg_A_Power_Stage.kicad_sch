@@ -448,145 +448,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -843,6 +704,562 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SiC_Inverter:C2012X8R1E105M125AE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.794 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0.1 uF"
+				(at 3.048 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+				(at 22.86 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+				(at 151.892 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
+				(at 22.098 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Ceramic Capacitors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C2012X8R1E105M125AE_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C2012X8R1E105M125AE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SiC_Inverter:C3216X5R1E156M160AB"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.794 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "15 uF"
+				(at 3.048 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+				(at 22.86 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+				(at 151.892 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1206 25V 15uF X5R 20% T: 1.6mm"
+				(at 22.098 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Ceramic Capacitors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C3216X5R1E156M160AB_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C3216X5R1E156M160AB_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SiC_Inverter:C3216X8R1E105M160AA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.794 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1 uF"
+				(at 3.048 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+				(at 22.86 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+				(at 151.892 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
+				(at 22.098 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Ceramic Capacitors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C3216X8R1E105M160AA_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C3216X8R1E105M160AA_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SiC_Inverter:CGA1A2X7R1C101K030BA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.794 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100 pF"
+				(at 3.048 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+				(at 22.86 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+				(at 151.892 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0201 16V 100pF X7R 10% AEC-Q200"
+				(at 22.098 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Ceramic Capacitors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CGA1A2X7R1C101K030BA_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CGA1A2X7R1C101K030BA_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2419,17 +2836,6 @@
 			)
 		)
 		(uuid "7f136d20-9b4f-4d4d-8a02-0f3f95f4021e")
-	)
-	(text "Pick out 15 uF, 0.1 uF , and 1 uF cap and fill out footprint\nBefore moving on to the Low Side for Leg A"
-		(exclude_from_sim no)
-		(at 86.868 97.028 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "813a068a-7d25-463a-86a1-1c76e8da13e6")
 	)
 	(text "Ceramic\n"
 		(exclude_from_sim no)
@@ -4512,7 +4918,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:CGA1A2X7R1C101K030BA")
 		(at 170.18 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4538,8 +4944,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 171.1452 99.06 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 193.04 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,8 +4953,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 170.18 95.25 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 322.072 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,8 +4962,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 170.18 95.25 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0201 16V 100pF X7R 10% AEC-Q200"
+			(at 192.278 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +5259,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:CGA1A2X7R1C101K030BA")
 		(at 137.16 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4879,8 +5285,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 138.1252 187.96 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 160.02 197.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,8 +5294,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 137.16 184.15 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 289.052 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,8 +5303,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 137.16 184.15 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0201 16V 100pF X7R 10% AEC-Q200"
+			(at 159.258 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +5328,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:C2012X8R1E105M125AE")
 		(at 170.18 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4948,8 +5354,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 171.1452 157.48 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 193.04 167.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,8 +5363,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 170.18 153.67 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 322.072 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,8 +5372,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 170.18 153.67 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
+			(at 192.278 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5528,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:C3216X8R1E105M160AA")
 		(at 167.64 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5148,8 +5554,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 168.6052 187.96 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 190.5 197.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5157,8 +5563,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 167.64 184.15 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 319.532 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,8 +5572,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 167.64 184.15 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
+			(at 189.738 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,7 +5597,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:C2012X8R1E105M125AE")
 		(at 45.72 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5217,8 +5623,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 46.6852 186.69 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 68.58 196.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,8 +5632,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 45.72 182.88 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 197.612 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,8 +5641,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 45.72 182.88 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
+			(at 67.818 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,7 +5666,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:CGA1A2X7R1C101K030BA")
 		(at 119.38 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5286,8 +5692,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.3452 187.96 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 142.24 197.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,8 +5701,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 119.38 184.15 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 271.272 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,8 +5710,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 119.38 184.15 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0201 16V 100pF X7R 10% AEC-Q200"
+			(at 141.478 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,7 +6170,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:C3216X5R1E156M160AB")
 		(at 25.4 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5790,8 +6196,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 26.3652 186.69 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 48.26 196.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,8 +6205,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 25.4 182.88 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 177.292 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,8 +6214,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 25.4 182.88 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1206 25V 15uF X5R 20% T: 1.6mm"
+			(at 47.498 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,7 +6305,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:C3216X5R1E156M160AB")
 		(at 25.4 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5925,8 +6331,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 26.3652 99.06 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 48.26 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,8 +6340,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 25.4 95.25 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 177.292 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,8 +6349,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 25.4 95.25 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1206 25V 15uF X5R 20% T: 1.6mm"
+			(at 47.498 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,7 +6374,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:C3216X8R1E105M160AA")
 		(at 57.15 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5994,8 +6400,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.1152 99.06 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 80.01 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,8 +6409,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 57.15 95.25 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 209.042 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,8 +6418,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 57.15 95.25 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
+			(at 79.248 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6845,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:C2012X8R1E105M125AE")
 		(at 226.06 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6465,8 +6871,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 227.0252 99.06 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 248.92 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,8 +6880,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 226.06 95.25 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 377.952 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,8 +6889,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 226.06 95.25 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
+			(at 248.158 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +6979,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:C2012X8R1E105M125AE")
 		(at 157.48 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6599,8 +7005,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 158.4452 187.96 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 180.34 197.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6608,8 +7014,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 157.48 184.15 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 309.372 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,8 +7023,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 157.48 184.15 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
+			(at 179.578 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +7048,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:CGA1A2X7R1C101K030BA")
 		(at 205.74 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6668,8 +7074,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 206.7052 99.06 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 228.6 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6677,8 +7083,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 205.74 95.25 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 357.632 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6686,8 +7092,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 205.74 95.25 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0201 16V 100pF X7R 10% AEC-Q200"
+			(at 227.838 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6711,7 +7117,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:CGA1A2X7R1C101K030BA")
 		(at 101.6 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6737,8 +7143,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.5652 187.96 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 124.46 197.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6746,8 +7152,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 101.6 184.15 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 253.492 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,8 +7161,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 101.6 184.15 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0201 16V 100pF X7R 10% AEC-Q200"
+			(at 123.698 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,7 +7186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:C2012X8R1E105M125AE")
 		(at 45.72 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6806,8 +7212,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 46.6852 99.06 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 68.58 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,8 +7221,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 45.72 95.25 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 197.612 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6824,8 +7230,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 45.72 95.25 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
+			(at 67.818 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7726,7 +8132,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:C3216X8R1E105M160AA")
 		(at 57.15 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7752,8 +8158,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.1152 186.69 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 80.01 196.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7761,8 +8167,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 57.15 182.88 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 209.042 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7770,8 +8176,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 57.15 182.88 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
+			(at 79.248 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8264,7 +8670,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:C3216X8R1E105M160AA")
 		(at 236.22 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8290,8 +8696,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 237.1852 99.06 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 259.08 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,8 +8705,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 236.22 95.25 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 388.112 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,8 +8714,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 236.22 95.25 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
+			(at 258.318 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,7 +8808,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:CGA1A2X7R1C101K030BA")
 		(at 187.96 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8428,8 +8834,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 188.9252 99.06 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 210.82 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,8 +8843,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 187.96 95.25 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 339.852 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,8 +8852,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 187.96 95.25 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0201 16V 100pF X7R 10% AEC-Q200"
+			(at 210.058 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8731,7 +9137,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "SiC_Inverter:C2012X8R1E105M125AE")
 		(at 186.69 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8757,8 +9163,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 187.6552 71.12 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 209.55 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8766,8 +9172,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 186.69 67.31 0)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 338.582 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8775,8 +9181,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 186.69 67.31 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
+			(at 208.788 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
