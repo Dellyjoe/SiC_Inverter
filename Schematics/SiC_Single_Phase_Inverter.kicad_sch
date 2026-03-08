@@ -2101,9 +2101,9 @@
 				(justify right)
 			)
 		)
-		(pin "Gate_node_Inpro" input
-			(at 25.4 89.154 180)
-			(uuid "4f3c2675-2ed1-4869-b32d-1da9eaa1e30c")
+		(pin "Gate_node_input_pro" input
+			(at 25.4 97.79 180)
+			(uuid "6a443171-7ab8-476c-a624-40478e3af4d1")
 			(effects
 				(font
 					(size 1.27 1.27)

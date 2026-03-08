@@ -1493,7 +1493,7 @@
 		)
 		(uuid "dde9e60c-7ce2-4aa7-85ac-fca8ae78889d")
 	)
-	(hierarchical_label "Gate_node_Inpro"
+	(hierarchical_label "Gate_node_input_pro"
 		(shape input)
 		(at 135.89 123.19 180)
 		(effects

@@ -5,174 +5,53 @@
 	(uuid "f916b67f-f781-4786-bf16-dd9c7a0ab338")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "SiC_Inverter:1140-471K-RC"
 			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
+				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "L"
-				(at -1.27 0 90)
+				(at 10.668 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "L"
-				(at 1.905 0 90)
+			(property "Value" "470 uH"
+				(at 4.826 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "SiC_Inverter:1140471KRC"
+				(at 1.016 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.arrow.com/en/products/1140-471k-rc/bourns"
+				(at 1.016 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fixed Inductors 470uH 10%"
+				(at 14.224 -25.146 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -180,97 +59,61 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Height" "26.162"
+				(at 1.016 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
+			(property "Mouser Part Number" "542-1140-471K-RC"
+				(at 1.016 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/1140-471K-RC?qs=iauG9CZhApsUucZywx90Eg%3D%3D"
+				(at 1.016 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Bourns"
+				(at 1.016 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
+			(property "Manufacturer_Part_Number" "1140-471K-RC"
+				(at 1.016 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left)
+					(hide yes)
 				)
 			)
-			(symbol "L_1_1"
+			(symbol "1140-471K-RC_0_0"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -286,9 +129,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -304,9 +147,59 @@
 					)
 				)
 			)
+			(symbol "1140-471K-RC_0_1"
+				(arc
+					(start 7.62 0)
+					(mid 6.35 -1.3218)
+					(end 5.08 0)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 0)
+					(mid 8.89 -1.3218)
+					(end 7.62 0)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.7 0)
+					(mid 11.43 -1.3218)
+					(end 10.16 0)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 15.24 0)
+					(mid 13.97 -1.3218)
+					(end 12.7 0)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "SiC_Inverter:3-2176794-3"
 			(pin_numbers
 				(hide yes)
 			)
@@ -317,32 +210,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "10"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Footprint" "SiC_Inverter:CW005100R0JE12HE"
+				(at 10.922 -17.526 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -350,8 +234,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.vishay.com/docs/30286/cw-he.pdf"
+				(at 18.542 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -359,7 +243,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "Description" "Wirewound Resistors - Through Hole 5watts 100ohms 5% High Energy"
+				(at 29.464 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Wirewound Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -377,12 +270,61 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+			(symbol "3-2176794-3_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -390,7 +332,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "3-2176794-3_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -430,31 +372,184 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "Line-to-Line"
-		(exclude_from_sim no)
-		(at 103.886 93.98 90)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(symbol "SiC_Inverter:C4AF9BW4680T3FK"
+			(pin_names
+				(offset 0.762)
 			)
-		)
-		(uuid "9f8de81b-5e3a-492a-ab0e-e5aa5046402f")
-	)
-	(text "Per phase (for the full‑bridge output):\n- L1: 1.0 mH, ≥10 A RMS, low loss\n- L2: 1.0 mH, ≥10 A RMS, low loss\n- C: 3.3 µF, ≥250 Vac film\n- R_d: 8.2 Ω in series with C, a few watts\n"
-		(exclude_from_sim no)
-		(at 134.112 76.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
 			)
-			(justify right)
+			(property "Value" "6.8 uF"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SiC_Inverter:C4AF9BW4680T3FK"
+				(at 16.764 -19.304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_F3116_C4AF"
+				(at 16.764 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "C4AF, Film, Metallized Polypropylene, Power, 6.8 uF, 10%, 310 VAC, 630 VDC, 105C, -55C, 85C, 4.41 GOhms, 32 V/us, 12 nH, 42.8 g, 42mm, 40mm, 20mm, Lead Spacing = 37.5mm, 58"
+				(at 108.458 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "40.2"
+				(at 16.51 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Yageo Group"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "C4AF9BW4680T3FK"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "C4AF9BW4680T3FK_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "C4AF9BW4680T3FK_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(uuid "a0cbd602-830c-40a2-ba5d-437fe3a8c852")
 	)
 	(text "1. A floating 120 Vrms line‑to‑line output is a valid 120 V AC source\nMost people think \"120 V\" means \"120 V from hot to neutral,\" but electrically:\n• 	Appliances only care about the voltage across their two input terminals.\n• 	They do not require one of those terminals to be neutral or earth‑referenced.\n• 	They do not require a grounded conductor to function.\nA floating 2‑wire AC source is completely normal.\n"
 		(exclude_from_sim no)
-		(at 111.506 111.252 0)
+		(at 108.966 136.906 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -464,102 +559,94 @@
 		(uuid "e6a5ed54-5e97-45b7-bdea-8f0e8ce04715")
 	)
 	(junction
+		(at 156.21 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "061d9d7b-6fe8-46c0-9270-1e6618d55a02")
+	)
+	(junction
+		(at 156.21 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48cc76b3-0962-4c48-808d-17d5512c5a6a")
+	)
+	(junction
 		(at 156.21 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51867c41-025f-4419-8577-8c7bd75e65c7")
 	)
 	(junction
-		(at 156.21 100.33)
+		(at 156.21 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "54c32e58-b619-4754-ad5d-784291ba3525")
+		(uuid "bb1a060a-674a-4830-8e7c-61b6b42dbb55")
 	)
 	(junction
-		(at 147.32 87.63)
+		(at 142.24 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b48f583f-bb9c-4b92-8e0b-a19090f79fa1")
+		(uuid "bd808444-64cc-4b68-96f8-cea7ae5e6fb4")
 	)
 	(junction
-		(at 147.32 100.33)
+		(at 142.24 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b81f1ad6-04d1-4f9c-879e-4e5dc78c36db")
+		(uuid "d8070dd8-5ba2-4a84-9f03-7891c72139ee")
 	)
 	(wire
 		(pts
-			(xy 156.21 96.52) (xy 156.21 100.33)
+			(xy 116.84 120.65) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00f2d653-f9b7-4b94-8572-2507b4c25c33")
+		(uuid "1ef3baec-ca48-422a-b6c6-5bd300bfef5f")
 	)
 	(wire
 		(pts
-			(xy 143.51 87.63) (xy 147.32 87.63)
+			(xy 140.97 87.63) (xy 142.24 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "091aa597-9df5-416e-82ae-16b0c2efdcdd")
+		(uuid "6fb4b510-7a7f-48f6-8566-2e288f958aed")
 	)
 	(wire
 		(pts
-			(xy 156.21 100.33) (xy 166.37 100.33)
+			(xy 140.97 120.65) (xy 142.24 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "168461ec-2933-4aa3-852f-6b57550ce723")
+		(uuid "6fec785d-94e2-4671-9339-1e08f18e1227")
 	)
 	(wire
 		(pts
-			(xy 121.92 87.63) (xy 135.89 87.63)
+			(xy 156.21 95.25) (xy 157.48 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "187888ad-3c82-4bb0-8402-696e9d403292")
-	)
-	(polyline
-		(pts
-			(xy 105.41 101.092) (xy 105.664 101.092)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39e1c3b1-14e3-4045-9b09-f47d54e57942")
-	)
-	(polyline
-		(pts
-			(xy 105.41 87.63) (xy 105.41 101.092)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62f27869-4d1e-4bb1-84ac-95f23eff5be6")
+		(uuid "724a72a1-3efd-47ca-a2f1-cf88885f2b42")
 	)
 	(wire
 		(pts
-			(xy 143.51 100.33) (xy 147.32 100.33)
+			(xy 154.94 95.25) (xy 156.21 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "650b7018-8c5c-4a5a-b778-28f01b6704b6")
+		(uuid "74133347-13c1-4005-8890-7ea2d67749f8")
 	)
 	(wire
 		(pts
-			(xy 147.32 87.63) (xy 147.32 88.9)
+			(xy 142.24 87.63) (xy 142.24 100.33)
 		)
 		(stroke
 			(width 0)
@@ -569,47 +656,57 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 87.63) (xy 156.21 87.63)
+			(xy 142.24 87.63) (xy 156.21 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b98fa9d4-3c43-4775-aa9c-9877b0947eb6")
-	)
-	(polyline
-		(pts
-			(xy 105.664 101.092) (xy 111.76 101.092)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be804ffb-e478-4858-aa8c-035dbb307a3c")
+		(uuid "93eaa480-ac32-4d22-a404-cadad2961a44")
 	)
 	(wire
 		(pts
-			(xy 121.92 100.33) (xy 135.89 100.33)
+			(xy 156.21 115.57) (xy 156.21 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0003a14-c1e3-497b-a2b2-1155d4d95a1c")
+		(uuid "98ad5b4a-a0af-4b47-9b0e-f29daffa503a")
 	)
 	(wire
 		(pts
-			(xy 156.21 87.63) (xy 156.21 88.9)
+			(xy 156.21 120.65) (xy 166.37 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c501b3ae-c42a-4a8c-8f73-5e0e2a9944ff")
+		(uuid "a7356fea-0c05-4415-a0c9-3d1250343c77")
 	)
 	(wire
 		(pts
-			(xy 147.32 96.52) (xy 147.32 100.33)
+			(xy 156.21 87.63) (xy 156.21 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a84cd2cb-716d-4d39-9666-2b4765cf7825")
+	)
+	(wire
+		(pts
+			(xy 154.94 115.57) (xy 156.21 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a06223-f290-4813-9d87-d5fa92b43a3e")
+	)
+	(wire
+		(pts
+			(xy 142.24 107.95) (xy 142.24 120.65)
 		)
 		(stroke
 			(width 0)
@@ -619,23 +716,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 100.33) (xy 156.21 100.33)
+			(xy 142.24 120.65) (xy 156.21 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da34aa54-4686-4b81-a9dc-9ac102f2fa83")
-	)
-	(polyline
-		(pts
-			(xy 105.41 87.63) (xy 111.76 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee0376db-cfcb-4083-83fb-08fd9cff1452")
+		(uuid "e688b647-079a-482a-a58e-b96f1346b550")
 	)
 	(wire
 		(pts
@@ -646,6 +733,26 @@
 			(type default)
 		)
 		(uuid "f2e0bc0d-c58d-41ff-91cf-4771f16dd05f")
+	)
+	(wire
+		(pts
+			(xy 156.21 115.57) (xy 157.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79e0d82-548c-46da-91e8-b2f53d7fbc42")
+	)
+	(wire
+		(pts
+			(xy 116.84 87.63) (xy 120.65 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88c89f3-f138-485f-b648-de8bd1f7500e")
 	)
 	(hierarchical_label "Phase_A_Filtered"
 		(shape input)
@@ -660,7 +767,7 @@
 	)
 	(hierarchical_label "Phase_B_Filtered"
 		(shape input)
-		(at 166.37 100.33 0)
+		(at 166.37 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -671,7 +778,7 @@
 	)
 	(hierarchical_label "Phase_B"
 		(shape input)
-		(at 121.92 100.33 180)
+		(at 116.84 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -682,7 +789,7 @@
 	)
 	(hierarchical_label "Phase_A"
 		(shape input)
-		(at 121.92 87.63 180)
+		(at 116.84 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -692,8 +799,8 @@
 		(uuid "380879bf-cd9b-49f4-afea-39edd966444c")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 156.21 92.71 0)
+		(lib_id "SiC_Inverter:C4AF9BW4680T3FK")
+		(at 157.48 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -702,7 +809,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e13bcb2-368e-4a98-b129-12c44c940416")
 		(property "Reference" "C53"
-			(at 160.02 91.4399 0)
+			(at 161.29 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -710,8 +817,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 160.02 93.9799 0)
+		(property "Value" "6.8 uF"
+			(at 161.29 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -719,8 +826,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 157.1752 96.52 0)
+		(property "Footprint" "SiC_Inverter:C4AF9BW4680T3FK"
+			(at 138.176 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_F3116_C4AF"
+			(at 140.208 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "C4AF, Film, Metallized Polypropylene, Power, 6.8 uF, 10%, 310 VAC, 630 VDC, 105C, -55C, 85C, 4.41 GOhms, 32 V/us, 12 nH, 42.8 g, 42mm, 40mm, 20mm, Lead Spacing = 37.5mm, 58"
+			(at 147.32 203.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -728,21 +855,33 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 156.21 92.71 0)
+		(property "Height" "40.2"
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 156.21 92.71 0)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 144.78 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C4AF9BW4680T3FK"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -752,6 +891,12 @@
 		(pin "1"
 			(uuid "3caab636-2c22-4d47-9621-6811a99808b1")
 		)
+		(pin "4"
+			(uuid "2b8a93d7-5dd2-498b-a023-6d4b87a6ea19")
+		)
+		(pin "3"
+			(uuid "8fc1a52b-ddd8-4ea5-b522-1932694d4e9e")
+		)
 		(instances
 			(project ""
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/bc0f80e1-b57d-46ec-8488-4a939507ae45"
@@ -759,20 +904,25 @@
 					(unit 1)
 				)
 			)
+			(project "LC_Output_EMI_Filter"
+				(path "/f916b67f-f781-4786-bf16-dd9c7a0ab338"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 147.32 92.71 0)
+		(lib_id "SiC_Inverter:3-2176794-3")
+		(at 142.24 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "215b4693-5b8c-4844-8aab-4fe57472dc17")
 		(property "Reference" "R34"
-			(at 149.86 91.4399 0)
+			(at 144.78 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -781,7 +931,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 149.86 93.9799 0)
+			(at 144.78 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -789,8 +939,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 145.542 92.71 90)
+		(property "Footprint" "SiC_Inverter:CW005100R0JE12HE"
+			(at 153.162 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -798,8 +948,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 147.32 92.71 0)
+		(property "Datasheet" "https://www.vishay.com/docs/30286/cw-he.pdf"
+			(at 160.782 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -807,8 +957,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 147.32 92.71 0)
+		(property "Description" "Wirewound Resistors - Through Hole 5watts 100ohms 5% High Energy"
+			(at 171.704 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -829,11 +979,17 @@
 					(unit 1)
 				)
 			)
+			(project "LC_Output_EMI_Filter"
+				(path "/f916b67f-f781-4786-bf16-dd9c7a0ab338"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 139.7 87.63 90)
+		(lib_id "SiC_Inverter:1140-471K-RC")
+		(at 120.65 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -842,23 +998,43 @@
 		(fields_autoplaced yes)
 		(uuid "4ee00e54-1c65-4393-8609-ab35e1771d86")
 		(property "Reference" "L3"
-			(at 139.7 82.55 90)
+			(at 130.81 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 139.7 85.09 90)
+		(property "Value" "470 uH"
+			(at 130.81 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 139.7 87.63 0)
+		(property "Footprint" "SiC_Inverter:1140471KRC"
+			(at 121.666 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/1140-471k-rc/bourns"
+			(at 121.666 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed Inductors 470uH 10%"
+			(at 134.874 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -866,21 +1042,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 139.7 87.63 0)
+		(property "Height" "26.162"
+			(at 121.666 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 139.7 87.63 0)
+		(property "Mouser Part Number" "542-1140-471K-RC"
+			(at 121.666 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/1140-471K-RC?qs=iauG9CZhApsUucZywx90Eg%3D%3D"
+			(at 121.666 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 121.666 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1140-471K-RC"
+			(at 121.666 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -897,11 +1105,17 @@
 					(unit 1)
 				)
 			)
+			(project "LC_Output_EMI_Filter"
+				(path "/f916b67f-f781-4786-bf16-dd9c7a0ab338"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 139.7 100.33 90)
+		(lib_id "SiC_Inverter:1140-471K-RC")
+		(at 120.65 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -910,23 +1124,43 @@
 		(fields_autoplaced yes)
 		(uuid "73e9fe06-cdf2-42d1-9046-fe87d93bd265")
 		(property "Reference" "L4"
-			(at 139.7 95.25 90)
+			(at 130.81 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 139.7 97.79 90)
+		(property "Value" "470 uH"
+			(at 130.81 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 139.7 100.33 0)
+		(property "Footprint" "SiC_Inverter:1140471KRC"
+			(at 121.666 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/1140-471k-rc/bourns"
+			(at 121.666 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed Inductors 470uH 10%"
+			(at 134.874 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -934,21 +1168,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 139.7 100.33 0)
+		(property "Height" "26.162"
+			(at 121.666 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 139.7 100.33 0)
+		(property "Mouser Part Number" "542-1140-471K-RC"
+			(at 121.666 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/1140-471K-RC?qs=iauG9CZhApsUucZywx90Eg%3D%3D"
+			(at 121.666 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 121.666 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1140-471K-RC"
+			(at 121.666 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -965,6 +1231,18 @@
 					(unit 1)
 				)
 			)
+			(project "LC_Output_EMI_Filter"
+				(path "/f916b67f-f781-4786-bf16-dd9c7a0ab338"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
