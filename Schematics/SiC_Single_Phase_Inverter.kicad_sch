@@ -883,6 +883,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 80.01) (xy 265.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11fc043e-b32b-4e42-bd52-7dfa06e2bb97")
+	)
+	(wire
+		(pts
 			(xy 201.93 91.44) (xy 204.47 91.44)
 		)
 		(stroke
@@ -890,6 +900,16 @@
 			(type default)
 		)
 		(uuid "123f7bc4-a468-4206-8a7a-e00fd5b1926c")
+	)
+	(wire
+		(pts
+			(xy 228.6 74.93) (xy 231.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a37f313-60ed-4f8d-9725-e7dd9ecf09f1")
 	)
 	(polyline
 		(pts
@@ -933,6 +953,26 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 76.2) (xy 265.43 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5807c1a1-1526-4bbc-9bc4-974d45070b8e")
+	)
+	(wire
+		(pts
+			(xy 228.6 78.74) (xy 231.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6acd417a-36a0-4b54-bf15-c92b2e7dd448")
+	)
+	(wire
+		(pts
 			(xy 201.93 95.25) (xy 204.47 95.25)
 		)
 		(stroke
@@ -951,6 +991,36 @@
 		)
 		(uuid "0fca790a-2459-45d8-893c-9d9d49f3af7a")
 	)
+	(label "Phase_B_Output"
+		(at 265.43 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33a03773-2df1-43c9-acca-fdbd9a2c7f71")
+	)
+	(label "Phase_A_Output"
+		(at 72.39 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "624d4e7c-0325-4495-9bbf-b1e4209883a4")
+	)
+	(label "Phase_B_Output"
+		(at 72.39 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7da9217f-2859-4426-8f05-0ed9ab04c927")
+	)
 	(label "AC_FIlter_Input_B"
 		(at 204.47 95.25 0)
 		(effects
@@ -960,6 +1030,105 @@
 			(justify left bottom)
 		)
 		(uuid "85123f3c-2a3e-4c7e-a187-67af5c0b3d40")
+	)
+	(label "AC_FIlter_Input_A"
+		(at 228.6 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d345b9f8-3363-4029-97e6-21a5f403233f")
+	)
+	(label "AC_FIlter_Input_B"
+		(at 228.6 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7338f20-17f5-48fd-9464-3a9d2c242290")
+	)
+	(label "Phase_A_Output"
+		(at 265.43 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d97f796e-4ba2-4556-8387-6ea1604ea121")
+	)
+	(symbol
+		(lib_id "SiC_Inverter:23AH8785-Black")
+		(at 72.39 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e6cb0ff-da21-45c0-b4d7-7c27056557f9")
+		(property "Reference" "J4"
+			(at 86.36 172.7199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "23AH8785-Black"
+			(at 84.582 181.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SiC_Inverter:23AH8785-Black"
+			(at 88.646 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/3945771.pdf"
+			(at 101.6 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Black:The 66.9040-22 is an 4mm Angled Socket for mounting on PCBs, gold-plated brass contact terminal."
+			(at 128.016 183.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1f5afc7-b1ca-44f1-b49b-a45f371f067f")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "SiC_Inverter:23AH8785-Black")
@@ -1025,6 +1194,75 @@
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiC_Inverter:23AH8786-Red")
+		(at 72.39 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "365b7971-fb2d-457f-b4b3-ea02e120e73a")
+		(property "Reference" "J3"
+			(at 86.36 162.5599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "23AH8786-Red"
+			(at 84.074 171.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SiC_Inverter:23AH8786-Red"
+			(at 89.916 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/3945771.pdf"
+			(at 102.362 169.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red: The 66.9040-22 is an 4mm Angled Socket for mounting on PCBs, gold-plated brass contact terminal."
+			(at 131.064 173.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed62ae18-b9e2-4ea6-9b30-309bafadaff7")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1738,7 +1976,7 @@
 		)
 	)
 	(sheet
-		(at 246.38 85.09)
+		(at 231.14 68.58)
 		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1754,7 +1992,7 @@
 		)
 		(uuid "bc0f80e1-b57d-46ec-8488-4a939507ae45")
 		(property "Sheetname" "LC_Output_EMI_Filter"
-			(at 246.38 84.3784 0)
+			(at 231.14 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1763,12 +2001,52 @@
 			)
 		)
 		(property "Sheetfile" "LC_Output_EMI_Filter.kicad_sch"
-			(at 246.38 104.7246 0)
+			(at 231.14 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Phase_A" input
+			(at 231.14 74.93 180)
+			(uuid "f134c5dc-7a2e-4178-8edf-050579bedce4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Phase_A_Filtered" input
+			(at 261.62 76.2 0)
+			(uuid "23f9333c-2f63-4efc-adb6-56c852bb770f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Phase_B" input
+			(at 231.14 78.74 180)
+			(uuid "c7429168-5897-4a9a-a1d4-dc1f53707d1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Phase_B_Filtered" input
+			(at 261.62 80.01 0)
+			(uuid "8467556a-778e-4cab-b582-b308b6aaa473")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
