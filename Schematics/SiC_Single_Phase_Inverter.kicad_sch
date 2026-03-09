@@ -850,27 +850,6 @@
 		)
 		(uuid "03c15594-c2ee-4f37-b5f6-4a2ee2ac9d60")
 	)
-	(text "Every Sub sheet should have its own PCB, I know this will be alot of PCBs\nbut it will allow you to upgrade as you go on.\n"
-		(exclude_from_sim no)
-		(at 65.786 114.808 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "764c3e1f-8e9b-4ce1-9a30-2708ed110905")
-	)
-	(text "Connectors"
-		(exclude_from_sim no)
-		(at 33.02 151.384 0)
-		(effects
-			(font
-				(size 1.651 1.651)
-			)
-		)
-		(uuid "94f1404d-b591-475a-90f0-9ebf06d09027")
-	)
 	(text "LEG A\n"
 		(exclude_from_sim no)
 		(at 185.928 84.582 0)
@@ -880,6 +859,48 @@
 			)
 		)
 		(uuid "dddaa7ff-1f9a-4c8d-a075-4a0e59e3c119")
+	)
+	(text_box "Add Testing Points"
+		(exclude_from_sim no)
+		(at 65.278 114.554 0)
+		(size 21.336 4.826)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8cbd7785-d7eb-4b27-866e-672dbb7132b1")
+	)
+	(text_box "Connectors"
+		(exclude_from_sim no)
+		(at 26.416 149.352 0)
+		(size 12.446 3.048)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9b29710a-231e-4451-b553-c929b3a33468")
 	)
 	(wire
 		(pts

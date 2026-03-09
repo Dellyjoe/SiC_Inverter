@@ -4073,17 +4073,6 @@
 		)
 		(uuid "05c6acfb-57be-4b67-a8c5-2848bd8fe863")
 	)
-	(text "Input Protection: Fuse, Reverse-polarity, OC, Protection\n"
-		(exclude_from_sim no)
-		(at 109.474 78.232 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "50de131a-9280-4d9b-947e-1fd7644cf995")
-	)
 	(text "Input Protection Overview"
 		(exclude_from_sim no)
 		(at 33.02 16.51 0)
@@ -4093,6 +4082,27 @@
 			)
 		)
 		(uuid "842d6c13-967f-40fd-9e74-4388ad38204e")
+	)
+	(text_box "Input Protection: Fuse, Reverse-polarity, OC, Protection\n"
+		(exclude_from_sim no)
+		(at 109.474 75.692 0)
+		(size 56.896 3.048)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8c473c78-3773-4741-9c4d-f2f1cf23ba3d")
 	)
 	(junction
 		(at 170.18 91.44)

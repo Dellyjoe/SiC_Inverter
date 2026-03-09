@@ -45,6 +45,48 @@
 		)
 		(uuid "f7c59859-b086-43d4-88b9-5e5c44639126")
 	)
+	(text_box "Leg_B_Power_Stage"
+		(exclude_from_sim no)
+		(at 162.56 73.152 0)
+		(size 20.32 3.048)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8136cd19-b958-4931-a33e-8d8a60a7e9c9")
+	)
+	(text_box "Leg_A_Power_Stage"
+		(exclude_from_sim no)
+		(at 55.88 73.152 0)
+		(size 20.32 3.048)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f7e7c595-1718-400c-8548-d37f753f0383")
+	)
 	(wire
 		(pts
 			(xy 124.46 113.03) (xy 128.27 113.03)
@@ -548,6 +590,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Sheetfile" "Leg_B_Power_Stage.kicad_sch"
@@ -690,6 +733,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Sheetfile" "Leg_A_Power_Stage.kicad_sch"

@@ -547,9 +547,21 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 103.886 83.566)
+		(end 185.166 126.492)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 92eb323a-3f25-4163-9753-0c7c473da9dd)
+	)
 	(text "1. A floating 120 Vrms line‑to‑line output is a valid 120 V AC source\nMost people think \"120 V\" means \"120 V from hot to neutral,\" but electrically:\n• 	Appliances only care about the voltage across their two input terminals.\n• 	They do not require one of those terminals to be neutral or earth‑referenced.\n• 	They do not require a grounded conductor to function.\nA floating 2‑wire AC source is completely normal.\n"
 		(exclude_from_sim no)
-		(at 108.966 136.906 0)
+		(at 103.886 133.604 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -557,6 +569,27 @@
 			(justify left)
 		)
 		(uuid "e6a5ed54-5e97-45b7-bdea-8f0e8ce04715")
+	)
+	(text_box "LCL AC Output Filter"
+		(exclude_from_sim no)
+		(at 103.886 80.01 0)
+		(size 23.622 3.048)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "81ed1f33-d502-4bbf-9826-49038d2218ab")
 	)
 	(junction
 		(at 156.21 115.57)

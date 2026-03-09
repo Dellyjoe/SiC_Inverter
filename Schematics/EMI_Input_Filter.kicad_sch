@@ -6442,17 +6442,6 @@
 		)
 		(uuid fa609751-17e5-4df2-bd4c-58c8f1633c75)
 	)
-	(text "Differential-Mode LC Filter paired with a Common Mode Choke"
-		(exclude_from_sim no)
-		(at 26.67 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "227d8bb7-7821-49d4-a796-177342e67da1")
-	)
 	(text "This subsheet implements the front‑end EMI (Electromagnetic Interference) input filter for the inverter. Its purpose is to:\n"
 		(exclude_from_sim no)
 		(at 13.208 16.002 0)
@@ -6540,6 +6529,27 @@
 			(justify left)
 		)
 		(uuid "e0792373-614d-4e7d-b831-5b49d1afd15e")
+	)
+	(text_box "Differential-Mode LC Filter paired with a Common Mode Choke"
+		(exclude_from_sim no)
+		(at 25.908 123.698 0)
+		(size 64.008 3.048)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f05fe35b-e24b-4b75-9e10-e85cab05e81e")
 	)
 	(junction
 		(at 44.45 156.21)

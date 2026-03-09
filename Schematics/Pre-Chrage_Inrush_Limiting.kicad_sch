@@ -613,17 +613,6 @@
 		)
 		(uuid "113356d1-5eaf-4303-a147-91dbbfa15040")
 	)
-	(text "Series Per-Charge resistor with MOSFET Bypass"
-		(exclude_from_sim no)
-		(at 140.462 71.374 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2d6f21c1-c614-4047-bc4e-212a1d52e5c6")
-	)
 	(text "Pre‑Charge Phase (MOSFET Off)\n- Initial inrush current is limited by:\n"
 		(exclude_from_sim no)
 		(at 37.592 36.068 0)
@@ -666,6 +655,27 @@
 			(justify left)
 		)
 		(uuid "f4024612-d01e-46d6-b5ae-725a66a039f4")
+	)
+	(text_box "Series Per-Charge resistor with MOSFET Bypass"
+		(exclude_from_sim no)
+		(at 140.462 69.342 0)
+		(size 49.276 3.048)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "935f31cc-d8fe-4814-80be-e14a3c64cd6c")
 	)
 	(junction
 		(at 168.91 81.28)

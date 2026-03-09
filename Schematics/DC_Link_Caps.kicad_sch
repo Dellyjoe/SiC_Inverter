@@ -394,16 +394,6 @@
 		)
 		(uuid "26badd5d-63ce-4d4e-8f58-c4983168e6f5")
 	)
-	(text "DC Link total of 220 uF in electrolytic caps, 10 uF in Film caps = 230 uF in total DC Link capacitance"
-		(exclude_from_sim no)
-		(at 195.072 83.312 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a2fd4c14-97d0-4190-92d4-594d870ef9a3")
-	)
 	(text "With f = 40k Hz, and I = {0.5A, 1.25A, 2A} you get the following"
 		(exclude_from_sim no)
 		(at 57.404 73.406 0)
@@ -443,6 +433,27 @@
 			)
 		)
 		(uuid "dc7f677a-1177-4c52-a4ce-3c0879f952e4")
+	)
+	(text_box "DC Link total of 220 uF in electrolytic caps, 10 uF in Film caps = 230 uF in total DC Link capacitance"
+		(exclude_from_sim no)
+		(at 143.51 81.534 0)
+		(size 105.918 3.048)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f7faaadd-fdab-49b6-b74b-c4b837640c09")
 	)
 	(junction
 		(at 179.07 107.95)
