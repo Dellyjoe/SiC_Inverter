@@ -862,7 +862,7 @@
 	)
 	(text_box "Add Testing Points"
 		(exclude_from_sim no)
-		(at 65.278 114.554 0)
+		(at 99.314 118.364 0)
 		(size 21.336 4.826)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -902,6 +902,18 @@
 		)
 		(uuid "9b29710a-231e-4451-b553-c929b3a33468")
 	)
+	(junction
+		(at 59.69 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b55643d9-69da-453c-81af-4e0937e88f99")
+	)
+	(junction
+		(at 59.69 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecb9ff15-5a42-4002-bbf5-9549480ae05a")
+	)
 	(wire
 		(pts
 			(xy 261.62 80.01) (xy 265.43 80.01)
@@ -924,6 +936,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 67.31) (xy 59.69 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e68aee-ee39-4fe3-9b31-740ca407553e")
+	)
+	(wire
+		(pts
 			(xy 228.6 74.93) (xy 231.14 74.93)
 		)
 		(stroke
@@ -931,6 +953,16 @@
 			(type default)
 		)
 		(uuid "1a37f313-60ed-4f8d-9725-e7dd9ecf09f1")
+	)
+	(wire
+		(pts
+			(xy 59.69 91.44) (xy 60.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f6260c5-4a3c-42a1-9c0c-6bbecd304d14")
 	)
 	(polyline
 		(pts
@@ -941,6 +973,16 @@
 			(type dash)
 		)
 		(uuid "226f3d31-2d00-4393-a51a-754cb4d79b83")
+	)
+	(wire
+		(pts
+			(xy 58.42 91.44) (xy 59.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2defbbe1-9396-4b80-870f-77af1d2d7617")
 	)
 	(wire
 		(pts
@@ -964,16 +1006,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 91.44) (xy 60.96 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56d9d59f-02aa-4b7a-bfa1-d6365c56f930")
-	)
-	(wire
-		(pts
 			(xy 261.62 76.2) (xy 265.43 76.2)
 		)
 		(stroke
@@ -994,6 +1026,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 69.85) (xy 59.69 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f2416f-1949-4626-a07b-ffa45981d282")
+	)
+	(wire
+		(pts
 			(xy 201.93 95.25) (xy 204.47 95.25)
 		)
 		(stroke
@@ -1001,6 +1043,26 @@
 			(type default)
 		)
 		(uuid "996939e6-970e-4254-bf2a-f24f0f0a9afe")
+	)
+	(wire
+		(pts
+			(xy 59.69 69.85) (xy 59.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d678e409-7c79-4530-a191-12f33a377c2d")
+	)
+	(wire
+		(pts
+			(xy 59.69 67.31) (xy 59.69 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe843038-9917-4e79-9c7e-2b19c7ff7274")
 	)
 	(label "AC_FIlter_Input_A"
 		(at 204.47 91.44 0)
@@ -1669,7 +1731,7 @@
 		)
 	)
 	(sheet
-		(at 60.96 59.69)
+		(at 61.468 110.49)
 		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1685,7 +1747,7 @@
 		)
 		(uuid "881dbdac-7ecf-454b-9d42-4e4e0581671c")
 		(property "Sheetname" "CISPR‑grade_Filter"
-			(at 60.96 58.9784 0)
+			(at 61.468 109.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +1756,7 @@
 			)
 		)
 		(property "Sheetfile" "CISPR‑grade_Filter.kicad_sch"
-			(at 60.96 79.3246 0)
+			(at 61.468 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +2141,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 85.09)
+		(at 27.94 85.09)
 		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2095,7 +2157,7 @@
 		)
 		(uuid "cf3acd45-2ee3-4687-9429-99700ff01ea1")
 		(property "Sheetname" "Input_Protection"
-			(at 25.4 84.3784 0)
+			(at 27.94 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +2166,7 @@
 			)
 		)
 		(property "Sheetfile" "Input_Protection.kicad_sch"
-			(at 25.4 104.7246 0)
+			(at 27.94 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,7 +2175,7 @@
 			)
 		)
 		(pin "+VIN_Protected" output
-			(at 55.88 91.694 0)
+			(at 58.42 91.44 0)
 			(uuid "0f4fbe7b-92f1-4497-993d-7852b2fb93ef")
 			(effects
 				(font
@@ -2123,7 +2185,7 @@
 			)
 		)
 		(pin "Gate_node_input_pro" input
-			(at 25.4 97.79 180)
+			(at 27.94 97.79 180)
 			(uuid "6a443171-7ab8-476c-a624-40478e3af4d1")
 			(effects
 				(font
@@ -2141,8 +2203,8 @@
 		)
 	)
 	(sheet
-		(at 22.606 21.59)
-		(size 22.606 19.05)
+		(at 61.214 59.944)
+		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2157,7 +2219,7 @@
 		)
 		(uuid "e9f9d5ca-7f9f-4dc3-b303-71fca817b963")
 		(property "Sheetname" "Power"
-			(at 22.606 20.8784 0)
+			(at 61.214 59.2324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,12 +2228,32 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 22.606 41.2246 0)
+			(at 61.214 79.5786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DC+_IN_1" input
+			(at 61.214 67.31 180)
+			(uuid "3aae40f8-ddd5-4662-af40-1a6927716b56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC+_IN_2" input
+			(at 61.214 69.85 180)
+			(uuid "cff77ab8-435c-421d-961a-2f5516f87737")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
