@@ -903,6 +903,12 @@
 		(uuid "9b29710a-231e-4451-b553-c929b3a33468")
 	)
 	(junction
+		(at 130.81 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a144954-a6e2-47c5-a9cf-2a787ab0ec46")
+	)
+	(junction
 		(at 59.69 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -913,6 +919,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecb9ff15-5a42-4002-bbf5-9549480ae05a")
+	)
+	(wire
+		(pts
+			(xy 130.81 93.98) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5255a9-ae7d-4a78-a34e-2d2c45e82101")
 	)
 	(wire
 		(pts
@@ -956,6 +972,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 68.58) (xy 130.81 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9c683c-59eb-45f7-ab1c-c8c0d1735102")
+	)
+	(wire
+		(pts
 			(xy 59.69 91.44) (xy 60.96 91.44)
 		)
 		(stroke
@@ -986,6 +1012,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 68.58) (xy 130.81 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41275031-11f5-438f-8789-a18d97446858")
+	)
+	(wire
+		(pts
 			(xy 91.44 88.9) (xy 95.25 88.9)
 		)
 		(stroke
@@ -996,7 +1032,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 132.08 93.98)
+			(xy 125.73 93.98) (xy 130.81 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1861,7 +1897,7 @@
 			)
 		)
 		(pin "BUS_DC+" input
-			(at 171.45 69.088 180)
+			(at 171.45 68.58 180)
 			(uuid "3c16a664-e2ec-4b35-ac8c-ebc7d5c49974")
 			(effects
 				(font

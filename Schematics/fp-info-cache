@@ -1,4 +1,4 @@
-27291245102550946
+27293018289663673
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99364,6 +99364,13 @@ Inductor
 0
 2
 2
+SiC_Inverter
+436500418
+43650-04YY_18192063
+Connector
+0
+6
+4
 SiC_Inverter
 C3M0025065K
 

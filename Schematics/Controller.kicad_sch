@@ -5,4 +5,37 @@
 	(uuid "2338b8f0-84ab-40d3-80ec-5d44751d2552")
 	(paper "A4")
 	(lib_symbols)
+	(rectangle
+		(start 98.044 97.028)
+		(end 155.194 119.888)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 70b975a7-e92c-4b5f-b1d6-175c4e4e56d9)
+	)
+	(text_box "Power Supply +3V3 logic Power"
+		(exclude_from_sim no)
+		(at 98.044 93.472 0)
+		(size 39.116 3.048)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a75641e4-09a2-4555-93f9-992a93f6dc3e")
+	)
 )

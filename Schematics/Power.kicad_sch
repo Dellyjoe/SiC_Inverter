@@ -5,6 +5,177 @@
 	(uuid "330d8a8c-694e-486a-a387-07208716b3be")
 	(paper "A4")
 	(lib_symbols
+		(symbol "SiC_Inverter:43650-0418"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.382 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "43650-0418"
+				(at 2.54 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SiC_Inverter:436500418"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500218_sd.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Single Row, 4 Circuits, with PCB Press-fit Metal Retention Clip, Glow-Wire Capable, Black"
+				(at 64.008 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-43650-0418"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "43650-0418"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "43650-0418_1_1"
+				(rectangle
+					(start 5.08 -0.508)
+					(end 11.684 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SiC_Inverter:IRM-03-15"
 			(pin_names
 				(offset 1.016)
@@ -503,10 +674,10 @@
 	)
 	(rectangle
 		(start 120.142 102.87)
-		(end 199.644 131.064)
+		(end 199.136 131.064)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(fill
 			(type none)
@@ -515,15 +686,27 @@
 	)
 	(rectangle
 		(start 120.142 68.58)
-		(end 199.39 96.774)
+		(end 198.882 96.774)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(fill
 			(type none)
 		)
 		(uuid 8739a2c9-a170-416c-8b31-44c7f49b6e98)
+	)
+	(rectangle
+		(start 120.142 68.58)
+		(end 235.204 131.064)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 968a1cd6-8b33-489f-9168-1bed7d1db4ca)
 	)
 	(text_box "Isolated Leg B Half Bridge: 15V Output"
 		(exclude_from_sim no)
@@ -580,6 +763,24 @@
 		(uuid "7b344aae-96aa-447b-bd2a-d48e43e81f7a")
 	)
 	(junction
+		(at 189.23 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a932f1d9-5666-42d7-a18b-6f181c95ce5e")
+	)
+	(junction
+		(at 189.23 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcc71d75-ace9-452d-a7ec-53223a88464d")
+	)
+	(junction
+		(at 190.5 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1a5b301-1caa-46cb-a8b7-a7ec427cec1a")
+	)
+	(junction
 		(at 171.45 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -590,6 +791,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "deaecbca-fc12-49bc-a4b1-e41a723af7a4")
+	)
+	(junction
+		(at 190.5 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed3e65bf-0f30-48bc-9ee2-5ba88c66ee69")
 	)
 	(wire
 		(pts
@@ -610,6 +817,36 @@
 			(type default)
 		)
 		(uuid "18b6f220-a50d-48a9-b008-2cf19db1a0ad")
+	)
+	(wire
+		(pts
+			(xy 209.55 123.19) (xy 190.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1994fd59-fed3-49e3-a90f-d7269e5807eb")
+	)
+	(wire
+		(pts
+			(xy 208.28 87.63) (xy 208.28 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d07bc4d-f2bf-4785-beac-db20fcc9c0bc")
+	)
+	(wire
+		(pts
+			(xy 209.55 102.87) (xy 209.55 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251f95b0-bfe9-449d-9e02-97fd67abe648")
 	)
 	(wire
 		(pts
@@ -693,6 +930,36 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 100.33) (xy 208.28 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b17b24-da8b-4d95-ac60-da22c9c1b42b")
+	)
+	(wire
+		(pts
+			(xy 189.23 77.47) (xy 209.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "565063ae-7799-4ad7-af48-b7c8d1179ba7")
+	)
+	(wire
+		(pts
+			(xy 208.28 87.63) (xy 189.23 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c438efe-b812-4f1b-b840-d213dd82e28e")
+	)
+	(wire
+		(pts
 			(xy 132.08 118.11) (xy 137.16 118.11)
 		)
 		(stroke
@@ -710,6 +977,16 @@
 			(type default)
 		)
 		(uuid "6f531835-9fdb-48f5-89ff-a9d0c2e8d193")
+	)
+	(wire
+		(pts
+			(xy 208.28 113.03) (xy 190.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822fdc8c-7e45-47ba-873f-c15e9ab8cde7")
 	)
 	(wire
 		(pts
@@ -733,6 +1010,26 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 100.33) (xy 208.28 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a847e3-cde4-4cf0-85d4-bec8b5523703")
+	)
+	(wire
+		(pts
+			(xy 209.55 95.25) (xy 209.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9cb0af-5ca4-4f1c-9e2f-ff808b7a22ec")
+	)
+	(wire
+		(pts
 			(xy 133.35 77.47) (xy 137.16 77.47)
 		)
 		(stroke
@@ -740,6 +1037,16 @@
 			(type default)
 		)
 		(uuid "ac0d2028-ad9f-4653-b61d-00592b95fe93")
+	)
+	(wire
+		(pts
+			(xy 209.55 97.79) (xy 208.28 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af239532-4957-4a74-8456-304f55d8a470")
 	)
 	(wire
 		(pts
@@ -1572,6 +1879,114 @@
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiC_Inverter:43650-0418")
+		(at 209.55 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa5b97f2-9c0e-4583-982b-181a3ab96af2")
+		(property "Reference" "J8"
+			(at 222.25 97.4089 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "43650-0418"
+			(at 222.25 99.9489 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SiC_Inverter:436500418"
+			(at 226.06 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500218_sd.pdf"
+			(at 226.06 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Single Row, 4 Circuits, with PCB Press-fit Metal Retention Clip, Glow-Wire Capable, Black"
+			(at 273.558 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-43650-0418"
+			(at 226.06 587.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 226.06 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43650-0418"
+			(at 226.06 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1d2aedc0-4138-464f-9182-1f919e80dc3f")
+		)
+		(pin "4"
+			(uuid "b906c982-3ccd-4fc3-8d63-1dd4f04d483e")
+		)
+		(pin "2"
+			(uuid "81494c42-5dd9-4c83-a549-5b03dca32fcf")
+		)
+		(pin "1"
+			(uuid "9b52d460-e378-4cad-85f2-e6600da73d07")
+		)
+		(instances
+			(project ""
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
+					(reference "J8")
 					(unit 1)
 				)
 			)

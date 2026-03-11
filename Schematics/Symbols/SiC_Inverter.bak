@@ -8488,7 +8488,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "IRM-03-15:CONV_IRM-03-15"
+		(property "Footprint" "SiC_Inverter:IRM-03-15"
 			(at 5.08 -22.606 0)
 			(effects
 				(font
