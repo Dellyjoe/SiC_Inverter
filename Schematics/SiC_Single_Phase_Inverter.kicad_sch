@@ -1725,7 +1725,7 @@
 		)
 	)
 	(sheet
-		(at 210.82 21.59)
+		(at 171.196 22.352)
 		(size 64.77 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1741,7 +1741,7 @@
 		)
 		(uuid "7e4e3ba0-41da-43fa-8607-bd1c726f4bc0")
 		(property "Sheetname" "Controller"
-			(at 210.82 20.8784 0)
+			(at 171.196 21.6404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +1750,7 @@
 			)
 		)
 		(property "Sheetfile" "Controller.kicad_sch"
-			(at 210.82 50.1146 0)
+			(at 171.196 50.8766 0)
 			(effects
 				(font
 					(size 1.27 1.27)

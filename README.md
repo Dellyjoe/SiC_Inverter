@@ -147,8 +147,6 @@ The inverter is organized into clear functional blocks.
 
 ---
 
-## 8. System Block Diagram (draw.io export)
+## 8. System Block Diagram
 
-> [!TIP]
-> **Placeholder:** Insert exported PNG/SVG from your draw.io high‑level block diagram here.  
-> `![Block Diagram](path/to/image.png)`
+> `![Block Diagram](E:\Vitale_Circuit_Designs\SiC_Single_Phase_Inverter\Images\SiC_Single_Phase_Inverter_Block_Diagram)`

@@ -1,4 +1,4 @@
-27293018289663673
+27294791566531349
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99399,6 +99399,13 @@ CP Radial series Radial pin pitch 5.00mm diameter 13mm height 20mm Electrolytic 
 0
 2
 2
+SiC_Inverter
+F280049CPMSR
+PM0064A
+Integrated Circuit
+0
+64
+64
 SiC_Inverter
 IRM-03-15
 
