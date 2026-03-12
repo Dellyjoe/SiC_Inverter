@@ -149,4 +149,4 @@ The inverter is organized into clear functional blocks.
 
 ## 8. System Block Diagram
 
-> `![Block Diagram](E:\Vitale_Circuit_Designs\SiC_Single_Phase_Inverter\Images\SiC_Single_Phase_Inverter_Block_Diagram)`
+> `![Block Diagram](\SiC_Single_Phase_Inverter\Images\SiC_Single_Phase_Inverter_Block_Diagram)`
