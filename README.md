@@ -1,7 +1,9 @@
 # SiC-Based Modular Inverter System
 
 > This project documents the design and development of a 500 W (1 kW peak) single-phase SiC-based inverter. It is built as a modular, scalable platform for power electronics experimentation, featuring a low-inductance DC-link, isolated gate drivers, an LCL output filter, and a hierarchical schematic design in KiCad.
-
+> 
+![SiC Icon](Images/SiC_Inverter_Icon.jpg)
+> 
 ## Table of Contents
 1.  [Project Overview](#1-project-overview)
 2.  [System Architecture](#2-system-architecture)
