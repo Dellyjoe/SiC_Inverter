@@ -1,7 +1,4 @@
 # SiC-Based Modular Inverter System
-
-> This project documents the design and development of a 500 W (1 kW peak) single-phase SiC-based inverter. It is built as a modular, scalable platform for power electronics experimentation, featuring a low-inductance DC-link, isolated gate drivers, an LCL output filter, and a hierarchical schematic design in KiCad.
-> 
 ![SiC Icon](Images/SiC_Inverter_Icon.jpg)
 > 
 ## Table of Contents
@@ -26,12 +23,12 @@
 This project is a **modular, SiC‑based inverter system** designed with professional engineering practices:
 
 *   **Hierarchical schematic design** (KiCad 9)
-*   **Modular functional blocks** (EMI filter, pre‑charge, DC‑link, inverter legs, LCL filter)
+*   **Modular functional blocks** (EMI filter, pre‑charge, DC‑link, inverter legs, LCL filter, Power, Controller )
 *   **High‑performance SiC MOSFETs**
 *   **Low‑inductance DC‑link architecture**
-*   **Lab‑bench‑friendly bring‑up strategy**
+*   **Lab‑bench‑friendly bring‑up strategy, (60VDC)**
 
-The goal is to create a **flexible, scalable inverter platform** suitable for experimentation, learning, and future expansion into higher power levels.
+The goal is to create a **flexible, scalable inverter platforms(Each sheet is its open PCB)** suitable for experimentation, learning, and future expansion into higher power levels/Controller architecture.
 
 ---
 
@@ -64,7 +61,7 @@ The inverter is organized into clear functional blocks.
 *   **Topology:** Full-bridge configuration using SiC MOSFET half‑bridge legs
 *   **Switching Devices:** 4× Wolfspeed SiC MOSFETs (`C3M0025065K`)
 *   **Gate Drivers:** 4× TI Isolated Gate Drivers (`UCC21710QDWRQ1`)
-*   **Sensing:** Placeholders for output current and DC bus voltage sensing
+*   **Sensing:** Placeholders for output current and DC bus voltage sensing (To come in the future, currently working on an Open-Loop design)
 *   **Control:** PWM control interface for connection to a microcontroller
 
 ### 2.5 Output LCL Filter
@@ -99,29 +96,20 @@ The inverter is organized into clear functional blocks.
 | **Switching Frequency** | 40 kHz | Initial target |
 | **Target Inrush Current** | < 5 A | Limited by pre-charge circuit |
 | **Total DC‑Link Capacitance** | 220 µF (electrolytic) + 10 µF (film) | |
-| **Capacitor Voltage Rating** | 500 V | |
+| **Capacitor Voltage Rating** | >500 V | |
 | **Output Filter Topology** | LCL (470 µH – 6.8 µF – 470 µH) | With series damping resistor |
 
 ---
 
 ## 4. Development Tools & Equipment
 *   **CAD:** KiCad 9 (Hierarchical Schematics)
-*   **Simulation:** TINA-TI / LTspice
 *   **Version Control:** Git
-*   **Documentation:** draw.io for diagrams, Markdown for READMEs
+*   **Documentation:** draw.io for diagrams, Markdown for README
+*   **Add more Tools & Equipment Later**
 
 ---
 
-## 5. Design Philosophy
-*   **Start Simple:** Build and validate one block at a time (e.g., EMI filter first).
-*   **Safety First:** Incorporate pre-charge, fusing, and ESD protection from the start.
-*   **Modularity:** Each functional block should be a self-contained schematic sheet.
-*   **Low Inductance:** Keep the DC-link path short and wide to minimize switching-induced voltage overshoot.
-*   **Real Parts Only:** Filter and power stages are designed around in‑stock, verifiable components (no “unicorn” magnetics).
-
----
-
-## 6. Current Status
+## 5. Current Status
 
 - [x] EMI filter: **Complete**
 - [x] Pre‑charge topology: **Defined**
@@ -131,24 +119,16 @@ The inverter is organized into clear functional blocks.
 - [x] Add DC‑link capacitor bank
 - [x] Begin inverter leg schematic
 - [x] Define and populate **Output LCL Filter** (L1/L2/C_F/R_D with real parts)
-- [ ] Review inverter leg + LCL interaction in simulation
-- [ ] Layout planning for high‑current paths and filter placement
+- [x] Review inverter leg + LCL interaction in simulation
+- [x] Layout planning for high‑current paths and filter placement
+- [x] Complete sub power stage for +15V ISO and +3V3 for logic circuity
+- [x] Pix out Controller
+- [ ] Wire up Controller
+- [ ] Start layout of sub PCBs
+- [ ] Wire up PCBs  
 
 ---
 
-## 7. Next Steps
-
-1.  Finalize and review the **inverter half‑bridge leg** schematic, including gate drivers.
-2.  Simulate the **LCL filter + inverter leg** to verify resonance, damping, and current ripple.
-3.  Integrate isolated power supplies for the gate drivers.
-4.  Plan PCB layout for:
-    *   Low‑inductance DC-link loop
-    *   Tight inverter–LCL interconnect
-    *   Safe creepage/clearance
-5.  Develop a detailed, step-by-step bring‑up procedure (block‑by‑block power‑up and test).
-
----
-
-## 8. System Block Diagram
+## 6. System Block Diagram
 
 ![Block Diagram](Images/SiC_Single_Phase_Inverter_Block_Diagram.png)
