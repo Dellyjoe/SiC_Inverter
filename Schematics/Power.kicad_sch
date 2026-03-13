@@ -344,6 +344,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SiC_Inverter:TR05S3V3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TR05S3V3"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SiC_Inverter:TR05S3V3"
+				(at 14.732 -11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.xppower.com/portals/0/pdfs/SF_TR05.pdf"
+				(at 30.988 -9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC/DC Converters - Through Hole DC-DC CONV, SWITCHING REG, 0.5A"
+				(at 38.862 -13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TR05S3V3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SIP3_TR05_XPR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TR05S3V3_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 33.02 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -7.62) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "+VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "+VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+15V"
 			(power)
 			(pin_numbers
@@ -448,6 +624,131 @@
 				)
 			)
 			(symbol "+15V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -673,8 +974,8 @@
 		)
 	)
 	(rectangle
-		(start 96.012 104.14)
-		(end 175.006 132.334)
+		(start 83.312 83.82)
+		(end 162.306 112.014)
 		(stroke
 			(width 0)
 			(type dash)
@@ -685,8 +986,8 @@
 		(uuid 5740ad0c-eff1-4f09-acf8-6e60c69fef51)
 	)
 	(rectangle
-		(start 96.012 69.85)
-		(end 174.752 98.044)
+		(start 83.312 49.53)
+		(end 162.052 77.724)
 		(stroke
 			(width 0)
 			(type dash)
@@ -697,8 +998,8 @@
 		(uuid 8739a2c9-a170-416c-8b31-44c7f49b6e98)
 	)
 	(rectangle
-		(start 96.012 69.85)
-		(end 211.074 132.334)
+		(start 83.312 49.53)
+		(end 199.39 112.014)
 		(stroke
 			(width 0)
 			(type dash)
@@ -709,8 +1010,8 @@
 		(uuid 968a1cd6-8b33-489f-9168-1bed7d1db4ca)
 	)
 	(rectangle
-		(start 98.044 138.176)
-		(end 155.194 161.036)
+		(start 84.074 116.586)
+		(end 199.136 139.446)
 		(stroke
 			(width 0)
 			(type default)
@@ -720,19 +1021,9 @@
 		)
 		(uuid be283b86-7e89-43df-91a1-e170423b8633)
 	)
-	(text "+15VDC to +3V3DC"
-		(exclude_from_sim no)
-		(at 109.982 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7d254dc4-fdc3-4452-9e7e-3325ed2e999a")
-	)
 	(text_box "Isolated Leg B Half Bridge: 15V Output"
 		(exclude_from_sim no)
-		(at 96.012 100.076 0)
+		(at 83.312 79.756 0)
 		(size 40.386 3.556)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -753,7 +1044,7 @@
 	)
 	(text_box "Isolated Leg A Half Bridge: 15V Output"
 		(exclude_from_sim no)
-		(at 96.012 65.786 0)
+		(at 83.312 45.466 0)
 		(size 40.386 3.556)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -774,7 +1065,7 @@
 	)
 	(text_box "Power Supply +3V3 logic Power"
 		(exclude_from_sim no)
-		(at 98.044 134.62 0)
+		(at 84.074 113.03 0)
 		(size 39.116 3.048)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -794,56 +1085,88 @@
 		(uuid "86728104-7c30-42fe-88cc-eef58fc185b1")
 	)
 	(junction
-		(at 147.32 88.9)
+		(at 100.33 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5afe75fc-5635-445d-aaba-caac19bbf37c")
+	)
+	(junction
+		(at 134.62 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68e82d76-9cc0-408e-8049-e80e2c06a0c4")
 	)
 	(junction
-		(at 147.32 78.74)
+		(at 134.62 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b344aae-96aa-447b-bd2a-d48e43e81f7a")
 	)
 	(junction
-		(at 165.1 78.74)
+		(at 152.4 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a932f1d9-5666-42d7-a18b-6f181c95ce5e")
 	)
 	(junction
-		(at 165.1 88.9)
+		(at 146.05 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad987bf1-eca4-4c73-a448-501bd638fba5")
+	)
+	(junction
+		(at 88.9 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1f6b7ab-8b16-41f9-b553-a2ea49814b9b")
+	)
+	(junction
+		(at 149.86 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba55f7aa-a26a-4c6a-a541-d908fa83d5ca")
+	)
+	(junction
+		(at 152.4 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcc71d75-ace9-452d-a7ec-53223a88464d")
 	)
 	(junction
-		(at 166.37 124.46)
+		(at 153.67 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1a5b301-1caa-46cb-a8b7-a7ec427cec1a")
 	)
 	(junction
-		(at 147.32 114.3)
+		(at 134.62 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7c0c22b-e0b4-4f18-8489-23bae597f324")
 	)
 	(junction
-		(at 147.32 124.46)
+		(at 134.62 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "deaecbca-fc12-49bc-a4b1-e41a723af7a4")
 	)
 	(junction
-		(at 166.37 114.3)
+		(at 153.67 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed3e65bf-0f30-48bc-9ee2-5ba88c66ee69")
 	)
+	(no_connect
+		(at 158.75 125.73)
+		(uuid "21709f53-8329-4874-a6f2-1b5ce382d7fb")
+	)
+	(no_connect
+		(at 158.75 128.27)
+		(uuid "99a3385e-f3c8-4615-937b-dfdfbbc433e7")
+	)
 	(wire
 		(pts
-			(xy 147.32 124.46) (xy 147.32 125.73)
+			(xy 134.62 104.14) (xy 134.62 105.41)
 		)
 		(stroke
 			(width 0)
@@ -853,7 +1176,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 90.17) (xy 147.32 88.9)
+			(xy 156.21 130.81) (xy 158.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5b0828-867e-46be-ab5b-6b527b738482")
+	)
+	(wire
+		(pts
+			(xy 134.62 69.85) (xy 134.62 68.58)
 		)
 		(stroke
 			(width 0)
@@ -863,7 +1196,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 124.46) (xy 166.37 124.46)
+			(xy 172.72 104.14) (xy 153.67 104.14)
 		)
 		(stroke
 			(width 0)
@@ -873,7 +1206,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 88.9) (xy 184.15 99.06)
+			(xy 171.45 68.58) (xy 171.45 78.74)
 		)
 		(stroke
 			(width 0)
@@ -883,7 +1216,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 104.14) (xy 185.42 124.46)
+			(xy 172.72 83.82) (xy 172.72 104.14)
 		)
 		(stroke
 			(width 0)
@@ -893,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 113.03) (xy 147.32 114.3)
+			(xy 134.62 92.71) (xy 134.62 93.98)
 		)
 		(stroke
 			(width 0)
@@ -903,7 +1236,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 165.1 88.9)
+			(xy 134.62 68.58) (xy 152.4 68.58)
 		)
 		(stroke
 			(width 0)
@@ -913,7 +1246,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 78.74) (xy 147.32 78.74)
+			(xy 152.4 58.42) (xy 134.62 58.42)
 		)
 		(stroke
 			(width 0)
@@ -923,7 +1256,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 77.47) (xy 165.1 78.74)
+			(xy 152.4 57.15) (xy 152.4 58.42)
 		)
 		(stroke
 			(width 0)
@@ -933,7 +1266,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 124.46) (xy 166.37 124.46)
+			(xy 134.62 104.14) (xy 153.67 104.14)
 		)
 		(stroke
 			(width 0)
@@ -943,7 +1276,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 114.3) (xy 166.37 114.3)
+			(xy 134.62 93.98) (xy 153.67 93.98)
 		)
 		(stroke
 			(width 0)
@@ -953,7 +1286,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 114.3) (xy 113.03 114.3)
+			(xy 154.94 130.81) (xy 154.94 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4792457d-5b60-40d7-8baa-bbd8ba32dbc5")
+	)
+	(wire
+		(pts
+			(xy 96.52 93.98) (xy 100.33 93.98)
 		)
 		(stroke
 			(width 0)
@@ -963,7 +1306,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 124.46) (xy 147.32 124.46)
+			(xy 100.33 128.27) (xy 101.6 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f42e2e8-ee66-44c6-b0d9-1a86358d1cf9")
+	)
+	(wire
+		(pts
+			(xy 130.81 104.14) (xy 134.62 104.14)
 		)
 		(stroke
 			(width 0)
@@ -973,7 +1326,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 101.6) (xy 184.15 101.6)
+			(xy 172.72 81.28) (xy 171.45 81.28)
 		)
 		(stroke
 			(width 0)
@@ -983,7 +1336,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 78.74) (xy 185.42 78.74)
+			(xy 152.4 58.42) (xy 172.72 58.42)
 		)
 		(stroke
 			(width 0)
@@ -993,7 +1346,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 88.9) (xy 165.1 88.9)
+			(xy 171.45 68.58) (xy 152.4 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1003,7 +1356,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 119.38) (xy 113.03 119.38)
+			(xy 95.25 99.06) (xy 100.33 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1013,7 +1366,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 77.47) (xy 147.32 78.74)
+			(xy 134.62 57.15) (xy 134.62 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1023,7 +1376,27 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 114.3) (xy 166.37 114.3)
+			(xy 88.9 128.27) (xy 100.33 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "799a6933-4239-4f43-9cd2-c931e4f83d89")
+	)
+	(wire
+		(pts
+			(xy 142.24 130.81) (xy 146.05 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82148dd5-f6ae-4406-9d0e-d5fcb4858a80")
+	)
+	(wire
+		(pts
+			(xy 171.45 93.98) (xy 153.67 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1033,7 +1406,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 88.9) (xy 147.32 88.9)
+			(xy 130.81 68.58) (xy 134.62 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +1416,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 114.3) (xy 147.32 114.3)
+			(xy 146.05 130.81) (xy 154.94 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89dbf3d5-cfef-417b-8669-6839ad0055d0")
+	)
+	(wire
+		(pts
+			(xy 130.81 93.98) (xy 134.62 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1053,7 +1436,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 101.6) (xy 184.15 114.3)
+			(xy 171.45 81.28) (xy 171.45 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1063,7 +1446,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 96.52) (xy 185.42 78.74)
+			(xy 172.72 76.2) (xy 172.72 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1073,7 +1456,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 78.74) (xy 113.03 78.74)
+			(xy 96.52 58.42) (xy 100.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1083,7 +1466,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 99.06) (xy 184.15 99.06)
+			(xy 156.21 128.27) (xy 156.21 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae53cf95-ef02-498c-9ee9-6666f2c3daf2")
+	)
+	(wire
+		(pts
+			(xy 172.72 78.74) (xy 171.45 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1486,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 78.74) (xy 143.51 78.74)
+			(xy 134.62 58.42) (xy 130.81 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1103,7 +1496,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 88.9) (xy 165.1 90.17)
+			(xy 152.4 68.58) (xy 152.4 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1113,7 +1506,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 125.73) (xy 166.37 124.46)
+			(xy 142.24 128.27) (xy 149.86 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c92ce71e-0891-4347-9689-43d7a1567a40")
+	)
+	(wire
+		(pts
+			(xy 153.67 105.41) (xy 153.67 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1123,7 +1526,37 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 83.82) (xy 113.03 83.82)
+			(xy 154.94 133.35) (xy 158.75 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4a0d36-6622-4a0d-9a6d-385631377dac")
+	)
+	(wire
+		(pts
+			(xy 149.86 128.27) (xy 156.21 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db37e693-d39a-4db5-91a2-8c8e43f113b1")
+	)
+	(wire
+		(pts
+			(xy 86.36 128.27) (xy 88.9 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d3b803-5942-4cd1-adf5-c15545a3726f")
+	)
+	(wire
+		(pts
+			(xy 95.25 63.5) (xy 100.33 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1133,7 +1566,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 113.03) (xy 166.37 114.3)
+			(xy 153.67 92.71) (xy 153.67 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1143,7 +1576,7 @@
 	)
 	(hierarchical_label "DC+_IN_1"
 		(shape input)
-		(at 109.22 78.74 180)
+		(at 96.52 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1154,7 +1587,7 @@
 	)
 	(hierarchical_label "DC+_IN_2"
 		(shape input)
-		(at 109.22 114.3 180)
+		(at 96.52 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1164,17 +1597,55 @@
 		(uuid "ce7d7389-6f16-4486-b661-fbd1222f7dc5")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 107.95 83.82 0)
+		(lib_id "SiC_Inverter:43650-0418")
+		(at 158.75 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "09f59761-21ba-4e35-a0d7-cc2bee349980")
-		(property "Reference" "#PWR070"
-			(at 107.95 90.17 0)
+		(uuid "05112ca1-7f76-45b8-b448-069d4e24bf69")
+		(property "Reference" "J17"
+			(at 171.45 127.8889 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "43650-0418"
+			(at 171.45 130.4289 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SiC_Inverter:436500418"
+			(at 175.26 218.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500218_sd.pdf"
+			(at 175.26 318.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Single Row, 4 Circuits, with PCB Press-fit Metal Retention Clip, Glow-Wire Capable, Black"
+			(at 222.758 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,8 +1653,83 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 107.95 88.9 0)
+		(property "Mouser Part Number" "538-43650-0418"
+			(at 175.26 618.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 175.26 818.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43650-0418"
+			(at 175.26 918.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b5c665d2-0f56-4623-8fef-32399fc0d341")
+		)
+		(pin "4"
+			(uuid "5baa784b-3b6b-4c6e-bb8e-a19210c84bab")
+		)
+		(pin "2"
+			(uuid "b65caa7e-79ba-4fad-a728-4412be5f4ba9")
+		)
+		(pin "1"
+			(uuid "aeb21750-a339-4bb7-b8e7-3fb41115e281")
+		)
+		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 100.33 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "094105e5-28c0-4fda-9c72-c3693eed9970")
+		(property "Reference" "#PWR088"
+			(at 100.33 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V__ISO_LAHS"
+			(at 100.33 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,7 +1737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 83.82 0)
+			(at 100.33 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1746,79 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 83.82 0)
+			(at 100.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 100.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc7527ba-e1b5-40b4-bcad-f82757d8a6de")
+		)
+		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09f59761-21ba-4e35-a0d7-cc2bee349980")
+		(property "Reference" "#PWR086"
+			(at 95.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,7 +1827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 83.82 0)
+			(at 95.25 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,9 +1839,15 @@
 			(uuid "48b2515a-e640-4c63-a909-2502dc655e7e")
 		)
 		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
-					(reference "#PWR070")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -1231,15 +1855,15 @@
 	)
 	(symbol
 		(lib_id "power:GNDS")
-		(at 166.37 125.73 0)
+		(at 153.67 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0b6898df-e56b-42de-883a-4346d0e6f1ce")
-		(property "Reference" "#PWR077"
-			(at 166.37 132.08 0)
+		(property "Reference" "#PWR098"
+			(at 153.67 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1872,7 @@
 			)
 		)
 		(property "Value" "GND_ISO_LBLS"
-			(at 166.624 129.54 0)
+			(at 153.924 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 125.73 0)
+			(at 153.67 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 125.73 0)
+			(at 153.67 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1898,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 166.37 125.73 0)
+			(at 153.67 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,9 +1910,15 @@
 			(uuid "427458c6-9ac7-4da8-8654-811310710044")
 		)
 		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
-					(reference "#PWR077")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -1296,7 +1926,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:IRM-03-15")
-		(at 128.27 119.38 0)
+		(at 115.57 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1305,7 +1935,7 @@
 		(fields_autoplaced yes)
 		(uuid "177d1cd9-f0ea-415d-a1cd-6ffde58482b6")
 		(property "Reference" "PS2"
-			(at 128.27 106.68 0)
+			(at 115.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1313,7 +1943,7 @@
 			)
 		)
 		(property "Value" "IRM-03-15"
-			(at 128.27 109.22 0)
+			(at 115.57 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1321,7 +1951,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:IRM-03-15"
-			(at 133.35 141.986 0)
+			(at 120.65 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,7 +1961,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.meanwellusa.com/webapp/product/search.aspx?prod=IRM-03"
-			(at 155.448 138.938 0)
+			(at 142.748 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,7 +1970,7 @@
 			)
 		)
 		(property "Description" "Enclosed AC DC Converters 1 Output 15V 200mA 85 ~ 305 VAC, 120 ~ 430 VDC Input"
-			(at 160.782 136.652 0)
+			(at 148.082 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1979,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Mean Well"
-			(at 124.46 143.002 0)
+			(at 111.76 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,6 +2004,12 @@
 			(uuid "c8435e65-2d66-45ac-932f-252b8db3d8af")
 		)
 		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "PS?")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
 					(reference "PS2")
@@ -1384,15 +2020,15 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 147.32 113.03 0)
+		(at 134.62 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2e8edea8-1fcf-426e-b693-6c55cdb3f226")
-		(property "Reference" "#PWR075"
-			(at 147.32 116.84 0)
+		(property "Reference" "#PWR091"
+			(at 134.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,7 +2037,7 @@
 			)
 		)
 		(property "Value" "+15V__ISO_LBHS"
-			(at 147.32 108.966 0)
+			(at 134.62 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +2045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 113.03 0)
+			(at 134.62 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +2054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 113.03 0)
+			(at 134.62 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +2063,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 147.32 113.03 0)
+			(at 134.62 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,9 +2075,80 @@
 			(uuid "0b18319e-f624-4f93-9239-496441983cf6")
 		)
 		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
-					(reference "#PWR075")
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 149.86 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34c45fbe-b843-4caa-9589-c479a4b64948")
+		(property "Reference" "#PWR094"
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 149.86 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "239c39fb-674f-4d8f-9873-42c2510f5461")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -1449,7 +2156,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:IRM-03-15")
-		(at 128.27 83.82 0)
+		(at 115.57 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1458,7 +2165,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bc5ecf0-6138-4092-a6e2-12bf469621f0")
 		(property "Reference" "PS1"
-			(at 128.27 71.12 0)
+			(at 115.57 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,7 +2173,7 @@
 			)
 		)
 		(property "Value" "IRM-03-15"
-			(at 128.27 73.66 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,7 +2181,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:IRM-03-15"
-			(at 133.35 106.426 0)
+			(at 120.65 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +2191,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.meanwellusa.com/webapp/product/search.aspx?prod=IRM-03"
-			(at 155.448 103.378 0)
+			(at 142.748 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,7 +2200,7 @@
 			)
 		)
 		(property "Description" "Enclosed AC DC Converters 1 Output 15V 200mA 85 ~ 305 VAC, 120 ~ 430 VDC Input"
-			(at 160.782 101.092 0)
+			(at 148.082 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +2209,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Mean Well"
-			(at 124.46 107.442 0)
+			(at 111.76 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1527,6 +2234,12 @@
 			(uuid "22f1d3c7-a4d6-4569-b62a-d05b305ae158")
 		)
 		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "PS?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
 					(reference "PS1")
@@ -1537,15 +2250,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 90.17 0)
+		(at 134.62 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "55f4e148-038a-43bc-9dc7-2b159976b1d7")
-		(property "Reference" "#PWR074"
-			(at 147.32 96.52 0)
+		(property "Reference" "#PWR090"
+			(at 134.62 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +2267,7 @@
 			)
 		)
 		(property "Value" "GND_ISO_LAHS"
-			(at 141.478 93.98 0)
+			(at 128.778 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,7 +2276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 90.17 0)
+			(at 134.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,7 +2285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 90.17 0)
+			(at 134.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1581,7 +2294,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 90.17 0)
+			(at 134.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,9 +2306,15 @@
 			(uuid "ab42e8f2-4ab1-47e2-b13d-2053c99c9542")
 		)
 		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
-					(reference "#PWR074")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -1603,15 +2322,15 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 166.37 113.03 0)
+		(at 153.67 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "614cd98b-be94-48d2-9813-24b9f0efb2fe")
-		(property "Reference" "#PWR078"
-			(at 166.37 116.84 0)
+		(property "Reference" "#PWR097"
+			(at 153.67 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +2339,7 @@
 			)
 		)
 		(property "Value" "+15V_ISO_LBLS"
-			(at 166.37 109.22 0)
+			(at 153.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +2347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 113.03 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +2356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 113.03 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +2365,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 166.37 113.03 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,9 +2377,15 @@
 			(uuid "f2eca9b8-3839-4b06-8cbb-73c629eb5718")
 		)
 		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
-					(reference "#PWR078")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -1668,15 +2393,15 @@
 	)
 	(symbol
 		(lib_id "power:GNDS")
-		(at 165.1 90.17 0)
+		(at 152.4 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "64a011bb-4d58-4c85-9f43-9271797b3237")
-		(property "Reference" "#PWR080"
-			(at 165.1 96.52 0)
+		(property "Reference" "#PWR096"
+			(at 152.4 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +2410,7 @@
 			)
 		)
 		(property "Value" "GND_ISO_LALS"
-			(at 165.354 93.98 0)
+			(at 152.654 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +2418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 90.17 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,7 +2427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 90.17 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +2436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 165.1 90.17 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,9 +2448,15 @@
 			(uuid "94f71a4a-d052-4077-820a-a263b7dffb32")
 		)
 		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
-					(reference "#PWR080")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -1733,15 +2464,15 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 147.32 77.47 0)
+		(at 134.62 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "67d1598c-2e2a-4c45-bfdc-3c4de011ea8e")
-		(property "Reference" "#PWR079"
-			(at 147.32 81.28 0)
+		(property "Reference" "#PWR089"
+			(at 134.62 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +2481,7 @@
 			)
 		)
 		(property "Value" "+15V__ISO_LAHS"
-			(at 147.32 73.152 0)
+			(at 134.62 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,7 +2489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 77.47 0)
+			(at 134.62 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +2498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 77.47 0)
+			(at 134.62 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1776,7 +2507,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 147.32 77.47 0)
+			(at 134.62 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,9 +2519,15 @@
 			(uuid "bfa0ad18-bdda-448d-ad3e-ceff5cd0609a")
 		)
 		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
-					(reference "#PWR079")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -1798,15 +2535,15 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 165.1 77.47 0)
+		(at 88.9 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "83e03b0e-056b-4def-9c6e-262e72b244f7")
-		(property "Reference" "#PWR081"
-			(at 165.1 81.28 0)
+		(uuid "81563db4-49ca-472c-9004-9914695714ba")
+		(property "Reference" "#PWR085"
+			(at 88.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,8 +2551,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V_ISO_LALS"
-			(at 165.1 73.66 0)
+		(property "Value" "+15V__ISO_LBHS"
+			(at 92.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +2560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 77.47 0)
+			(at 88.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +2569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 77.47 0)
+			(at 88.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +2578,78 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 165.1 77.47 0)
+			(at 88.9 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e33cb0a-00d6-45f6-b121-ba2b23b852ac")
+		)
+		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 152.4 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83e03b0e-056b-4def-9c6e-262e72b244f7")
+		(property "Reference" "#PWR095"
+			(at 152.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V_ISO_LALS"
+			(at 152.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 152.4 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,9 +2661,15 @@
 			(uuid "e5730053-a5cb-4723-a92e-63302497ac9a")
 		)
 		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
-					(reference "#PWR081")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -1863,15 +2677,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 125.73 0)
+		(at 134.62 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a2467ff0-b6a3-406c-8bf8-bab32e06fc4a")
-		(property "Reference" "#PWR076"
-			(at 147.32 132.08 0)
+		(property "Reference" "#PWR092"
+			(at 134.62 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +2694,7 @@
 			)
 		)
 		(property "Value" "GND_ISO_LBHS"
-			(at 141.478 129.54 0)
+			(at 128.778 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,7 +2703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 125.73 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,7 +2712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 125.73 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +2721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 125.73 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,9 +2733,15 @@
 			(uuid "9095145f-0c86-4077-8dbd-5f7e811101ea")
 		)
 		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
-					(reference "#PWR076")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -1929,7 +2749,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:43650-0418")
-		(at 185.42 93.98 0)
+		(at 172.72 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1937,8 +2757,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa5b97f2-9c0e-4583-982b-181a3ab96af2")
-		(property "Reference" "J8"
-			(at 198.12 98.6789 0)
+		(property "Reference" "J18"
+			(at 185.42 78.3589 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +2767,7 @@
 			)
 		)
 		(property "Value" "43650-0418"
-			(at 198.12 101.2189 0)
+			(at 185.42 80.8989 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +2776,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:436500418"
-			(at 201.93 188.9 0)
+			(at 189.23 168.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +2786,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500218_sd.pdf"
-			(at 201.93 288.9 0)
+			(at 189.23 268.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +2796,7 @@
 			)
 		)
 		(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Single Row, 4 Circuits, with PCB Press-fit Metal Retention Clip, Glow-Wire Capable, Black"
-			(at 249.428 112.776 0)
+			(at 236.728 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,7 +2805,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-43650-0418"
-			(at 201.93 588.9 0)
+			(at 189.23 568.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1995,7 +2815,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 201.93 788.9 0)
+			(at 189.23 768.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,7 +2825,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "43650-0418"
-			(at 201.93 888.9 0)
+			(at 189.23 868.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,9 +2847,15 @@
 			(uuid "9b52d460-e378-4cad-85f2-e6600da73d07")
 		)
 		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
-					(reference "J8")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -2037,7 +2863,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 119.38 0)
+		(at 95.25 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2045,8 +2871,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd129a9-c177-429c-b007-1b4ccb73de17")
-		(property "Reference" "#PWR071"
-			(at 107.95 125.73 0)
+		(property "Reference" "#PWR087"
+			(at 95.25 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +2881,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 124.46 0)
+			(at 95.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,7 +2889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 119.38 0)
+			(at 95.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,7 +2898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 119.38 0)
+			(at 95.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2907,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 119.38 0)
+			(at 95.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,12 +2919,168 @@
 			(uuid "57521674-d066-4f0f-bcbf-8c659316c5b5")
 		)
 		(instances
+			(project "Power"
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
-					(reference "#PWR071")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b699172b-4f62-4bff-a58a-4aefef8da89a")
+		(property "Reference" "#PWR093"
+			(at 146.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LOGIC_GND"
+			(at 144.272 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "994fec87-33dd-4937-b2de-70176e1ab194")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiC_Inverter:TR05S3V3")
+		(at 101.6 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4d9186f-035f-4c03-bbfd-dddf966bf92e")
+		(property "Reference" "U5"
+			(at 122.174 118.872 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TR05S3V3"
+			(at 121.92 121.412 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SiC_Inverter:TR05S3V3"
+			(at 116.332 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.xppower.com/portals/0/pdfs/SF_TR05.pdf"
+			(at 132.588 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC/DC Converters - Through Hole DC-DC CONV, SWITCHING REG, 0.5A"
+			(at 140.462 141.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40bf22de-176b-4eb4-9909-3297d35cb10a")
+		)
+		(pin "1"
+			(uuid "d4da0bae-fe59-4908-b53b-12bc166c1e8c")
+		)
+		(pin "3"
+			(uuid "2d85352d-c5be-4601-8b6b-bf848d4ecc72")
+		)
+		(instances
+			(project ""
+				(path "/330d8a8c-694e-486a-a387-07208716b3be"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

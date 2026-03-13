@@ -1,4 +1,4 @@
-27294791566531349
+27296566502910173
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99427,6 +99427,13 @@ R71PI410050H6K
 0
 2
 2
+SiC_Inverter
+TR05S3V3
+
+TR05S3V3 
+0
+3
+3
 SiC_Inverter
 UCC21710QDWRQ1
 DW (R-PDSO-G16)
