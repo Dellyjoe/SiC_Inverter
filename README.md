@@ -11,10 +11,8 @@
     -   [Output LCL Filter](#25-output-lcl-filter)
 3.  [Electrical Specifications](#3-electrical-specifications)
 4.  [Development Tools & Equipment](#4-development-tools--equipment)
-5.  [Design Philosophy](#5-design-philosophy)
-6.  [Current Status](#6-current-status)
-7.  [Next Steps](#7-next-steps)
-8.  [System Block Diagram](#8-system-block-diagram-drawio-export)
+5.  [Current Status](#6-current-status)
+6.  [System Block Diagram](#8-system-block-diagram-drawio-export)
 
 ---
 
