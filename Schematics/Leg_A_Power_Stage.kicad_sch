@@ -1277,6 +1277,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SiC_Inverter:RT1206BRD075KL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.286 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5 K"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+				(at 12.954 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+				(at 22.352 -13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+				(at 8.636 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RT1206BRD075KL_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RT1206BRD075KL_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "UCC21710QDWRQ1_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4987,7 +5111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SiC_Inverter:RT1206BRD075KL")
 		(at 224.79 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4996,25 +5120,23 @@
 		(dnp no)
 		(uuid "15514108-6cfe-43ab-ab4f-d1cb196b8388")
 		(property "Reference" "R17"
-			(at 222.758 50.038 90)
+			(at 222.504 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5K"
-			(at 224.79 49.53 90)
+		(property "Value" "5 K"
+			(at 224.79 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 223.012 48.26 90)
+			(at 237.744 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,8 +5144,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 224.79 48.26 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 247.142 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,8 +5153,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 224.79 48.26 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 233.426 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +5245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SiC_Inverter:RT1206BRD075KL")
 		(at 191.77 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5132,25 +5254,23 @@
 		(dnp no)
 		(uuid "197725e9-769a-4277-b2ab-4854552be186")
 		(property "Reference" "R13"
-			(at 189.738 133.858 90)
+			(at 189.484 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5K"
-			(at 191.77 133.35 90)
+		(property "Value" "5 K"
+			(at 191.77 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 189.992 132.08 90)
+			(at 204.724 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,8 +5278,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 191.77 132.08 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 214.122 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,8 +5287,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 191.77 132.08 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 200.406 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6512,7 +6632,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SiC_Inverter:RT1206BRD075KL")
 		(at 208.28 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6521,25 +6641,23 @@
 		(dnp no)
 		(uuid "5a30bb08-787f-4caa-b735-ddfaa6571128")
 		(property "Reference" "R16"
-			(at 206.248 136.398 90)
+			(at 205.994 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5K"
-			(at 208.28 135.89 90)
+		(property "Value" "5 K"
+			(at 208.28 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 206.502 134.62 90)
+			(at 221.234 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6547,8 +6665,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 208.28 134.62 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 230.632 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,8 +6674,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 208.28 134.62 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 216.916 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SiC_Inverter:RT1206BRD075KL")
 		(at 175.26 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6590,25 +6708,23 @@
 		(dnp no)
 		(uuid "608f6705-0771-4840-9cd0-21966a2fba65")
 		(property "Reference" "R10"
-			(at 173.228 131.318 90)
+			(at 172.974 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5K"
-			(at 175.26 131.064 90)
+		(property "Value" "5 K"
+			(at 175.26 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 173.482 129.54 90)
+			(at 188.214 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,8 +6732,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 175.26 129.54 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 197.612 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,8 +6741,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 175.26 129.54 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 183.896 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7518,7 +7634,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SiC_Inverter:RT1206BRD075KL")
 		(at 208.28 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7527,25 +7643,23 @@
 		(dnp no)
 		(uuid "998810fd-2f5c-4700-b66a-4362d83169ef")
 		(property "Reference" "R15"
-			(at 206.248 47.498 90)
+			(at 205.994 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5K"
-			(at 208.28 46.99 90)
+		(property "Value" "5 K"
+			(at 208.28 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 206.502 45.72 90)
+			(at 221.234 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,8 +7667,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 208.28 45.72 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 230.632 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,8 +7676,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 208.28 45.72 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 216.916 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,7 +7701,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SiC_Inverter:RT1206BRD075KL")
 		(at 191.77 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7596,25 +7710,23 @@
 		(dnp no)
 		(uuid "9b5fb7a8-cfb9-4b96-8256-ef2be41c215b")
 		(property "Reference" "R12"
-			(at 189.738 44.958 90)
+			(at 189.484 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5K"
-			(at 191.77 44.45 90)
+		(property "Value" "5 K"
+			(at 191.77 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 189.992 43.18 90)
+			(at 204.724 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,8 +7734,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 191.77 43.18 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 214.122 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7631,8 +7743,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 191.77 43.18 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 200.406 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
