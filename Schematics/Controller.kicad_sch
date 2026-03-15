@@ -3433,27 +3433,6 @@
 		)
 		(uuid "b61afc21-4879-463e-871a-c45fb714aadb")
 	)
-	(text_box "5 V / 3.3 V logic supply\nConnector headers to each inverter leg\nYou need Input and Output Conectors \nfor the PWM and Enable and Faults and all of that. "
-		(exclude_from_sim no)
-		(at 73.66 108.204 0)
-		(size 46.99 30.226)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 0 0 255 0.1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "c072d418-3409-4f88-8673-0890efa9b15b")
-	)
 	(text_box "+3V3 logic Power"
 		(exclude_from_sim no)
 		(at 13.97 14.732 0)
@@ -4529,16 +4508,6 @@
 		)
 		(uuid "3ea30060-a6ec-4845-a608-871a56343b42")
 	)
-	(label "SCITXDA"
-		(at 118.11 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3edcf5aa-6c43-49d0-aecd-7eda82c9bbee")
-	)
 	(label "TCK"
 		(at 270.51 21.59 0)
 		(effects
@@ -4628,16 +4597,6 @@
 			(justify left bottom)
 		)
 		(uuid "85626e89-865a-4151-bd77-a8326dc75462")
-	)
-	(label "SCIRXDA"
-		(at 109.22 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9526093c-d557-4496-a24f-8da5f58a3299")
 	)
 	(label "TCK"
 		(at 181.61 95.25 0)
@@ -5118,6 +5077,17 @@
 		)
 		(uuid "b673ef9d-abce-40a3-a9f8-867c627a5d1d")
 	)
+	(hierarchical_label "SCIRXDA"
+		(shape input)
+		(at 109.22 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8bdabcb-aefc-4e68-8935-3bf0fa9b6a71")
+	)
 	(hierarchical_label "ePWM_A_H"
 		(shape input)
 		(at 161.29 39.37 90)
@@ -5161,6 +5131,17 @@
 			(justify right)
 		)
 		(uuid "d3fd3fdc-c1fd-4260-a3e9-962e985555af")
+	)
+	(hierarchical_label "SCITXDA"
+		(shape input)
+		(at 118.11 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d94cbbaa-e277-43d4-9011-fe1497ff57f8")
 	)
 	(hierarchical_label "LS_LegA_EN"
 		(shape input)

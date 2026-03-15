@@ -659,6 +659,10 @@
     [
       "e9f9d5ca-7f9f-4dc3-b303-71fca817b963",
       "Power"
+    ],
+    [
+      "a4e77945-709f-47b6-8253-e2d18e80adc4",
+      "USB_Console"
     ]
   ],
   "text_variables": {}
