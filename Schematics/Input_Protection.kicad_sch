@@ -265,6 +265,177 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SiC_Inverter:43650-0418"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.382 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "43650-0418"
+				(at 2.54 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SiC_Inverter:436500418"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500218_sd.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Single Row, 4 Circuits, with PCB Press-fit Metal Retention Clip, Glow-Wire Capable, Black"
+				(at 64.008 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-43650-0418"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "43650-0418"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "43650-0418_1_1"
+				(rectangle
+					(start 5.08 -0.508)
+					(end 11.684 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SiC_Inverter:464369202"
 			(pin_numbers
 				(hide yes)
@@ -3103,6 +3274,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SiC_Inverter:5277"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5277"
+				(at -16.002 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SiC_Inverter:5277"
+				(at -9.906 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
+				(at 7.874 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Plugs & Test Jacks TEST POINT (BLUE) - COMPACT"
+				(at 10.414 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5277_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "5277_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SiC_Inverter:5281"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5281"
+				(at -16.002 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SiC_Inverter:5281"
+				(at -9.906 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
+				(at 7.874 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Plugs & Test Jacks TEST POINT BLACK MULTIPURPOSE"
+				(at 10.414 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5281_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "5281_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SiC_Inverter:BZX84C15-7-F"
 			(pin_numbers
 				(hide yes)
@@ -4062,6 +4449,18 @@
 		)
 		(uuid a8c4a11d-c647-4076-a0a9-69fab9891fda)
 	)
+	(rectangle
+		(start 109.474 139.192)
+		(end 158.496 164.592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b3d46ba8-9dfe-4d57-9ea8-f6d373c63e9c)
+	)
 	(text "This stage protects the inverter from incorrect wiring, overcurrent faults, and high‑energy transients\non the DC input. The protection chain consists of a series fuse on the positive rail, a low‑side N‑MOSFET \nused as an ideal‑diode reverse‑polarity protector, and a high‑voltage TVS diode across the protected rails.\nThe output of this block defines the system's protected supply rails: +VIN_Protected and −VIN_Protected (GND).\n"
 		(exclude_from_sim no)
 		(at 13.716 26.162 0)
@@ -4082,6 +4481,27 @@
 			)
 		)
 		(uuid "842d6c13-967f-40fd-9e74-4388ad38204e")
+	)
+	(text_box "Protected Voltage to Power Board\n"
+		(exclude_from_sim no)
+		(at 109.474 135.89 0)
+		(size 36.068 3.048)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5b418c9f-4f1f-4673-8dd7-0f775f3ab18a")
 	)
 	(text_box "Input Protection: Fuse, Reverse-polarity, OC, Protection\n"
 		(exclude_from_sim no)
@@ -4129,16 +4549,16 @@
 		(uuid "25c319a3-5efb-4e1b-9721-ef8718d38c3a")
 	)
 	(junction
+		(at 187.96 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a875500-decd-4c90-8401-54df12f24b6e")
+	)
+	(junction
 		(at 196.85 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47383722-d8f8-4033-90da-390cd1b4f85e")
-	)
-	(junction
-		(at 156.21 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51626e38-ca02-4a23-a695-c49971edb61d")
 	)
 	(junction
 		(at 196.85 123.19)
@@ -4153,12 +4573,6 @@
 		(uuid "790d4dd0-1efc-4a5f-86ff-e6f4b36695d6")
 	)
 	(junction
-		(at 156.21 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "818bfc8e-506b-4e12-95f2-a0e6bd34a94c")
-	)
-	(junction
 		(at 196.85 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4169,6 +4583,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b6e1e7b-7564-400f-802d-089e83bafab8")
+	)
+	(junction
+		(at 139.7 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cde9f39-68ac-4f11-ace6-c1ef9b54e5f9")
 	)
 	(junction
 		(at 196.85 128.27)
@@ -4193,6 +4613,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7a193e7-9836-4e91-a6bd-b72cdadd89f1")
+	)
+	(junction
+		(at 187.96 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb307b48-6753-4c58-b3aa-a066ff1a07ca")
 	)
 	(junction
 		(at 196.85 115.57)
@@ -4266,6 +4692,10 @@
 		(color 0 0 0 0)
 		(uuid "fc521f60-9e6c-466a-854e-3a8ae2e808d8")
 	)
+	(no_connect
+		(at 130.81 144.78)
+		(uuid "1990f037-1848-4153-8ca2-28376ab3ba91")
+	)
 	(wire
 		(pts
 			(xy 152.4 101.6) (xy 156.21 101.6)
@@ -4278,7 +4708,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 123.19) (xy 146.05 123.19)
+			(xy 137.16 123.19) (xy 139.7 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4308,7 +4738,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 91.44) (xy 196.85 91.44)
+			(xy 170.18 91.44) (xy 187.96 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4478,6 +4908,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 147.32) (xy 130.81 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6063aa3e-9dd2-4e3c-8fa2-920e3aa4d96c")
+	)
+	(wire
+		(pts
 			(xy 146.05 101.6) (xy 146.05 106.68)
 		)
 		(stroke
@@ -4495,6 +4935,16 @@
 			(type default)
 		)
 		(uuid "6f7857ea-53f4-43b5-865f-37c76a71a004")
+	)
+	(wire
+		(pts
+			(xy 128.27 149.86) (xy 130.81 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75574df9-df26-48d3-a039-77e1d199c793")
 	)
 	(wire
 		(pts
@@ -4568,16 +5018,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 114.3) (xy 156.21 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc6dec53-ea0d-482b-afd4-2000a758a70a")
-	)
-	(wire
-		(pts
 			(xy 196.85 110.49) (xy 196.85 113.03)
 		)
 		(stroke
@@ -4648,6 +5088,36 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 91.44) (xy 196.85 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59386b8-b163-485b-8f24-72b5f8a2433b")
+	)
+	(wire
+		(pts
+			(xy 139.7 123.19) (xy 146.05 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ad39db-7591-4d24-bf8d-f331ef0266d8")
+	)
+	(wire
+		(pts
+			(xy 187.96 123.19) (xy 196.85 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b45b43-efda-4c84-ad60-32f82f9295af")
+	)
+	(wire
+		(pts
 			(xy 196.85 97.79) (xy 196.85 100.33)
 		)
 		(stroke
@@ -4658,7 +5128,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 123.19) (xy 196.85 123.19)
+			(xy 156.21 123.19) (xy 187.96 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4685,6 +5155,28 @@
 			(type default)
 		)
 		(uuid "e8f8e153-e95f-49ca-9c69-7137ccb8f589")
+	)
+	(hierarchical_label "+VIN_Protected"
+		(shape output)
+		(at 128.27 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f4c8361-3786-48ba-bb46-330b9727c321")
+	)
+	(hierarchical_label "+VIN_Protected"
+		(shape output)
+		(at 128.27 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2186481d-5239-432d-a037-0aa3250d6c1b")
 	)
 	(hierarchical_label "+VIN_Protected"
 		(shape output)
@@ -4779,6 +5271,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SiC_Inverter:5277")
+		(at 187.96 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ab48d4f-7dda-4943-a6d4-c390370400f1")
+		(property "Reference" "TP46"
+			(at 189.484 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5277"
+			(at 203.962 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SiC_Inverter:5277"
+			(at 197.866 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
+			(at 180.086 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Plugs & Test Jacks TEST POINT (BLUE) - COMPACT"
+			(at 177.546 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f84f4f29-1b9a-4052-8ff4-b2ab738b5748")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
+					(reference "TP46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+VDC")
 		(at 116.84 91.44 0)
 		(unit 1)
@@ -4787,7 +5345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38947ac3-969e-4ddb-92a9-0895081f07a1")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0116"
 			(at 116.84 93.98 0)
 			(effects
 				(font
@@ -4838,7 +5396,73 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
-					(reference "#PWR082")
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiC_Inverter:5277")
+		(at 139.7 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ede40c4-1d44-4c54-be8d-f97a3f4fc19a")
+		(property "Reference" "TP54"
+			(at 140.716 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5277"
+			(at 155.702 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SiC_Inverter:5277"
+			(at 149.606 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
+			(at 131.826 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Plugs & Test Jacks TEST POINT (BLUE) - COMPACT"
+			(at 129.286 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bec286c6-dfbd-44f6-ab59-5224a24d8ee1")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
+					(reference "TP54")
 					(unit 1)
 				)
 			)
@@ -4909,6 +5533,72 @@
 			(project ""
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiC_Inverter:5281")
+		(at 187.96 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69e1eba4-95d3-492c-8213-9ccb52bb9e88")
+		(property "Reference" "TP47"
+			(at 189.484 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5281"
+			(at 171.958 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SiC_Inverter:5281"
+			(at 178.054 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
+			(at 195.834 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Plugs & Test Jacks TEST POINT BLACK MULTIPURPOSE"
+			(at 198.374 132.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feb58139-fdfd-4818-bf38-54c00a8c3e0f")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
+					(reference "TP47")
 					(unit 1)
 				)
 			)
@@ -5063,7 +5753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6b36b9d-66fc-4fd2-a4d6-0d505c4b0f14")
-		(property "Reference" "R34"
+		(property "Reference" "R41"
 			(at 148.59 109.2199 0)
 			(effects
 				(font
@@ -5117,7 +5807,181 @@
 		(instances
 			(project ""
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
-					(reference "R34")
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiC_Inverter:43650-0418")
+		(at 130.81 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8e843ae-15ad-4144-b339-9fe7d5555506")
+		(property "Reference" "J21"
+			(at 143.51 146.9389 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "43650-0418"
+			(at 143.51 149.4789 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SiC_Inverter:436500418"
+			(at 147.32 237.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500218_sd.pdf"
+			(at 147.32 337.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Single Row, 4 Circuits, with PCB Press-fit Metal Retention Clip, Glow-Wire Capable, Black"
+			(at 194.818 161.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-43650-0418"
+			(at 147.32 637.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 147.32 837.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43650-0418"
+			(at 147.32 937.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "174a7834-2e65-4597-aef7-07a4b1b2e074")
+		)
+		(pin "4"
+			(uuid "08e11f7a-f2e4-482f-bff8-2fc71910a1cf")
+		)
+		(pin "2"
+			(uuid "dc8615db-f0f6-4cb2-afdf-58d25d48d868")
+		)
+		(pin "1"
+			(uuid "1a715832-9be2-40ca-8b31-2d17b8204f9c")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9ccbd6b-906a-4f2a-b106-4e4a6fdac152")
+		(property "Reference" "#PWR0118"
+			(at 130.81 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e220792-9294-419f-81bc-c9d163df8f3c")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -5133,7 +5997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfff792d-5514-4f42-959e-eb1009f1356a")
-		(property "Reference" "J16"
+		(property "Reference" "J22"
 			(at 210.82 105.4099 0)
 			(effects
 				(font
@@ -5243,7 +6107,7 @@
 		(instances
 			(project ""
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
-					(reference "J16")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -5258,7 +6122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dae11c35-1083-45dc-bad3-5525d75f63dc")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR0117"
 			(at 116.84 99.06 0)
 			(effects
 				(font
@@ -5309,7 +6173,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
-					(reference "#PWR083")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -5325,7 +6189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9c446a0-ccd1-4b78-a05d-511573a98433")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR0119"
 			(at 151.13 129.54 0)
 			(effects
 				(font
@@ -5375,7 +6239,7 @@
 		(instances
 			(project ""
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
-					(reference "#PWR084")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -5391,7 +6255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb3fd685-d8ac-4348-8f87-7c11d27a154c")
-		(property "Reference" "R33"
+		(property "Reference" "R40"
 			(at 139.7 114.2999 0)
 			(effects
 				(font
@@ -5445,7 +6309,7 @@
 		(instances
 			(project ""
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
-					(reference "R33")
+					(reference "R40")
 					(unit 1)
 				)
 			)

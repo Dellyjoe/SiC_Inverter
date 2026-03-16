@@ -4358,7 +4358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71c5a03e-69b6-4880-9c52-c5c7f51d0e76")
-		(property "Reference" "J14"
+		(property "Reference" "J16"
 			(at 93.98 73.66 0)
 			(effects
 				(font
@@ -4466,7 +4466,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/bc0f80e1-b57d-46ec-8488-4a939507ae45"
-					(reference "J14")
+					(reference "J16")
 					(unit 1)
 				)
 			)

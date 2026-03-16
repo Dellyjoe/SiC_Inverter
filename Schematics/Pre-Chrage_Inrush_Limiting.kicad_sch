@@ -5805,6 +5805,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SiC_Inverter:5277"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5277"
+				(at -16.002 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SiC_Inverter:5277"
+				(at -9.906 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
+				(at 7.874 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Plugs & Test Jacks TEST POINT (BLUE) - COMPACT"
+				(at 10.414 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5277_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "5277_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SiC_Inverter:5281"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5281"
+				(at -16.002 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SiC_Inverter:5281"
+				(at -9.906 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
+				(at 7.874 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Plugs & Test Jacks TEST POINT BLACK MULTIPURPOSE"
+				(at 10.414 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5281_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "5281_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SiC_Inverter:CW005100R0JE12HE"
 			(pin_numbers
 				(hide yes)
@@ -6545,6 +6761,12 @@
 		(uuid "757fbc49-91e5-4a83-b588-19448dd54f53")
 	)
 	(junction
+		(at 218.44 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8021ca8d-4992-4d9f-a0d3-0595744a773e")
+	)
+	(junction
 		(at 226.06 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6599,6 +6821,12 @@
 		(uuid "be895810-ca42-4801-9398-4b6de0985e80")
 	)
 	(junction
+		(at 218.44 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2c28c7b-d331-42d2-9b8c-2a8be125bd61")
+	)
+	(junction
 		(at 226.06 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6645,6 +6873,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e528760f-5188-4fe0-86f6-891943f4f4a9")
+	)
+	(junction
+		(at 172.72 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee35896a-1ded-4639-915b-9a45e0e0705f")
 	)
 	(junction
 		(at 133.35 120.65)
@@ -6798,7 +7032,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 125.73) (xy 226.06 125.73)
+			(xy 214.63 125.73) (xy 218.44 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7038,13 +7272,33 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 90.17) (xy 200.66 90.17)
+			(xy 226.06 90.17) (xy 218.44 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "acf11de5-978b-4794-995f-af93769a7f92")
+	)
+	(wire
+		(pts
+			(xy 218.44 90.17) (xy 200.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9b8301-d7ff-4747-9c55-e88ae493794a")
+	)
+	(wire
+		(pts
+			(xy 218.44 125.73) (xy 226.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2deafd9-9e1d-4f29-bf06-609f448d917d")
 	)
 	(wire
 		(pts
@@ -7829,8 +8083,74 @@
 		)
 	)
 	(symbol
+		(lib_id "SiC_Inverter:5281")
+		(at 218.44 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a4548d6-2a1a-4f81-b182-106446e7e005")
+		(property "Reference" "TP8"
+			(at 219.456 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5281"
+			(at 202.438 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SiC_Inverter:5281"
+			(at 208.534 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
+			(at 226.314 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Plugs & Test Jacks TEST POINT BLACK MULTIPURPOSE"
+			(at 228.854 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba022571-4d3c-4c63-a98f-ac693d7538a4")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/2ce2cec5-32d3-4a43-a037-f5e3105f4dec"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 219.71 125.73 0)
+		(at 214.63 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7839,7 +8159,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a6f4c7c-9b85-404d-9114-37b079d01464")
 		(property "Reference" "#PWR06"
-			(at 219.71 132.08 0)
+			(at 214.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7848,7 +8168,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 130.81 0)
+			(at 214.63 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7856,7 +8176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 125.73 0)
+			(at 214.63 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7865,7 +8185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 125.73 0)
+			(at 214.63 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7874,7 +8194,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 125.73 0)
+			(at 214.63 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,6 +8543,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SiC_Inverter:5277")
+		(at 172.72 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd0f7454-b0d9-444e-bb10-be3ce7d41219")
+		(property "Reference" "TP55"
+			(at 173.736 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5277"
+			(at 188.722 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SiC_Inverter:5277"
+			(at 182.626 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
+			(at 164.846 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Plugs & Test Jacks TEST POINT (BLUE) - COMPACT"
+			(at 162.306 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17eb3756-8cb8-4796-95e6-cc96ca261c02")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/2ce2cec5-32d3-4a43-a037-f5e3105f4dec"
+					(reference "TP55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SiC_Inverter:STB10NK60ZT4")
 		(at 172.72 99.06 90)
 		(unit 1)
@@ -8288,6 +8674,72 @@
 			(project ""
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/2ce2cec5-32d3-4a43-a037-f5e3105f4dec"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiC_Inverter:5277")
+		(at 218.44 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed202120-7acd-4164-bd11-04325d834d0d")
+		(property "Reference" "TP7"
+			(at 217.424 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5277"
+			(at 234.442 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SiC_Inverter:5277"
+			(at 228.346 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
+			(at 210.566 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Plugs & Test Jacks TEST POINT (BLUE) - COMPACT"
+			(at 208.026 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd3f53e9-9293-44ca-934d-4852ffc95774")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/2ce2cec5-32d3-4a43-a037-f5e3105f4dec"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
