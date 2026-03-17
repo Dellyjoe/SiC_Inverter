@@ -5,130 +5,6 @@
 	(uuid "338efe87-a954-4eb8-bdc1-b126f4420693")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SiC_Inverter:0031.8322"
 			(pin_numbers
 				(hide yes)
@@ -3639,6 +3515,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SiC_Inverter:C2012X8R1E105M125AE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.794 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0.1 uF"
+				(at 3.048 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+				(at 22.86 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+				(at 151.892 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
+				(at 22.098 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Ceramic Capacitors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C2012X8R1E105M125AE_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C2012X8R1E105M125AE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SiC_Inverter:P6KE500A-HF"
 			(pin_numbers
 				(hide yes)
@@ -3771,6 +3786,378 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SiC_Inverter:RP1206BRD07499KL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.286 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "499 K"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+				(at 12.954 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+				(at 22.352 -13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+				(at 8.636 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RP1206BRD07499KL_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RP1206BRD07499KL_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SiC_Inverter:RT1206BRD07100KL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.286 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100 K"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+				(at 12.954 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+				(at 22.352 -13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+				(at 8.636 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RT1206BRD07100KL_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RT1206BRD07100KL_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SiC_Inverter:RT1206FRE0747RL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.286 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "47"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+				(at 12.954 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+				(at 22.352 -13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+				(at 8.636 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RT1206FRE0747RL_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RT1206FRE0747RL_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4438,8 +4825,8 @@
 		)
 	)
 	(rectangle
-		(start 109.474 78.994)
-		(end 232.918 133.858)
+		(start 39.624 78.994)
+		(end 163.068 157.226)
 		(stroke
 			(width 0)
 			(type default)
@@ -4450,8 +4837,8 @@
 		(uuid a8c4a11d-c647-4076-a0a9-69fab9891fda)
 	)
 	(rectangle
-		(start 109.474 139.192)
-		(end 158.496 164.592)
+		(start 166.624 101.092)
+		(end 215.646 126.492)
 		(stroke
 			(width 0)
 			(type default)
@@ -4482,10 +4869,10 @@
 		)
 		(uuid "842d6c13-967f-40fd-9e74-4388ad38204e")
 	)
-	(text_box "Protected Voltage to Power Board\n"
+	(text_box "Protected Voltage and GPIO to Power Board\n"
 		(exclude_from_sim no)
-		(at 109.474 135.89 0)
-		(size 36.068 3.048)
+		(at 166.624 97.79 0)
+		(size 49.022 3.048)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -4505,7 +4892,7 @@
 	)
 	(text_box "Input Protection: Fuse, Reverse-polarity, OC, Protection\n"
 		(exclude_from_sim no)
-		(at 109.474 75.692 0)
+		(at 39.624 75.692 0)
 		(size 56.896 3.048)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4525,180 +4912,204 @@
 		(uuid "8c473c78-3773-4741-9c4d-f2f1cf23ba3d")
 	)
 	(junction
-		(at 170.18 91.44)
+		(at 95.25 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "015fb382-d814-413e-8c55-9bf37667c950")
+	)
+	(junction
+		(at 100.33 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01774732-709c-4ceb-86ca-53a8a35feb5b")
 	)
 	(junction
-		(at 196.85 110.49)
+		(at 127 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13b9f4c5-91a0-4259-b06a-17afc9f4c04f")
 	)
 	(junction
-		(at 137.16 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e65f516-4b54-4717-958b-73551c04203a")
-	)
-	(junction
-		(at 196.85 102.87)
+		(at 127 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25c319a3-5efb-4e1b-9721-ef8718d38c3a")
 	)
 	(junction
-		(at 187.96 91.44)
+		(at 95.25 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2808cb5a-acf9-43bb-a12c-03569114aa1e")
+	)
+	(junction
+		(at 69.85 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35f98a75-1467-4224-9538-97fe3eb96c61")
+	)
+	(junction
+		(at 118.11 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a875500-decd-4c90-8401-54df12f24b6e")
 	)
 	(junction
-		(at 196.85 100.33)
+		(at 127 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47383722-d8f8-4033-90da-390cd1b4f85e")
 	)
 	(junction
-		(at 196.85 123.19)
+		(at 114.3 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5521ed7c-6f9e-4bda-a31d-493be95c481f")
+	)
+	(junction
+		(at 127 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "668d5ce7-f7bb-4796-9bed-a91dab6040e6")
 	)
 	(junction
-		(at 156.21 123.19)
+		(at 107.95 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "790d4dd0-1efc-4a5f-86ff-e6f4b36695d6")
+		(uuid "6e10a915-95ce-4ee2-8009-280c7d76aa03")
 	)
 	(junction
-		(at 196.85 90.17)
+		(at 127 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "827b389f-db48-4962-bc1f-c164cb5fcaf5")
 	)
 	(junction
-		(at 196.85 92.71)
+		(at 85.09 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82da47c2-0995-4cc9-9db6-d526da0afe28")
+	)
+	(junction
+		(at 127 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b6e1e7b-7564-400f-802d-089e83bafab8")
 	)
 	(junction
-		(at 139.7 123.19)
+		(at 62.23 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9cde9f39-68ac-4f11-ace6-c1ef9b54e5f9")
+		(uuid "a2a3b1db-c10a-4012-b440-f5bffd81a5a0")
 	)
 	(junction
-		(at 196.85 128.27)
+		(at 127 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad8501e6-6b4b-4b7e-8300-f54874269b76")
 	)
 	(junction
-		(at 196.85 97.79)
+		(at 127 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b22203e9-c6a1-486d-b121-5862c42f9a1f")
 	)
 	(junction
-		(at 196.85 91.44)
+		(at 127 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b689bf8c-1bfe-41c4-b544-d1c19e6a695a")
 	)
 	(junction
-		(at 196.85 120.65)
+		(at 127 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7a193e7-9836-4e91-a6bd-b72cdadd89f1")
 	)
 	(junction
-		(at 187.96 123.19)
+		(at 121.92 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb307b48-6753-4c58-b3aa-a066ff1a07ca")
+		(uuid "bda38c98-e4f4-460b-80b0-db10e5a2d5b6")
 	)
 	(junction
-		(at 196.85 115.57)
+		(at 127 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c34f482b-9b69-4656-a5d8-200153c4f3a8")
 	)
 	(junction
-		(at 196.85 87.63)
+		(at 127 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8f97afb-9df8-4fd2-bf49-bf8bd9a5da9e")
 	)
 	(junction
-		(at 196.85 95.25)
+		(at 76.2 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfc8fa0a-2b88-42fa-b4f1-c4ebce66c844")
+	)
+	(junction
+		(at 127 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4fcd7d3-8b1c-49e7-b38d-86a3a854dd46")
 	)
 	(junction
-		(at 196.85 113.03)
+		(at 127 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8200867-bd33-4d65-b82e-1e151a7abd65")
 	)
 	(junction
-		(at 152.4 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9572ddb-d751-4ae3-9d96-035e49b21518")
-	)
-	(junction
-		(at 196.85 118.11)
+		(at 127 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3d0f34e-6cbc-45a8-9ea1-cb3152512f1f")
 	)
 	(junction
-		(at 146.05 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9bbff97-87fb-4b57-b5eb-5db4b6dd63e1")
-	)
-	(junction
-		(at 196.85 85.09)
+		(at 127 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eac1218c-3262-4943-abf6-67bfa0225a89")
 	)
 	(junction
-		(at 152.4 101.6)
+		(at 91.44 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eaf0136f-3d8e-4667-bfab-992141162fac")
 	)
 	(junction
-		(at 146.05 101.6)
+		(at 85.09 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0529bf3-f479-4c58-a946-367c961efab4")
 	)
 	(junction
-		(at 196.85 125.73)
+		(at 127 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f65f1b7e-ef2d-44f0-a458-ae35c68e7c85")
 	)
 	(junction
-		(at 151.13 123.19)
+		(at 91.44 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc521f60-9e6c-466a-854e-3a8ae2e808d8")
-	)
-	(no_connect
-		(at 130.81 144.78)
-		(uuid "1990f037-1848-4153-8ca2-28376ab3ba91")
+		(uuid "fb26c6bc-64a2-4e8f-9d84-b30c377af218")
 	)
 	(wire
 		(pts
-			(xy 152.4 101.6) (xy 156.21 101.6)
+			(xy 121.92 125.73) (xy 121.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0211899d-6c11-44ea-b2e3-737ec6ad5ffe")
+	)
+	(wire
+		(pts
+			(xy 91.44 102.87) (xy 95.25 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4708,17 +5119,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 123.19) (xy 139.7 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0510b54d-1e91-4469-ad51-b0cec24d9bfb")
-	)
-	(wire
-		(pts
-			(xy 196.85 90.17) (xy 196.85 91.44)
+			(xy 127 90.17) (xy 127 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4728,17 +5129,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 123.19) (xy 146.05 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "143c0e1c-f394-4621-902d-1efae7b13d71")
-	)
-	(wire
-		(pts
-			(xy 170.18 91.44) (xy 187.96 91.44)
+			(xy 100.33 91.44) (xy 118.11 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4748,7 +5139,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 102.87) (xy 196.85 105.41)
+			(xy 127 102.87) (xy 127 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4758,27 +5149,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 91.44) (xy 170.18 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "213a00a0-14c6-4794-824b-a865c246d8db")
-	)
-	(wire
-		(pts
-			(xy 137.16 123.19) (xy 137.16 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2506bcc5-f8ca-4f79-b8fa-dfbe9f8c1a50")
-	)
-	(wire
-		(pts
-			(xy 142.24 101.6) (xy 146.05 101.6)
+			(xy 81.28 102.87) (xy 85.09 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4788,7 +5159,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 91.44) (xy 196.85 92.71)
+			(xy 127 91.44) (xy 127 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4798,7 +5169,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 87.63) (xy 196.85 90.17)
+			(xy 69.85 124.46) (xy 69.85 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b084346-0fb2-4f7a-b558-082892f1c657")
+	)
+	(wire
+		(pts
+			(xy 127 87.63) (xy 127 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4808,17 +5189,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 123.19) (xy 137.16 123.19)
+			(xy 107.95 124.46) (xy 95.25 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "392c27cc-85a2-4f0e-84c8-1b61edcdc3f8")
+		(uuid "36ef0b2a-0af6-4deb-a5d2-00a2020c47bb")
 	)
 	(wire
 		(pts
-			(xy 156.21 106.68) (xy 156.21 101.6)
+			(xy 107.95 111.76) (xy 107.95 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4828,7 +5209,27 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 100.33) (xy 152.4 101.6)
+			(xy 62.23 91.44) (xy 91.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "405238e0-0fa5-4fcc-b1fa-26dafd047387")
+	)
+	(wire
+		(pts
+			(xy 95.25 102.87) (xy 107.95 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c124ef-3e68-4f34-b9f1-1b7c2bf803c5")
+	)
+	(wire
+		(pts
+			(xy 91.44 101.6) (xy 91.44 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4838,7 +5239,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 101.6) (xy 152.4 101.6)
+			(xy 85.09 102.87) (xy 91.44 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4848,17 +5249,57 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 123.19) (xy 146.05 123.19)
+			(xy 76.2 120.65) (xy 76.2 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "504c1e9c-77aa-4b8c-8cf2-e34ac6af9926")
+		(uuid "47b960a3-2267-4bf3-9133-f9e4b066d083")
 	)
 	(wire
 		(pts
-			(xy 116.84 91.44) (xy 123.19 91.44)
+			(xy 85.09 124.46) (xy 95.25 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491940f1-393d-4905-aeca-c0245d6d23c4")
+	)
+	(wire
+		(pts
+			(xy 76.2 124.46) (xy 85.09 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6f8c62-04cc-4a74-b1f1-0323b9aa4312")
+	)
+	(wire
+		(pts
+			(xy 107.95 102.87) (xy 121.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550c0265-d420-4697-8dfd-e113344bb07b")
+	)
+	(wire
+		(pts
+			(xy 62.23 124.46) (xy 69.85 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55271c1f-df58-4cbc-8e1e-63b1c6d443a2")
+	)
+	(wire
+		(pts
+			(xy 46.99 91.44) (xy 53.34 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4868,17 +5309,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 123.19) (xy 151.13 123.19)
+			(xy 121.92 125.73) (xy 127 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58e9cfc0-4764-48a3-badb-4efa0d291683")
+		(uuid "5a663e58-172c-408c-964c-927412d46922")
 	)
 	(wire
 		(pts
-			(xy 196.85 113.03) (xy 196.85 115.57)
+			(xy 127 113.03) (xy 127 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4888,7 +5329,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 100.33) (xy 196.85 102.87)
+			(xy 127 100.33) (xy 127 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4898,7 +5339,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 118.11) (xy 196.85 120.65)
+			(xy 127 118.11) (xy 127 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4908,7 +5349,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 147.32) (xy 130.81 147.32)
+			(xy 185.42 109.22) (xy 187.96 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4918,7 +5359,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 101.6) (xy 146.05 106.68)
+			(xy 111.76 125.73) (xy 114.3 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c471212-a74c-4b42-b443-fb14819978e3")
+	)
+	(wire
+		(pts
+			(xy 85.09 102.87) (xy 85.09 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4928,7 +5379,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 85.09) (xy 196.85 87.63)
+			(xy 127 85.09) (xy 127 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4938,7 +5389,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 149.86) (xy 130.81 149.86)
+			(xy 185.42 111.76) (xy 187.96 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4948,7 +5399,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 123.19) (xy 196.85 125.73)
+			(xy 85.09 120.65) (xy 85.09 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a92387e-6527-4543-9cee-444917d9f82f")
+	)
+	(wire
+		(pts
+			(xy 127 123.19) (xy 127 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4958,7 +5419,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 91.44) (xy 152.4 92.71)
+			(xy 91.44 91.44) (xy 91.44 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4968,7 +5429,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 82.55) (xy 196.85 85.09)
+			(xy 127 82.55) (xy 127 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4978,7 +5439,27 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 115.57) (xy 196.85 118.11)
+			(xy 46.99 102.87) (xy 71.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870a5d9d-33bc-4046-a9dd-541d24d50a5b")
+	)
+	(wire
+		(pts
+			(xy 62.23 91.44) (xy 62.23 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0fb31f-6628-4623-bf2e-60a7cbc8a1ed")
+	)
+	(wire
+		(pts
+			(xy 127 115.57) (xy 127 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4988,7 +5469,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 91.44) (xy 152.4 91.44)
+			(xy 91.44 91.44) (xy 100.33 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d806f89-bd39-481c-a6c8-5206de18d519")
+	)
+	(wire
+		(pts
+			(xy 60.96 91.44) (xy 62.23 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4998,7 +5489,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 95.25) (xy 196.85 97.79)
+			(xy 127 95.25) (xy 127 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5008,7 +5499,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 107.95) (xy 196.85 110.49)
+			(xy 127 107.95) (xy 127 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5018,7 +5509,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 110.49) (xy 196.85 113.03)
+			(xy 69.85 124.46) (xy 76.2 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5afe1db-8473-4b24-aa47-a44e16561a9b")
+	)
+	(wire
+		(pts
+			(xy 127 110.49) (xy 127 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5028,7 +5529,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 109.22) (xy 137.16 111.76)
+			(xy 76.2 110.49) (xy 76.2 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5038,7 +5539,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 128.27) (xy 196.85 130.81)
+			(xy 127 128.27) (xy 127 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5048,7 +5549,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 92.71) (xy 196.85 95.25)
+			(xy 127 92.71) (xy 127 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5058,7 +5559,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 120.65) (xy 196.85 123.19)
+			(xy 127 120.65) (xy 127 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5068,27 +5569,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 114.3) (xy 156.21 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d18826d4-e511-475f-a811-94e000d31db1")
-	)
-	(wire
-		(pts
-			(xy 116.84 101.6) (xy 132.08 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3691950-b9a1-4e68-9c60-404dbcb93f39")
-	)
-	(wire
-		(pts
-			(xy 187.96 91.44) (xy 196.85 91.44)
+			(xy 118.11 91.44) (xy 127 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5098,27 +5579,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 123.19) (xy 146.05 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5ad39db-7591-4d24-bf8d-f331ef0266d8")
-	)
-	(wire
-		(pts
-			(xy 187.96 123.19) (xy 196.85 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8b45b43-efda-4c84-ad60-32f82f9295af")
-	)
-	(wire
-		(pts
-			(xy 196.85 97.79) (xy 196.85 100.33)
+			(xy 127 97.79) (xy 127 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5128,17 +5589,27 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 123.19) (xy 187.96 123.19)
+			(xy 107.95 119.38) (xy 107.95 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3ead82b-0502-4805-8786-ac43f9402aeb")
+		(uuid "ddb8c2be-f310-40ff-8b73-0063517435ad")
 	)
 	(wire
 		(pts
-			(xy 196.85 125.73) (xy 196.85 128.27)
+			(xy 62.23 121.92) (xy 62.23 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e088750e-89d6-4aca-9774-3ee3a7ce51bc")
+	)
+	(wire
+		(pts
+			(xy 127 125.73) (xy 127 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5148,7 +5619,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 90.17) (xy 170.18 91.44)
+			(xy 95.25 102.87) (xy 95.25 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7704ebf-1e1d-4bf7-b171-93cb91284832")
+	)
+	(wire
+		(pts
+			(xy 100.33 88.9) (xy 100.33 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5156,9 +5637,39 @@
 		)
 		(uuid "e8f8e153-e95f-49ca-9c69-7137ccb8f589")
 	)
+	(wire
+		(pts
+			(xy 95.25 119.38) (xy 95.25 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac3b8fb-aef4-45d7-81c9-56422e457b59")
+	)
+	(wire
+		(pts
+			(xy 62.23 113.03) (xy 62.23 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e89138-5194-4835-8d41-15356e0b4ae5")
+	)
+	(wire
+		(pts
+			(xy 114.3 125.73) (xy 121.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8fd02ee-2e3f-44ce-80f6-ca1708820023")
+	)
 	(hierarchical_label "+VIN_Protected"
 		(shape output)
-		(at 128.27 147.32 180)
+		(at 185.42 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5169,7 +5680,7 @@
 	)
 	(hierarchical_label "+VIN_Protected"
 		(shape output)
-		(at 128.27 149.86 180)
+		(at 185.42 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5178,9 +5689,20 @@
 		)
 		(uuid "2186481d-5239-432d-a037-0aa3250d6c1b")
 	)
+	(hierarchical_label "Gate_node_input_pro"
+		(shape input)
+		(at 187.96 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dce4b4a-2791-4cd3-acb8-f2f4e11729aa")
+	)
 	(hierarchical_label "+VIN_Protected"
 		(shape output)
-		(at 170.18 90.17 0)
+		(at 100.33 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5191,7 +5713,7 @@
 	)
 	(hierarchical_label "Gate_node_input_pro"
 		(shape input)
-		(at 135.89 123.19 180)
+		(at 62.23 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5202,7 +5724,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:BZX84C15-7-F")
-		(at 156.21 110.49 90)
+		(at 107.95 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5211,7 +5733,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a3ad235-4bbd-4fce-995a-b9b828089000")
 		(property "Reference" "D6"
-			(at 158.75 109.2199 90)
+			(at 110.49 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,16 +5742,17 @@
 			)
 		)
 		(property "Value" "BZX84C15-7-F"
-			(at 158.75 111.7599 90)
+			(at 110.49 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 160.528 110.998 0)
+			(at 112.268 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5238,7 +5761,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds18001.pdf"
-			(at 164.846 98.806 0)
+			(at 116.586 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,7 +5770,7 @@
 			)
 		)
 		(property "Description" "DIODE ZENER 15V 300MW SOT23-3"
-			(at 162.814 109.474 0)
+			(at 114.554 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5795,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:5277")
-		(at 187.96 91.44 180)
+		(at 118.11 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5280,7 +5803,7 @@
 		(dnp no)
 		(uuid "0ab48d4f-7dda-4943-a6d4-c390370400f1")
 		(property "Reference" "TP46"
-			(at 189.484 94.742 0)
+			(at 119.634 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5289,7 +5812,7 @@
 			)
 		)
 		(property "Value" "5277"
-			(at 203.962 78.486 0)
+			(at 134.112 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,7 +5821,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:5277"
-			(at 197.866 80.264 0)
+			(at 128.016 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,7 +5830,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 180.086 84.074 0)
+			(at 110.236 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5839,7 @@
 			)
 		)
 		(property "Description" "Test Plugs & Test Jacks TEST POINT (BLUE) - COMPACT"
-			(at 177.546 82.042 0)
+			(at 107.696 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5861,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 116.84 91.44 0)
+		(at 46.99 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5346,7 +5869,7 @@
 		(dnp no)
 		(uuid "38947ac3-969e-4ddb-92a9-0895081f07a1")
 		(property "Reference" "#PWR0116"
-			(at 116.84 93.98 0)
+			(at 46.99 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5878,7 @@
 			)
 		)
 		(property "Value" "+VIN"
-			(at 114.3 84.582 0)
+			(at 44.45 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5887,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 91.44 0)
+			(at 46.99 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 91.44 0)
+			(at 46.99 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5905,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 116.84 91.44 0)
+			(at 46.99 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5404,7 +5927,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:5277")
-		(at 139.7 123.19 180)
+		(at 69.85 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5412,7 +5935,7 @@
 		(dnp no)
 		(uuid "4ede40c4-1d44-4c54-be8d-f97a3f4fc19a")
 		(property "Reference" "TP54"
-			(at 140.716 126.492 0)
+			(at 70.866 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,7 +5944,7 @@
 			)
 		)
 		(property "Value" "5277"
-			(at 155.702 110.236 0)
+			(at 85.852 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5430,7 +5953,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:5277"
-			(at 149.606 112.014 0)
+			(at 79.756 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,7 +5962,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 131.826 115.824 0)
+			(at 61.976 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5448,7 +5971,7 @@
 			)
 		)
 		(property "Description" "Test Plugs & Test Jacks TEST POINT (BLUE) - COMPACT"
-			(at 129.286 113.792 0)
+			(at 59.436 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5993,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:P6KE500A-HF")
-		(at 152.4 96.52 270)
+		(at 91.44 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5479,7 +6002,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c9a01cd-1586-4c28-a49b-7904511d75a5")
 		(property "Reference" "D5"
-			(at 154.94 95.2499 90)
+			(at 93.98 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +6011,7 @@
 			)
 		)
 		(property "Value" "P6KE500A-HF"
-			(at 154.94 97.7899 90)
+			(at 93.98 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +6020,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-15_P12.70mm_Horizontal"
-			(at 147.828 96.266 0)
+			(at 86.868 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +6029,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/3/819/1/P6KE-HF%20Series%20RevD.pdf"
-			(at 144.272 114.3 0)
+			(at 83.312 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +6038,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diodes / TVS Diodes TVS AXIAL 427.5V 600W"
-			(at 146.05 105.41 0)
+			(at 85.09 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +6063,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:5281")
-		(at 187.96 123.19 0)
+		(at 114.3 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5548,7 +6071,7 @@
 		(dnp no)
 		(uuid "69e1eba4-95d3-492c-8213-9ccb52bb9e88")
 		(property "Reference" "TP47"
-			(at 189.484 119.888 0)
+			(at 115.824 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,7 +6080,7 @@
 			)
 		)
 		(property "Value" "5281"
-			(at 171.958 136.144 0)
+			(at 98.298 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +6089,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:5281"
-			(at 178.054 134.366 0)
+			(at 104.394 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +6098,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 195.834 130.556 0)
+			(at 122.174 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +6107,7 @@
 			)
 		)
 		(property "Description" "Test Plugs & Test Jacks TEST POINT BLACK MULTIPURPOSE"
-			(at 198.374 132.588 0)
+			(at 124.714 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,8 +6128,77 @@
 		)
 	)
 	(symbol
+		(lib_id "SiC_Inverter:RP1206BRD07499KL")
+		(at 62.23 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fb00277-ec91-44c6-b380-3982d9551f23")
+		(property "Reference" "R44"
+			(at 63.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "499 K"
+			(at 63.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 75.184 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 84.582 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 70.866 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f708147-8c15-4f72-b3cb-a1fe995fbb66")
+		)
+		(pin "1"
+			(uuid "98e05421-da9b-4b6c-b0b7-7e8334b76f2f")
+		)
+		(instances
+			(project ""
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SiC_Inverter:0031.8322")
-		(at 127 91.44 90)
+		(at 57.15 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5614,7 +6206,7 @@
 		(dnp no)
 		(uuid "9ab47fbd-ad4a-4b6d-ba15-cd7bd25420ee")
 		(property "Reference" "F1"
-			(at 127 89.154 90)
+			(at 57.15 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +6214,7 @@
 			)
 		)
 		(property "Value" "0031.8322"
-			(at 127.762 94.996 90)
+			(at 57.912 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +6223,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:0031.8322"
-			(at 144.018 80.264 0)
+			(at 74.168 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5640,7 +6232,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/Schurter/0031.8322?qs=j1qng3XoT%2FltSuHfjUOGow%3D%3D"
-			(at 142.24 42.164 0)
+			(at 72.39 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +6241,7 @@
 			)
 		)
 		(property "Description" "Fuse Holder OGN-SMD HOLDER FUSE FST 3.15A CVER"
-			(at 140.208 65.278 0)
+			(at 70.358 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +6266,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:STB10NK60ZT4")
-		(at 137.16 104.14 90)
+		(at 76.2 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5683,7 +6275,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5f75e55-5d30-4325-82a3-9a7c9fb826b4")
 		(property "Reference" "Q6"
-			(at 137.16 95.25 90)
+			(at 76.2 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,7 +6283,7 @@
 			)
 		)
 		(property "Value" "STB10NK60ZT4"
-			(at 137.16 97.79 90)
+			(at 76.2 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +6291,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 155.194 97.282 0)
+			(at 94.234 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5708,7 +6300,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/37/0f/65/78/7a/b2/4d/77/CD00002815.pdf/files/CD00002815.pdf/jcr:content/translations/en.CD00002815.pdf"
-			(at 153.162 20.32 0)
+			(at 92.202 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +6309,7 @@
 			)
 		)
 		(property "Description" "N-Channel 600 V 10A (Tc) 115W (Tc) Surface Mount D2PAK"
-			(at 151.13 83.566 0)
+			(at 90.17 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,17 +6336,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 146.05 110.49 0)
+		(lib_id "SiC_Inverter:RT1206BRD07100KL")
+		(at 85.09 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6b36b9d-66fc-4fd2-a4d6-0d505c4b0f14")
 		(property "Reference" "R41"
-			(at 148.59 109.2199 0)
+			(at 86.614 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,8 +6353,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
-			(at 148.59 111.7599 0)
+		(property "Value" "100 K"
+			(at 86.614 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +6363,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 144.272 110.49 90)
+			(at 98.044 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,8 +6371,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 146.05 110.49 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 107.442 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,8 +6380,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 146.05 110.49 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 93.726 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,8 +6405,78 @@
 		)
 	)
 	(symbol
+		(lib_id "SiC_Inverter:C2012X8R1E105M125AE")
+		(at 95.25 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2cd0c72-7931-4b94-905e-dde3a58adf53")
+		(property "Reference" "C69"
+			(at 99.06 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 99.06 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 118.11 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 247.142 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
+			(at 117.348 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2002c8ce-c9f2-4c62-a470-6ddbc4b038a4")
+		)
+		(pin "2"
+			(uuid "70cbe7d3-a4c2-44e4-a7b3-0efb3870ddd1")
+		)
+		(instances
+			(project ""
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SiC_Inverter:43650-0418")
-		(at 130.81 142.24 0)
+		(at 187.96 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5824,7 +6485,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8e843ae-15ad-4144-b339-9fe7d5555506")
 		(property "Reference" "J21"
-			(at 143.51 146.9389 0)
+			(at 200.66 108.8389 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,7 +6494,7 @@
 			)
 		)
 		(property "Value" "43650-0418"
-			(at 143.51 149.4789 0)
+			(at 200.66 111.3789 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,7 +6503,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:436500418"
-			(at 147.32 237.16 0)
+			(at 204.47 199.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,7 +6513,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500218_sd.pdf"
-			(at 147.32 337.16 0)
+			(at 204.47 299.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,7 +6523,7 @@
 			)
 		)
 		(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Single Row, 4 Circuits, with PCB Press-fit Metal Retention Clip, Glow-Wire Capable, Black"
-			(at 194.818 161.036 0)
+			(at 251.968 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,7 +6532,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-43650-0418"
-			(at 147.32 637.16 0)
+			(at 204.47 599.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +6542,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 147.32 837.16 0)
+			(at 204.47 799.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,7 +6552,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "43650-0418"
-			(at 147.32 937.16 0)
+			(at 204.47 899.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +6584,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 152.4 0)
+		(at 187.96 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5932,7 +6593,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9ccbd6b-906a-4f2a-b106-4e4a6fdac152")
 		(property "Reference" "#PWR0118"
-			(at 130.81 158.75 0)
+			(at 187.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,7 +6602,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 157.48 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,7 +6610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 152.4 0)
+			(at 187.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5958,7 +6619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 152.4 0)
+			(at 187.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5967,7 +6628,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 152.4 0)
+			(at 187.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +6650,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:464369202")
-		(at 196.85 82.55 0)
+		(at 127 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5998,7 +6659,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfff792d-5514-4f42-959e-eb1009f1356a")
 		(property "Reference" "J22"
-			(at 210.82 105.4099 0)
+			(at 140.97 105.4099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6007,7 +6668,7 @@
 			)
 		)
 		(property "Value" "464369202"
-			(at 210.82 107.9499 0)
+			(at 140.97 107.9499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6016,7 +6677,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:46436-900_02"
-			(at 210.058 138.176 0)
+			(at 140.208 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +6687,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/464369202?display=pdf"
-			(at 237.49 135.636 0)
+			(at 167.64 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6697,7 @@
 			)
 		)
 		(property "Description" "Power to the Board TEN60 RA RECPT ASSY 2-CKT PRESS-FIT"
-			(at 227.076 140.462 0)
+			(at 157.226 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +6776,7 @@
 	)
 	(symbol
 		(lib_id "power:-VDC")
-		(at 116.84 101.6 180)
+		(at 46.99 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6123,7 +6784,7 @@
 		(dnp no)
 		(uuid "dae11c35-1083-45dc-bad3-5525d75f63dc")
 		(property "Reference" "#PWR0117"
-			(at 116.84 99.06 0)
+			(at 46.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,7 +6793,7 @@
 			)
 		)
 		(property "Value" "-VIN"
-			(at 114.808 108.712 0)
+			(at 44.958 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,7 +6802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 101.6 0)
+			(at 46.99 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,7 +6811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 101.6 0)
+			(at 46.99 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,7 +6820,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 116.84 101.6 0)
+			(at 46.99 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +6842,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 123.19 0)
+		(at 111.76 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6190,7 +6851,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9c446a0-ccd1-4b78-a05d-511573a98433")
 		(property "Reference" "#PWR0119"
-			(at 151.13 129.54 0)
+			(at 111.76 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +6860,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 128.27 0)
+			(at 111.76 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,7 +6868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 123.19 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6216,7 +6877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 123.19 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +6886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 123.19 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,17 +6907,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 137.16 115.57 0)
+		(lib_id "SiC_Inverter:RT1206FRE0747RL")
+		(at 76.2 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb3fd685-d8ac-4348-8f87-7c11d27a154c")
 		(property "Reference" "R40"
-			(at 139.7 114.2999 0)
+			(at 74.168 118.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,16 +6925,15 @@
 			)
 		)
 		(property "Value" "47"
-			(at 139.7 116.8399 0)
+			(at 78.486 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 135.382 115.57 90)
+			(at 89.154 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,8 +6941,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 137.16 115.57 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 98.552 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,8 +6950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 137.16 115.57 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 84.836 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,6 +6969,75 @@
 			(project ""
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiC_Inverter:RP1206BRD07499KL")
+		(at 62.23 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffd3c404-88cc-463e-8751-4c70914f672e")
+		(property "Reference" "R45"
+			(at 63.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "499 K"
+			(at 63.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 75.184 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 84.582 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 70.866 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6293948-9d17-47c4-b44b-7ae7aa7bf2fa")
+		)
+		(pin "1"
+			(uuid "f269067c-e736-4cba-ad03-e0fad246e930")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/cf3acd45-2ee3-4687-9429-99700ff01ea1"
+					(reference "R45")
 					(unit 1)
 				)
 			)

@@ -283,130 +283,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SiC_Inverter:43045-1212"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3158,6 +3034,443 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SiC_Inverter:PC817X1CSP9F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 9.652 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PC817X1CSP9F"
+				(at 2.286 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SiC_Inverter:PC817X1CSP9F"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/product-detail/Optocouplers-Phototransistor-Output_Sharp-Microelectronics-PC817X1CSP9F_C97308.html"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "80V 5kV 50mA 100mV@1mA,20mA 1 6V 1.2V DC SMD-4P Transistor, Photovoltaic Output Optoisolators ROHS"
+				(at 55.88 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "4.36"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "852-PC817X1CSP9F"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Sharp-Microelectronics/PC817X1CSP9F?qs=rrS6PyfT74f%252BaIhOIosJzQ%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Sharp Microelectronics"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PC817X1CSP9F"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PC817X1CSP9F_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SiC_Inverter:RT1206BRD07100KL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.286 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100 K"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+				(at 12.954 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+				(at 22.352 -13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+				(at 8.636 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RT1206BRD07100KL_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RT1206BRD07100KL_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SiC_Inverter:RT1206BRD0710KL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.286 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10 K"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+				(at 12.954 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+				(at 22.352 -13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+				(at 8.636 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RT1206BRD0710KL_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RT1206BRD0710KL_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -3470,6 +3783,18 @@
 		(uuid b8f672e5-ee9e-457f-94be-af1a32c1ffc4)
 	)
 	(rectangle
+		(start 204.978 129.54)
+		(end 283.21 153.416)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cdd6958f-4ffa-4bc2-87ac-b5ab07f6bd71)
+	)
+	(rectangle
 		(start 13.97 72.898)
 		(end 53.34 95.758)
 		(stroke
@@ -3628,6 +3953,27 @@
 		)
 		(uuid "88f5e9f9-1756-4119-96ec-cfb41ff86ef0")
 	)
+	(text_box "Optocoupler: Gate node input protection sence"
+		(exclude_from_sim no)
+		(at 204.978 126.238 0)
+		(size 48.514 3.048)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9f632f6e-c7a1-47d4-b598-7646d6d72cfc")
+	)
 	(text_box "Each 0.1 cap should be placed new to the VDD and VSS Pains"
 		(exclude_from_sim no)
 		(at 13.97 167.894 0)
@@ -3693,6 +4039,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29460a6f-fe11-4458-8a46-75296c3ae18a")
+	)
+	(junction
+		(at 259.08 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c585357-4574-42ba-9d1c-0e0aee2ed24f")
 	)
 	(junction
 		(at 111.76 64.77)
@@ -3817,14 +4169,6 @@
 	(no_connect
 		(at 118.11 77.47)
 		(uuid "0cf06453-d8d2-4ed1-ad25-1e581757d6e5")
-	)
-	(no_connect
-		(at 26.67 25.4)
-		(uuid "13da93ad-eb63-4cbe-be27-8dfd042b14fe")
-	)
-	(no_connect
-		(at 168.91 146.05)
-		(uuid "1d63ca91-c325-420c-a0c6-2b12399700b8")
 	)
 	(no_connect
 		(at 146.05 146.05)
@@ -4050,6 +4394,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 135.89) (xy 257.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e19a2b-7d7e-4fe3-9e88-832f0b6caad0")
+	)
+	(wire
+		(pts
 			(xy 181.61 69.85) (xy 181.61 72.39)
 		)
 		(stroke
@@ -4070,6 +4424,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 138.43) (xy 259.08 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2af100-f8e7-44e8-9a03-253b1d45592b")
+	)
+	(wire
+		(pts
 			(xy 140.97 146.05) (xy 140.97 149.86)
 		)
 		(stroke
@@ -4077,6 +4441,16 @@
 			(type default)
 		)
 		(uuid "3551d8bf-6eb3-4837-8d55-9f243d8e53ff")
+	)
+	(wire
+		(pts
+			(xy 259.08 138.43) (xy 261.62 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3668839a-3bd2-433e-8210-13a0a0115eef")
 	)
 	(wire
 		(pts
@@ -4237,6 +4611,16 @@
 			(type default)
 		)
 		(uuid "5cf70d21-dc17-48af-abb4-193ede926217")
+	)
+	(wire
+		(pts
+			(xy 170.18 146.05) (xy 168.91 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dcd6284-856c-4e36-9a9b-d9724cc0bb03")
 	)
 	(wire
 		(pts
@@ -4620,6 +5004,26 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 133.35) (xy 261.62 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6cb4604-a7ee-44bb-afce-615600b3a116")
+	)
+	(wire
+		(pts
+			(xy 236.22 135.89) (xy 237.49 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6fd230a-06a8-418f-868c-09e0f62047f9")
+	)
+	(wire
+		(pts
 			(xy 153.67 39.37) (xy 153.67 24.13)
 		)
 		(stroke
@@ -4637,6 +5041,16 @@
 			(type default)
 		)
 		(uuid "c7e3fd4f-83a3-452a-b7a0-bcb7f5e36d9c")
+	)
+	(wire
+		(pts
+			(xy 27.94 21.59) (xy 26.67 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84213bb-8617-4181-aaa1-6f3b3303f21d")
 	)
 	(wire
 		(pts
@@ -4710,6 +5124,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 135.89) (xy 228.6 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3fe971-985f-4cac-999d-f288e11caa18")
+	)
+	(wire
+		(pts
 			(xy 40.64 190.5) (xy 26.67 190.5)
 		)
 		(stroke
@@ -4777,6 +5201,16 @@
 			(type default)
 		)
 		(uuid "f0b24f32-9949-4649-949d-cc1d19cb9e5a")
+	)
+	(wire
+		(pts
+			(xy 26.67 21.59) (xy 26.67 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12f6f1f-dffa-4c81-919e-9215fb99d658")
 	)
 	(wire
 		(pts
@@ -5118,6 +5552,16 @@
 		)
 		(uuid "cdd667f5-8f3a-490c-92b3-077dfb366e1b")
 	)
+	(label "Con_Gate_node_input"
+		(at 170.18 146.05 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d453dada-82f5-4a9f-9250-dd34d5fa3dd4")
+	)
 	(label "Flash_Boot_PU"
 		(at 181.61 97.79 0)
 		(effects
@@ -5137,6 +5581,16 @@
 			(justify left bottom)
 		)
 		(uuid "e53397f0-f6d1-486b-a6bc-adb259014bb1")
+	)
+	(label "Con_Gate_node_input"
+		(at 261.62 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb76705e-4a77-4791-9955-3e02d2587aa7")
 	)
 	(label "VDDIO_2"
 		(at 181.61 77.47 0)
@@ -5432,6 +5886,17 @@
 		)
 		(uuid "9af380f5-3143-46cb-a054-af91b440683d")
 	)
+	(hierarchical_label "Gate_node_input_pro"
+		(shape input)
+		(at 27.94 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d0fdf7f-2ae4-4966-942c-d3892d85586d")
+	)
 	(hierarchical_label "LS_LegA_EN"
 		(shape input)
 		(at 30.48 119.38 180)
@@ -5497,6 +5962,17 @@
 			(justify right)
 		)
 		(uuid "b8bdabcb-aefc-4e68-8935-3bf0fa9b6a71")
+	)
+	(hierarchical_label "Gate_node_input_pro"
+		(shape input)
+		(at 226.06 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd9938aa-c9d2-42f1-b3a9-4e755fe1ed8f")
 	)
 	(hierarchical_label "ePWM_A_H"
 		(shape input)
@@ -6907,7 +7383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SiC_Inverter:RT1206BRD07100KL")
 		(at 270.51 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6925,7 +7401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100 K"
 			(at 273.05 29.2099 0)
 			(effects
 				(font
@@ -6935,7 +7411,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 268.732 27.94 90)
+			(at 283.464 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6943,8 +7419,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 270.51 27.94 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 292.862 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,8 +7428,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 270.51 27.94 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 279.146 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7313,7 +7789,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SiC_Inverter:RT1206BRD07100KL")
 		(at 234.95 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7331,7 +7807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100 K"
 			(at 237.49 50.7999 0)
 			(effects
 				(font
@@ -7341,7 +7817,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 233.172 49.53 90)
+			(at 247.904 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7349,8 +7825,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 234.95 49.53 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 257.302 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7358,8 +7834,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 234.95 49.53 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 243.586 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,7 +8130,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SiC_Inverter:RT1206BRD07100KL")
 		(at 247.65 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7672,7 +8148,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100 K"
 			(at 250.19 29.2099 0)
 			(effects
 				(font
@@ -7682,7 +8158,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 245.872 27.94 90)
+			(at 260.604 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,8 +8166,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 247.65 27.94 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 270.002 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,8 +8175,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 247.65 27.94 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 256.286 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8126,6 +8602,133 @@
 		)
 	)
 	(symbol
+		(lib_id "SiC_Inverter:PC817X1CSP9F")
+		(at 237.49 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "703ec342-0a07-4b9e-bfb7-7aa7bf1995a3")
+		(property "Reference" "Q7"
+			(at 247.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PC817X1CSP9F"
+			(at 239.776 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SiC_Inverter:PC817X1CSP9F"
+			(at 254 230.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Optocouplers-Phototransistor-Output_Sharp-Microelectronics-PC817X1CSP9F_C97308.html"
+			(at 254 330.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "80V 5kV 50mA 100mV@1mA,20mA 1 6V 1.2V DC SMD-4P Transistor, Photovoltaic Output Optoisolators ROHS"
+			(at 293.37 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.36"
+			(at 254 530.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "852-PC817X1CSP9F"
+			(at 254 630.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Sharp-Microelectronics/PC817X1CSP9F?qs=rrS6PyfT74f%252BaIhOIosJzQ%3D%3D"
+			(at 254 730.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Sharp Microelectronics"
+			(at 254 830.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PC817X1CSP9F"
+			(at 254 930.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8eecd9eb-af3b-4639-a07d-0a11e8af97c9")
+		)
+		(pin "2"
+			(uuid "f08eb88d-1ce3-440f-8ae3-b8fe19bbaed7")
+		)
+		(pin "1"
+			(uuid "d33637d1-e737-45ae-b14f-7a8cad292448")
+		)
+		(pin "4"
+			(uuid "a6379025-5f24-4df5-8c19-af48c0571e45")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/7e4e3ba0-41da-43fa-8607-bd1c726f4bc0"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 132.08 189.23 0)
 		(unit 1)
@@ -8192,7 +8795,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SiC_Inverter:RT1206BRD07100KL")
 		(at 111.76 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8209,17 +8812,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
-			(at 112.776 62.23 0)
+		(property "Value" "100 K"
+			(at 113.792 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 109.982 60.96 90)
+			(at 124.714 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,8 +8829,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 111.76 60.96 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 134.112 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,8 +8838,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 111.76 60.96 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 120.396 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8320,6 +8922,138 @@
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/7e4e3ba0-41da-43fa-8607-bd1c726f4bc0"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7db22edf-c614-447a-9bca-fcf0be2d6ba1")
+		(property "Reference" "#PWR0141"
+			(at 237.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b662488-e81f-43ad-af21-f9988cc3bfc2")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/7e4e3ba0-41da-43fa-8607-bd1c726f4bc0"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e4c0493-4403-40d8-a1b7-73b033f6c431")
+		(property "Reference" "#PWR0142"
+			(at 261.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LOGIC_GND"
+			(at 263.144 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68936282-a1c5-4599-8e62-624f5df8cb5c")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/7e4e3ba0-41da-43fa-8607-bd1c726f4bc0"
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -8536,7 +9270,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SiC_Inverter:RT1206BRD07100KL")
 		(at 259.08 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8554,7 +9288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100 K"
 			(at 261.62 29.2099 0)
 			(effects
 				(font
@@ -8564,7 +9298,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 257.302 27.94 90)
+			(at 272.034 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8572,8 +9306,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 259.08 27.94 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 281.432 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8581,8 +9315,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 259.08 27.94 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 267.716 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8873,7 +9607,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SiC_Inverter:RT1206BRD07100KL")
 		(at 250.19 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8891,7 +9625,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100 K"
 			(at 252.73 49.5299 0)
 			(effects
 				(font
@@ -8901,7 +9635,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 248.412 48.26 90)
+			(at 263.144 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,8 +9643,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 250.19 48.26 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 272.542 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8918,8 +9652,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 250.19 48.26 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 258.826 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9207,7 +9941,141 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SiC_Inverter:RT1206BRD0710KL")
+		(at 232.41 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a77cf65a-edae-4f40-a7f7-8563571f1b70")
+		(property "Reference" "R46"
+			(at 232.41 133.858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 K"
+			(at 232.41 138.176 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 243.84 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 246.126 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 248.412 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7f47d5e-2d1e-428b-9fc3-0fdb33d07c43")
+		)
+		(pin "2"
+			(uuid "3b45b2ab-a4d7-49da-ac15-089098ed2696")
+		)
+		(instances
+			(project ""
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/7e4e3ba0-41da-43fa-8607-bd1c726f4bc0"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiC_Inverter:RT1206BRD0710KL")
+		(at 259.08 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7c9b49d-1618-4d75-8915-51d2497c4b99")
+		(property "Reference" "R47"
+			(at 257.048 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 K"
+			(at 261.366 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 246.126 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 236.728 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 250.444 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03720b55-4cbd-4ed1-bf88-948ff91ee5fe")
+		)
+		(pin "2"
+			(uuid "3b9f20ff-f11b-4c66-b99a-8525b43e48ad")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/7e4e3ba0-41da-43fa-8607-bd1c726f4bc0"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiC_Inverter:RT1206BRD07100KL")
 		(at 236.22 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9225,7 +10093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100 K"
 			(at 238.76 29.2099 0)
 			(effects
 				(font
@@ -9235,7 +10103,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 234.442 27.94 90)
+			(at 249.174 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9243,8 +10111,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 236.22 27.94 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 258.572 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9252,8 +10120,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 236.22 27.94 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 244.856 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9645,6 +10513,71 @@
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/7e4e3ba0-41da-43fa-8607-bd1c726f4bc0"
 					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 259.08 146.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfdd9cd8-b71b-43e0-97b3-804f6c3bcf9e")
+		(property "Reference" "#PWR0143"
+			(at 259.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 259.334 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 259.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b2624d0-0484-4e6d-b8a2-5af2bea760ea")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/7e4e3ba0-41da-43fa-8607-bd1c726f4bc0"
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)

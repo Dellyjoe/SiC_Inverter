@@ -1190,7 +1190,7 @@
 		)
 	)
 	(rectangle
-		(start 33.274 77.216)
+		(start 23.876 77.216)
 		(end 82.804 100.076)
 		(stroke
 			(width 0)
@@ -1293,7 +1293,7 @@
 	)
 	(text_box "Input Voltage From Protection Circuit"
 		(exclude_from_sim no)
-		(at 33.274 73.406 0)
+		(at 23.876 73.406 0)
 		(size 40.386 3.556)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1436,22 +1436,30 @@
 		(uuid "deaecbca-fc12-49bc-a4b1-e41a723af7a4")
 	)
 	(junction
+		(at 160.02 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea647c56-f7bf-48c0-9c11-4e032d65475c")
+	)
+	(junction
 		(at 153.67 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed3e65bf-0f30-48bc-9ee2-5ba88c66ee69")
 	)
 	(no_connect
-		(at 158.75 125.73)
-		(uuid "21709f53-8329-4874-a6f2-1b5ce382d7fb")
-	)
-	(no_connect
 		(at 158.75 128.27)
 		(uuid "99a3385e-f3c8-4615-937b-dfdfbbc433e7")
 	)
-	(no_connect
-		(at 53.34 83.82)
-		(uuid "c937b0aa-725f-4ea8-8df9-72faff7eeea0")
+	(wire
+		(pts
+			(xy 165.1 119.38) (xy 160.02 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b2ff7b-c621-44f3-b38f-2726f70691df")
 	)
 	(wire
 		(pts
@@ -1595,6 +1603,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 121.92) (xy 158.75 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f507d6-7f78-4e71-bffa-a12cd322437c")
+	)
+	(wire
+		(pts
 			(xy 154.94 130.81) (xy 154.94 133.35)
 		)
 		(stroke
@@ -1632,6 +1650,16 @@
 			(type default)
 		)
 		(uuid "4a5e4c7d-e828-4e4d-9e5b-1e371de229b7")
+	)
+	(wire
+		(pts
+			(xy 163.83 121.92) (xy 160.02 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8a9ebb-03fa-45e9-998e-71694714ae0b")
 	)
 	(wire
 		(pts
@@ -1825,6 +1853,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 119.38) (xy 160.02 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9761ab-3953-4854-a6c6-4baed6af3c0a")
+	)
+	(wire
+		(pts
 			(xy 134.62 58.42) (xy 130.81 58.42)
 		)
 		(stroke
@@ -1895,6 +1933,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 121.92) (xy 158.75 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5652dd2-eaa3-4695-a224-e3303ac920ea")
+	)
+	(wire
+		(pts
 			(xy 165.354 58.42) (xy 172.72 58.42)
 		)
 		(stroke
@@ -1954,6 +2002,28 @@
 		)
 		(uuid "0535139a-497f-4d16-9fc1-c2c0c20ce233")
 	)
+	(hierarchical_label "transer_Gate_node_input_pro"
+		(shape input)
+		(at 165.1 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f4665fc-726d-4519-911a-0c467b958456")
+	)
+	(hierarchical_label "transer_Gate_node_input_pro"
+		(shape input)
+		(at 53.34 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2452d4f7-14a6-49a3-bc5b-b785bbe03277")
+	)
 	(hierarchical_label "DC+_IN_1"
 		(shape input)
 		(at 96.52 58.42 180)
@@ -1964,6 +2034,17 @@
 			(justify right)
 		)
 		(uuid "8280673b-0e54-463c-8e64-04df7fce3fed")
+	)
+	(hierarchical_label "Transfer_Gate_node_output_pro"
+		(shape input)
+		(at 163.83 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a500d5a-94ed-4e4e-8301-7c960cbdcd84")
 	)
 	(hierarchical_label "DC+_IN_2"
 		(shape input)

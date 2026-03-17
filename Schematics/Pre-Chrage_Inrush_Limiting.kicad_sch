@@ -5,130 +5,6 @@
 	(uuid "f4b352cf-a161-44bf-8221-9cd9798f743b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SiC_Inverter:464369202"
 			(pin_numbers
 				(hide yes)
@@ -6194,6 +6070,254 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SiC_Inverter:RT1206BRD07100KL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.286 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100 K"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+				(at 12.954 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+				(at 22.352 -13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+				(at 8.636 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RT1206BRD07100KL_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RT1206BRD07100KL_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SiC_Inverter:RT1206FRE0747RL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.286 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "47"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+				(at 12.954 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+				(at 22.352 -13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+				(at 8.636 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RT1206FRE0747RL_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RT1206FRE0747RL_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SiC_Inverter:STB10NK60ZT4"
 			(pin_names
 				(offset 0)
@@ -6584,8 +6708,8 @@
 		)
 	)
 	(rectangle
-		(start 108.204 72.644)
-		(end 247.904 139.446)
+		(start 109.474 72.644)
+		(end 249.174 139.446)
 		(stroke
 			(width 0)
 			(type default)
@@ -6651,7 +6775,7 @@
 	)
 	(text_box "Series Per-Charge resistor with MOSFET Bypass"
 		(exclude_from_sim no)
-		(at 108.458 68.834 0)
+		(at 109.728 68.834 0)
 		(size 49.276 3.048)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -6671,248 +6795,248 @@
 		(uuid "935f31cc-d8fe-4814-80be-e14a3c64cd6c")
 	)
 	(junction
-		(at 133.35 97.79)
+		(at 134.62 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10ede5d9-b7b4-4f4b-b4fb-cbd2e243407e")
 	)
 	(junction
-		(at 226.06 102.87)
+		(at 227.33 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "131a2c71-ec73-46c2-8d2a-077ec3a9565a")
 	)
 	(junction
-		(at 160.02 85.09)
+		(at 161.29 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21c3b1c0-838b-41c4-96e0-79f8da809097")
 	)
 	(junction
-		(at 133.35 110.49)
+		(at 134.62 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26794cd1-4f81-45d6-8965-93970331c09b")
 	)
 	(junction
-		(at 133.35 125.73)
+		(at 134.62 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2da2db9f-1b2b-47b4-968a-d70112bb7464")
 	)
 	(junction
-		(at 226.06 118.11)
+		(at 227.33 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30732b5c-0560-41b2-bd89-d9b33da9200f")
 	)
 	(junction
-		(at 226.06 97.79)
+		(at 227.33 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e505f05-ae1d-4766-898e-277560e32cda")
 	)
 	(junction
-		(at 133.35 102.87)
+		(at 134.62 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ff2b03d-525a-413a-af76-966588b0d3fc")
 	)
 	(junction
-		(at 133.35 115.57)
+		(at 134.62 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ffe17e4-ab7e-4313-8c20-c06329305c9b")
 	)
 	(junction
-		(at 226.06 128.27)
+		(at 227.33 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a2cfd6f-b811-4104-a226-d4a80d4fd4be")
 	)
 	(junction
-		(at 226.06 113.03)
+		(at 227.33 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a7eef01-628c-4944-b0a0-6a1f1ce8df20")
 	)
 	(junction
-		(at 226.06 100.33)
+		(at 227.33 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72421023-0169-4ad8-8ae7-1b19ba6b692e")
 	)
 	(junction
-		(at 133.35 95.25)
+		(at 134.62 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "733b82af-ace5-4de7-9276-efb5f51adb91")
 	)
 	(junction
-		(at 226.06 95.25)
+		(at 227.33 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "739d95ea-ab8d-4a9a-a60d-542c5f663659")
 	)
 	(junction
-		(at 133.35 92.71)
+		(at 134.62 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "757fbc49-91e5-4a83-b588-19448dd54f53")
 	)
 	(junction
-		(at 218.44 90.17)
+		(at 219.71 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8021ca8d-4992-4d9f-a0d3-0595744a773e")
 	)
 	(junction
-		(at 226.06 90.17)
+		(at 227.33 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86e449ef-9fe4-4fd0-9a7c-8de5ad5b059d")
 	)
 	(junction
-		(at 226.06 130.81)
+		(at 227.33 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90fa6cf1-725d-4884-abae-2521bda668ac")
 	)
 	(junction
-		(at 133.35 123.19)
+		(at 134.62 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97fd8c57-a2bf-45b4-b1cd-df082bb4d8f2")
 	)
 	(junction
-		(at 226.06 123.19)
+		(at 227.33 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3aa94bc-f6dc-4e0b-993b-f82eb01b23bb")
 	)
 	(junction
-		(at 133.35 100.33)
+		(at 134.62 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a620b9db-1f4d-4919-9464-41a2960f5420")
 	)
 	(junction
-		(at 133.35 90.17)
+		(at 134.62 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "accfc335-2100-430d-9fc1-d0a616d2c1bc")
 	)
 	(junction
-		(at 226.06 125.73)
+		(at 227.33 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba030c7e-088f-434d-8b0c-947e0bc6d9d6")
 	)
 	(junction
-		(at 172.72 105.41)
+		(at 173.99 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb16c44c-f32a-4b77-af82-e5a396b7459f")
 	)
 	(junction
-		(at 189.23 85.09)
+		(at 190.5 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be895810-ca42-4801-9398-4b6de0985e80")
 	)
 	(junction
-		(at 218.44 125.73)
+		(at 219.71 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2c28c7b-d331-42d2-9b8c-2a8be125bd61")
 	)
 	(junction
-		(at 226.06 120.65)
+		(at 227.33 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3c438c3-7c77-4fae-8059-3d5cac109899")
 	)
 	(junction
-		(at 226.06 87.63)
+		(at 227.33 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c89d4b79-319d-4a54-9db0-9abaedbc1ecc")
 	)
 	(junction
-		(at 226.06 105.41)
+		(at 227.33 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2e05bb0-b89c-4e62-88a9-0a0e1a3e1d40")
 	)
 	(junction
-		(at 133.35 85.09)
+		(at 134.62 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d36ae27b-3d0a-4fa4-a3f7-20aa0476feda")
 	)
 	(junction
-		(at 133.35 87.63)
+		(at 134.62 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e14bab97-b2d2-4aa3-9e7a-6c21432d555a")
 	)
 	(junction
-		(at 226.06 115.57)
+		(at 227.33 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e335b820-bb59-454d-8957-9fec16f93e73")
 	)
 	(junction
-		(at 226.06 92.71)
+		(at 227.33 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4e03dff-c787-4299-a326-a433270e85f3")
 	)
 	(junction
-		(at 133.35 121.92)
+		(at 134.62 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e528760f-5188-4fe0-86f6-891943f4f4a9")
 	)
 	(junction
-		(at 172.72 118.11)
+		(at 173.99 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee35896a-1ded-4639-915b-9a45e0e0705f")
 	)
 	(junction
-		(at 133.35 120.65)
+		(at 134.62 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eeff5fc0-683f-4f29-8cac-439664519657")
 	)
 	(junction
-		(at 133.35 128.27)
+		(at 134.62 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f941a8d8-b944-491c-85bd-e86913e116d8")
 	)
 	(junction
-		(at 133.35 113.03)
+		(at 134.62 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fac40d3f-bb73-48c1-8ebb-2fc51dae026f")
 	)
 	(junction
-		(at 133.35 118.11)
+		(at 134.62 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdd0dcf0-d8e6-4d93-ba58-ca661bd42c95")
 	)
 	(junction
-		(at 184.15 85.09)
+		(at 185.42 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff6882c8-28ca-4f75-931f-87c11d009d69")
 	)
 	(wire
 		(pts
-			(xy 156.21 90.17) (xy 156.21 85.09)
+			(xy 157.48 90.17) (xy 157.48 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6922,7 +7046,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 115.57) (xy 133.35 118.11)
+			(xy 134.62 115.57) (xy 134.62 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6932,7 +7056,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 85.09) (xy 200.66 85.09)
+			(xy 190.5 85.09) (xy 201.93 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6942,7 +7066,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 110.49) (xy 226.06 113.03)
+			(xy 227.33 110.49) (xy 227.33 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6952,7 +7076,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 92.71) (xy 226.06 95.25)
+			(xy 227.33 92.71) (xy 227.33 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6962,7 +7086,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 82.55) (xy 133.35 85.09)
+			(xy 134.62 82.55) (xy 134.62 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6972,7 +7096,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 85.09) (xy 160.02 96.52)
+			(xy 161.29 85.09) (xy 161.29 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6982,7 +7106,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 90.17) (xy 156.21 90.17)
+			(xy 134.62 90.17) (xy 157.48 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6992,7 +7116,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 96.52) (xy 160.02 96.52)
+			(xy 168.91 96.52) (xy 161.29 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7002,7 +7126,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 102.87) (xy 133.35 105.41)
+			(xy 134.62 102.87) (xy 134.62 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7012,7 +7136,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 100.33) (xy 226.06 102.87)
+			(xy 227.33 100.33) (xy 227.33 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7022,7 +7146,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 105.41) (xy 172.72 104.14)
+			(xy 173.99 105.41) (xy 173.99 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7032,7 +7156,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 125.73) (xy 218.44 125.73)
+			(xy 215.9 125.73) (xy 219.71 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7042,7 +7166,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 90.17) (xy 133.35 92.71)
+			(xy 134.62 90.17) (xy 134.62 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7052,7 +7176,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 97.79) (xy 226.06 100.33)
+			(xy 227.33 97.79) (xy 227.33 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7062,7 +7186,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 105.41) (xy 226.06 107.95)
+			(xy 227.33 105.41) (xy 227.33 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7072,7 +7196,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 97.79) (xy 133.35 100.33)
+			(xy 134.62 97.79) (xy 134.62 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7082,7 +7206,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 113.03) (xy 133.35 115.57)
+			(xy 134.62 113.03) (xy 134.62 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7092,7 +7216,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 85.09) (xy 226.06 87.63)
+			(xy 227.33 85.09) (xy 227.33 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7102,7 +7226,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 120.65) (xy 133.35 121.92)
+			(xy 134.62 120.65) (xy 134.62 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7112,7 +7236,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 110.49) (xy 133.35 113.03)
+			(xy 134.62 110.49) (xy 134.62 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7122,7 +7246,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 85.09) (xy 176.53 85.09)
+			(xy 185.42 85.09) (xy 177.8 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7132,7 +7256,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 85.09) (xy 133.35 87.63)
+			(xy 134.62 85.09) (xy 134.62 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7142,7 +7266,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 130.81) (xy 226.06 133.35)
+			(xy 227.33 130.81) (xy 227.33 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7152,7 +7276,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 92.71) (xy 133.35 95.25)
+			(xy 134.62 92.71) (xy 134.62 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7162,7 +7286,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 121.92) (xy 133.35 123.19)
+			(xy 134.62 121.92) (xy 134.62 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7172,7 +7296,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 118.11) (xy 172.72 118.11)
+			(xy 171.45 118.11) (xy 173.99 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7182,7 +7306,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 123.19) (xy 226.06 125.73)
+			(xy 227.33 123.19) (xy 227.33 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7192,7 +7316,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 118.11) (xy 172.72 115.57)
+			(xy 173.99 118.11) (xy 173.99 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7202,7 +7326,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 102.87) (xy 226.06 105.41)
+			(xy 227.33 102.87) (xy 227.33 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7212,7 +7336,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 96.52) (xy 184.15 96.52)
+			(xy 179.07 96.52) (xy 185.42 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7222,7 +7346,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 123.19) (xy 133.35 125.73)
+			(xy 134.62 123.19) (xy 134.62 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7232,7 +7356,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 100.33) (xy 133.35 102.87)
+			(xy 134.62 100.33) (xy 134.62 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7242,7 +7366,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 105.41) (xy 189.23 105.41)
+			(xy 173.99 105.41) (xy 190.5 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7252,7 +7376,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 87.63) (xy 133.35 90.17)
+			(xy 134.62 87.63) (xy 134.62 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7262,7 +7386,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 125.73) (xy 133.35 128.27)
+			(xy 134.62 125.73) (xy 134.62 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7272,7 +7396,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 90.17) (xy 218.44 90.17)
+			(xy 227.33 90.17) (xy 219.71 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7282,7 +7406,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 90.17) (xy 200.66 90.17)
+			(xy 219.71 90.17) (xy 201.93 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7292,7 +7416,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 125.73) (xy 226.06 125.73)
+			(xy 219.71 125.73) (xy 227.33 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7302,7 +7426,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 85.09) (xy 189.23 97.79)
+			(xy 190.5 85.09) (xy 190.5 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7312,7 +7436,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 120.65) (xy 226.06 123.19)
+			(xy 227.33 120.65) (xy 227.33 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7322,7 +7446,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 90.17) (xy 226.06 92.71)
+			(xy 227.33 90.17) (xy 227.33 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7332,7 +7456,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 107.95) (xy 133.35 110.49)
+			(xy 134.62 107.95) (xy 134.62 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7342,7 +7466,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 118.11) (xy 226.06 120.65)
+			(xy 227.33 118.11) (xy 227.33 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7352,7 +7476,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 115.57) (xy 226.06 118.11)
+			(xy 227.33 115.57) (xy 227.33 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7362,7 +7486,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 128.27) (xy 133.35 130.81)
+			(xy 134.62 128.27) (xy 134.62 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7372,7 +7496,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 85.09) (xy 189.23 85.09)
+			(xy 185.42 85.09) (xy 190.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7382,7 +7506,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 87.63) (xy 226.06 90.17)
+			(xy 227.33 87.63) (xy 227.33 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7392,7 +7516,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 96.52) (xy 184.15 85.09)
+			(xy 185.42 96.52) (xy 185.42 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7402,7 +7526,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 105.41) (xy 172.72 107.95)
+			(xy 173.99 105.41) (xy 173.99 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7412,7 +7536,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 128.27) (xy 226.06 130.81)
+			(xy 227.33 128.27) (xy 227.33 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7422,7 +7546,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 95.25) (xy 133.35 97.79)
+			(xy 134.62 95.25) (xy 134.62 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7432,7 +7556,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 113.03) (xy 226.06 115.57)
+			(xy 227.33 113.03) (xy 227.33 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7442,7 +7566,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 125.73) (xy 226.06 128.27)
+			(xy 227.33 125.73) (xy 227.33 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7452,7 +7576,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 95.25) (xy 226.06 97.79)
+			(xy 227.33 95.25) (xy 227.33 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7462,7 +7586,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 90.17) (xy 200.66 85.09)
+			(xy 201.93 90.17) (xy 201.93 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7472,7 +7596,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 121.92) (xy 133.35 121.92)
+			(xy 140.97 121.92) (xy 134.62 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7482,7 +7606,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 85.09) (xy 160.02 85.09)
+			(xy 157.48 85.09) (xy 161.29 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7492,7 +7616,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 118.11) (xy 133.35 120.65)
+			(xy 134.62 118.11) (xy 134.62 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7502,7 +7626,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 85.09) (xy 168.91 85.09)
+			(xy 161.29 85.09) (xy 170.18 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7856,7 +7980,7 @@
 	)
 	(hierarchical_label "BUS+_Precharge"
 		(shape input)
-		(at 156.21 85.09 180)
+		(at 157.48 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7867,7 +7991,7 @@
 	)
 	(hierarchical_label "Gate_node_prech"
 		(shape input)
-		(at 170.18 118.11 180)
+		(at 171.45 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7878,7 +8002,7 @@
 	)
 	(hierarchical_label "DC+_Precharge"
 		(shape output)
-		(at 200.66 85.09 0)
+		(at 201.93 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7889,7 +8013,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:464369202")
-		(at 226.06 85.09 0)
+		(at 227.33 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7897,7 +8021,7 @@
 		(dnp no)
 		(uuid "17f110ae-cddb-423f-8aa5-5dca27b8cb99")
 		(property "Reference" "J8"
-			(at 232.41 78.486 0)
+			(at 233.68 78.486 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7906,7 +8030,7 @@
 			)
 		)
 		(property "Value" "464369202"
-			(at 228.6 81.026 0)
+			(at 229.87 81.026 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7915,7 +8039,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:46436-900_02"
-			(at 239.268 140.716 0)
+			(at 240.538 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7925,7 +8049,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/464369202?display=pdf"
-			(at 266.7 138.176 0)
+			(at 267.97 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,7 +8059,7 @@
 			)
 		)
 		(property "Description" "Power to the Board TEN60 RA RECPT ASSY 2-CKT PRESS-FIT"
-			(at 256.286 143.002 0)
+			(at 257.556 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8013,17 +8137,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 172.72 111.76 0)
+		(lib_id "SiC_Inverter:RT1206FRE0747RL")
+		(at 173.99 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "379d2848-7616-43f0-9cef-2f8a61cc4448")
 		(property "Reference" "R2"
-			(at 175.26 110.4899 0)
+			(at 175.514 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8032,7 +8155,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 175.26 113.0299 0)
+			(at 175.514 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8041,7 +8164,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 170.942 111.76 90)
+			(at 186.944 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,8 +8172,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 172.72 111.76 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 196.342 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8058,8 +8181,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 172.72 111.76 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 182.626 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8084,7 +8207,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:5281")
-		(at 218.44 125.73 0)
+		(at 219.71 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8092,7 +8215,7 @@
 		(dnp no)
 		(uuid "4a4548d6-2a1a-4f81-b182-106446e7e005")
 		(property "Reference" "TP8"
-			(at 219.456 122.682 0)
+			(at 220.726 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,7 +8224,7 @@
 			)
 		)
 		(property "Value" "5281"
-			(at 202.438 138.684 0)
+			(at 203.708 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +8233,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:5281"
-			(at 208.534 136.906 0)
+			(at 209.804 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,7 +8242,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 226.314 133.096 0)
+			(at 227.584 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8128,7 +8251,7 @@
 			)
 		)
 		(property "Description" "Test Plugs & Test Jacks TEST POINT BLACK MULTIPURPOSE"
-			(at 228.854 135.128 0)
+			(at 230.124 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8150,7 +8273,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 125.73 0)
+		(at 215.9 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8159,7 +8282,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a6f4c7c-9b85-404d-9114-37b079d01464")
 		(property "Reference" "#PWR06"
-			(at 214.63 132.08 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8168,7 +8291,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 130.81 0)
+			(at 215.9 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +8299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 125.73 0)
+			(at 215.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8185,7 +8308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 125.73 0)
+			(at 215.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8194,7 +8317,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 125.73 0)
+			(at 215.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,8 +8338,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 189.23 101.6 0)
+		(lib_id "SiC_Inverter:RT1206BRD07100KL")
+		(at 190.5 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8225,7 +8348,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ff29466-b79b-45ac-9ca0-0d7f6dbe71fe")
 		(property "Reference" "R3"
-			(at 191.77 100.3299 0)
+			(at 193.04 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,8 +8356,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
-			(at 191.77 102.8699 0)
+		(property "Value" "100 K"
+			(at 193.04 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8243,7 +8366,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 187.452 101.6 90)
+			(at 203.454 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,8 +8374,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 189.23 101.6 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 212.852 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,8 +8383,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 189.23 101.6 0)
+		(property "Description" "Thin Film Resistors - SMD 1/4W 5K ohm .1% 25ppm"
+			(at 199.136 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8286,7 +8409,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:464379202")
-		(at 133.35 130.81 180)
+		(at 134.62 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8295,7 +8418,7 @@
 		(fields_autoplaced yes)
 		(uuid "996053c5-c9c3-4ab6-b8a6-341823f51ee5")
 		(property "Reference" "J7"
-			(at 124.46 74.93 0)
+			(at 125.73 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8303,7 +8426,7 @@
 			)
 		)
 		(property "Value" "464379202"
-			(at 124.46 77.47 0)
+			(at 125.73 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8311,7 +8434,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:46437-900_02"
-			(at 120.142 75.184 0)
+			(at 121.412 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8321,7 +8444,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/464369202?display=pdf"
-			(at 92.71 77.724 0)
+			(at 93.98 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8331,7 +8454,7 @@
 			)
 		)
 		(property "Description" "Power to the Board TEN60 RA RECPT ASSY 2-CKT PRESS-FIT"
-			(at 103.124 72.898 0)
+			(at 104.394 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,7 +8533,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 121.92 0)
+		(at 140.97 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8419,7 +8542,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8972dbe-3f49-4a9d-93d1-5c3294251846")
 		(property "Reference" "#PWR05"
-			(at 139.7 128.27 0)
+			(at 140.97 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +8551,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 127 0)
+			(at 140.97 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8436,7 +8559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 121.92 0)
+			(at 140.97 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8445,7 +8568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 121.92 0)
+			(at 140.97 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8454,7 +8577,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 121.92 0)
+			(at 140.97 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8476,7 +8599,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:CW005100R0JE12HE")
-		(at 172.72 85.09 90)
+		(at 173.99 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8485,7 +8608,7 @@
 		(fields_autoplaced yes)
 		(uuid "af915463-7a5c-4657-ac43-1453e25fb040")
 		(property "Reference" "R1"
-			(at 172.72 78.74 90)
+			(at 173.99 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8493,7 +8616,7 @@
 			)
 		)
 		(property "Value" "CW005100R0JE12HE"
-			(at 172.72 81.28 90)
+			(at 173.99 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8501,7 +8624,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:CW005100R0JE12HE"
-			(at 172.974 84.074 90)
+			(at 174.244 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,7 +8633,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/30286/cw-he.pdf"
-			(at 186.69 66.548 0)
+			(at 187.96 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8519,7 +8642,7 @@
 			)
 		)
 		(property "Description" "Wirewound Resistors - Through Hole 5watts 100ohms 5% High Energy"
-			(at 188.468 55.626 0)
+			(at 189.738 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8544,7 +8667,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:5277")
-		(at 172.72 118.11 180)
+		(at 173.99 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8552,7 +8675,7 @@
 		(dnp no)
 		(uuid "cd0f7454-b0d9-444e-bb10-be3ce7d41219")
 		(property "Reference" "TP55"
-			(at 173.736 121.412 0)
+			(at 175.006 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8561,7 +8684,7 @@
 			)
 		)
 		(property "Value" "5277"
-			(at 188.722 105.156 0)
+			(at 189.992 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +8693,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:5277"
-			(at 182.626 106.934 0)
+			(at 183.896 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,7 +8702,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 164.846 110.744 0)
+			(at 166.116 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +8711,7 @@
 			)
 		)
 		(property "Description" "Test Plugs & Test Jacks TEST POINT (BLUE) - COMPACT"
-			(at 162.306 108.712 0)
+			(at 163.576 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8610,7 +8733,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:STB10NK60ZT4")
-		(at 172.72 99.06 90)
+		(at 173.99 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8619,7 +8742,7 @@
 		(fields_autoplaced yes)
 		(uuid "e141ea05-bb89-4e43-8cb3-ecd03a0f734c")
 		(property "Reference" "Q1"
-			(at 172.72 90.17 90)
+			(at 173.99 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,7 +8750,7 @@
 			)
 		)
 		(property "Value" "STB10NK60ZT4"
-			(at 172.72 92.71 90)
+			(at 173.99 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8635,7 +8758,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 190.754 92.202 0)
+			(at 192.024 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8644,7 +8767,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/37/0f/65/78/7a/b2/4d/77/CD00002815.pdf/files/CD00002815.pdf/jcr:content/translations/en.CD00002815.pdf"
-			(at 188.722 15.24 0)
+			(at 189.992 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8653,7 +8776,7 @@
 			)
 		)
 		(property "Description" "N-Channel 600 V 10A (Tc) 115W (Tc) Surface Mount D2PAK"
-			(at 186.69 78.486 0)
+			(at 187.96 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8681,7 +8804,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:5277")
-		(at 218.44 90.17 180)
+		(at 219.71 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8689,7 +8812,7 @@
 		(dnp no)
 		(uuid "ed202120-7acd-4164-bd11-04325d834d0d")
 		(property "Reference" "TP7"
-			(at 217.424 93.218 0)
+			(at 218.694 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8698,7 +8821,7 @@
 			)
 		)
 		(property "Value" "5277"
-			(at 234.442 77.216 0)
+			(at 235.712 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8707,7 +8830,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:5277"
-			(at 228.346 78.994 0)
+			(at 229.616 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8716,7 +8839,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 210.566 82.804 0)
+			(at 211.836 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8725,7 +8848,7 @@
 			)
 		)
 		(property "Description" "Test Plugs & Test Jacks TEST POINT (BLUE) - COMPACT"
-			(at 208.026 80.772 0)
+			(at 209.296 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
