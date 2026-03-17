@@ -5711,8 +5711,8 @@
 		)
 		(uuid "dde9e60c-7ce2-4aa7-85ac-fca8ae78889d")
 	)
-	(hierarchical_label "Gate_node_input_pro"
-		(shape input)
+	(hierarchical_label "Gate_node_output_pro"
+		(shape output)
 		(at 62.23 124.46 180)
 		(effects
 			(font

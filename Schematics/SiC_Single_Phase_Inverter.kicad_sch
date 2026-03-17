@@ -1086,27 +1086,6 @@
 		)
 		(uuid "dddaa7ff-1f9a-4c8d-a075-4a0e59e3c119")
 	)
-	(text_box "Fix all non 0 ohm resister, using gneral parts atm. "
-		(exclude_from_sim no)
-		(at 71.12 17.78 0)
-		(size 36.322 6.604)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 0 0 255 0.1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "87514816-f273-4f71-9199-b75aec24e75f")
-	)
 	(text_box "Connectors"
 		(exclude_from_sim no)
 		(at 26.416 149.352 0)
@@ -1317,6 +1296,16 @@
 		)
 		(uuid "1a9c683c-59eb-45f7-ab1c-c8c0d1735102")
 	)
+	(wire
+		(pts
+			(xy 252.73 52.07) (xy 256.54 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ffc3362-faa3-4e90-b605-c7f132b050f5")
+	)
 	(polyline
 		(pts
 			(xy 173.482 108.966) (xy 201.93 108.966)
@@ -1356,6 +1345,16 @@
 			(type default)
 		)
 		(uuid "271a91c6-aa7f-4cb6-9789-00c48ae10954")
+	)
+	(wire
+		(pts
+			(xy 87.63 114.3) (xy 90.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fad0112-eccf-4cd6-ba20-57a7f769839e")
 	)
 	(wire
 		(pts
@@ -1469,7 +1468,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 30.48) (xy 181.61 30.48)
+			(xy 167.64 30.48) (xy 171.45 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1589,7 +1588,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 27.94) (xy 181.61 27.94)
+			(xy 167.64 27.94) (xy 171.45 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1686,6 +1685,16 @@
 			(type default)
 		)
 		(uuid "ad42e3da-20e7-4203-8391-344bb71470c5")
+	)
+	(wire
+		(pts
+			(xy 87.63 123.19) (xy 87.63 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6eab5f-81a5-4723-945d-c6ff1e48c91c")
 	)
 	(wire
 		(pts
@@ -1849,6 +1858,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 123.19) (xy 87.63 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f644ccd6-8956-47df-9c4a-be3f160f2471")
+	)
+	(wire
+		(pts
 			(xy 203.2 132.08) (xy 205.74 132.08)
 		)
 		(stroke
@@ -1927,8 +1946,18 @@
 		)
 		(uuid "224d81ca-18eb-403e-a7c2-781e346071a3")
 	)
+	(label "Con_Gate_node_prech"
+		(at 90.17 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "234d1380-a99e-4902-90bb-d524f0dca060")
+	)
 	(label "Con_SCIRXDA"
-		(at 181.61 27.94 0)
+		(at 171.45 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1946,6 +1975,16 @@
 			(justify right bottom)
 		)
 		(uuid "2ceafe9d-5022-4d46-8b5f-e8152e56855b")
+	)
+	(label "Con_Gate_node_prech"
+		(at 256.54 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fa2b6fb-8aae-4dbf-a24b-7702e8cb0b42")
 	)
 	(label "Phase_B_Output"
 		(at 264.16 111.76 0)
@@ -1998,7 +2037,7 @@
 		(uuid "49f79f6b-8699-40d3-b72b-157897f6ea5f")
 	)
 	(label "Con_SCITXDA"
-		(at 181.61 30.48 0)
+		(at 171.45 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3418,6 +3457,16 @@
 				(justify left)
 			)
 		)
+		(pin "Gate_node_prech" output
+			(at 252.73 52.07 0)
+			(uuid "44753651-803a-4fb4-af08-d2769d0160d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16"
@@ -3523,7 +3572,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 21.59)
+		(at 127 21.59)
 		(size 40.64 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3539,7 +3588,7 @@
 		)
 		(uuid "a4e77945-709f-47b6-8253-e2d18e80adc4")
 		(property "Sheetname" "USB_Console"
-			(at 137.16 20.8784 0)
+			(at 127 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3597,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_Console.kicad_sch"
-			(at 137.16 38.1766 0)
+			(at 127 38.1766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +3606,7 @@
 			)
 		)
 		(pin "SCIRXDA" output
-			(at 177.8 27.94 0)
+			(at 167.64 27.94 0)
 			(uuid "eb88211a-a73a-453d-929b-edb37fe1bdc4")
 			(effects
 				(font
@@ -3567,7 +3616,7 @@
 			)
 		)
 		(pin "SCITXDA" output
-			(at 177.8 30.48 0)
+			(at 167.64 30.48 0)
 			(uuid "09d7f2b8-baa4-4248-bd78-35251c5070cc")
 			(effects
 				(font
@@ -3942,7 +3991,7 @@
 				(justify right)
 			)
 		)
-		(pin "Gate_node_input_pro" output
+		(pin "Gate_node_output_pro" output
 			(at 45.72 111.76 0)
 			(uuid "6a443171-7ab8-476c-a624-40478e3af4d1")
 			(effects
