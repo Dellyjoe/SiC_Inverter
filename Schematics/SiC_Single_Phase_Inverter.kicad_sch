@@ -579,7 +579,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TP"
-				(at 0 5.08 0)
+				(at 0.254 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -642,7 +642,7 @@
 			)
 			(symbol "5277_0_1"
 				(circle
-					(center 0 3.302)
+					(center 0 2.54)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -655,8 +655,8 @@
 			)
 			(symbol "5277_1_1"
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
+					(at 0 1.27 90)
+					(length 0.508)
 					(name "1"
 						(effects
 							(font
@@ -1147,19 +1147,13 @@
 		(uuid "596de375-2129-40ee-aead-53de26ff256e")
 	)
 	(junction
-		(at 73.66 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b66d3e0b-0ed9-41bc-8148-c4979cad55d5")
-	)
-	(junction
 		(at 30.48 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc324d4e-77f7-441d-a2a7-75bbe32c1c01")
 	)
 	(junction
-		(at 73.66 172.72)
+		(at 73.66 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de45c81c-a816-491d-8a4c-60b37183e91d")
@@ -1169,6 +1163,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0414843-a9a2-404d-a726-5fb719ee2f7a")
+	)
+	(junction
+		(at 73.66 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7bdddc5-b275-48ae-b7b6-dfcae55171a6")
 	)
 	(no_connect
 		(at 212.09 44.45)
@@ -1345,6 +1345,16 @@
 			(type default)
 		)
 		(uuid "271a91c6-aa7f-4cb6-9789-00c48ae10954")
+	)
+	(wire
+		(pts
+			(xy 73.66 163.83) (xy 76.2 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28af8b96-2f45-4327-952c-4d243f75d287")
 	)
 	(wire
 		(pts
@@ -1618,7 +1628,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 172.72) (xy 72.39 172.72)
+			(xy 73.66 173.99) (xy 72.39 173.99)
 		)
 		(stroke
 			(width 0)
@@ -1708,7 +1718,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 162.56) (xy 72.39 162.56)
+			(xy 72.39 163.83) (xy 73.66 163.83)
 		)
 		(stroke
 			(width 0)
@@ -1768,7 +1778,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 172.72) (xy 73.66 172.72)
+			(xy 76.2 173.99) (xy 73.66 173.99)
 		)
 		(stroke
 			(width 0)
@@ -1795,16 +1805,6 @@
 			(type default)
 		)
 		(uuid "e3da41dd-09c8-477b-a2b5-8a55969990cd")
-	)
-	(wire
-		(pts
-			(xy 76.2 162.56) (xy 73.66 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8889f49-5386-49ed-8cce-eec7977a36cd")
 	)
 	(wire
 		(pts
@@ -2047,7 +2047,7 @@
 		(uuid "57e3cf4f-7e65-4cc8-b385-9478f30a3043")
 	)
 	(label "Phase_A_Output"
-		(at 72.39 162.56 180)
+		(at 72.39 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2107,7 +2107,7 @@
 		(uuid "7315f300-9ca1-4eb9-b4e7-96d4d900194c")
 	)
 	(label "Phase_B_Output"
-		(at 72.39 172.72 180)
+		(at 72.39 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2388,7 +2388,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:23AH8785-Black")
-		(at 76.2 172.72 0)
+		(at 76.2 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2397,7 +2397,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e6cb0ff-da21-45c0-b4d7-7c27056557f9")
 		(property "Reference" "J4"
-			(at 90.17 172.7199 0)
+			(at 90.17 173.9899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2406,7 +2406,7 @@
 			)
 		)
 		(property "Value" "23AH8785-Black"
-			(at 88.392 181.61 0)
+			(at 88.392 182.88 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2415,7 +2415,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:23AH8785-Black"
-			(at 92.456 177.546 0)
+			(at 92.456 178.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2425,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/3945771.pdf"
-			(at 105.41 179.578 0)
+			(at 105.41 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2435,7 @@
 			)
 		)
 		(property "Description" "Black:The 66.9040-22 is an 4mm Angled Socket for mounting on PCBs, gold-plated brass contact terminal."
-			(at 131.826 183.642 0)
+			(at 131.826 184.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +2523,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:5281")
-		(at 73.66 172.72 0)
+		(at 73.66 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2531,7 +2531,7 @@
 		(dnp no)
 		(uuid "11d5fba1-f3e4-4282-b7bb-8963fd757136")
 		(property "Reference" "TP4"
-			(at 74.676 169.418 0)
+			(at 74.676 170.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,7 +2540,7 @@
 			)
 		)
 		(property "Value" "5281"
-			(at 57.658 185.674 0)
+			(at 57.658 186.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,7 +2549,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:5281"
-			(at 63.754 183.896 0)
+			(at 63.754 185.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,7 +2558,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 81.534 180.086 0)
+			(at 81.534 181.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +2567,7 @@
 			)
 		)
 		(property "Description" "Test Plugs & Test Jacks TEST POINT BLACK MULTIPURPOSE"
-			(at 84.074 182.118 0)
+			(at 84.074 183.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2658,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:23AH8786-Red")
-		(at 76.2 162.56 0)
+		(at 76.2 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2667,7 +2667,7 @@
 		(fields_autoplaced yes)
 		(uuid "365b7971-fb2d-457f-b4b3-ea02e120e73a")
 		(property "Reference" "J3"
-			(at 90.17 162.5599 0)
+			(at 90.17 163.8299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2676,7 +2676,7 @@
 			)
 		)
 		(property "Value" "23AH8786-Red"
-			(at 87.884 171.45 0)
+			(at 87.884 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2685,7 +2685,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:23AH8786-Red"
-			(at 93.726 167.386 0)
+			(at 93.726 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +2695,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/3945771.pdf"
-			(at 106.172 169.418 0)
+			(at 106.172 170.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,7 +2705,7 @@
 			)
 		)
 		(property "Description" "Red: The 66.9040-22 is an 4mm Angled Socket for mounting on PCBs, gold-plated brass contact terminal."
-			(at 134.874 173.482 0)
+			(at 134.874 174.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,7 +2928,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:5277")
-		(at 30.48 162.56 180)
+		(at 30.48 161.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2936,7 +2936,7 @@
 		(dnp no)
 		(uuid "d4bb4321-5553-4881-ae7c-7fadfe364b89")
 		(property "Reference" "TP1"
-			(at 31.496 165.862 0)
+			(at 31.496 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2945,7 +2945,7 @@
 			)
 		)
 		(property "Value" "5277"
-			(at 46.482 149.606 0)
+			(at 46.482 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +2954,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:5277"
-			(at 40.386 151.384 0)
+			(at 40.386 150.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +2963,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 22.606 155.194 0)
+			(at 22.606 153.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +2972,7 @@
 			)
 		)
 		(property "Description" "Test Plugs & Test Jacks TEST POINT (BLUE) - COMPACT"
-			(at 20.066 153.162 0)
+			(at 20.066 151.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3074,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2ce2cec5-32d3-4a43-a037-f5e3105f4dec")
-		(property "Sheetname" "Pre-Chrage_current_Limiting"
+		(property "Sheetname" "Pre-charge_current_Limiting"
 			(at 90.17 99.6184 0)
 			(effects
 				(font

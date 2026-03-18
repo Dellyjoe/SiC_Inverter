@@ -5855,7 +5855,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TP"
-				(at 0 5.08 0)
+				(at 0.254 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5918,7 +5918,7 @@
 			)
 			(symbol "5277_0_1"
 				(circle
-					(center 0 3.302)
+					(center 0 2.54)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -5931,8 +5931,8 @@
 			)
 			(symbol "5277_1_1"
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
+					(at 0 1.27 90)
+					(length 0.508)
 					(name "1"
 						(effects
 							(font
@@ -8623,7 +8623,7 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:5277")
-		(at 123.19 153.67 180)
+		(at 123.19 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8631,7 +8631,7 @@
 		(dnp no)
 		(uuid "619caed6-e815-4c10-bf5a-8b7307aae8e2")
 		(property "Reference" "TP5"
-			(at 122.174 156.718 0)
+			(at 122.174 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,7 +8640,7 @@
 			)
 		)
 		(property "Value" "5277"
-			(at 139.192 140.716 0)
+			(at 139.192 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +8649,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:5277"
-			(at 133.096 142.494 0)
+			(at 133.096 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,7 +8658,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 115.316 146.304 0)
+			(at 115.316 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,7 +8667,7 @@
 			)
 		)
 		(property "Description" "Test Plugs & Test Jacks TEST POINT (BLUE) - COMPACT"
-			(at 112.776 144.272 0)
+			(at 112.776 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)

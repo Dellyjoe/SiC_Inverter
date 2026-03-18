@@ -584,7 +584,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TP"
-				(at 0 5.08 0)
+				(at 0.254 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -647,7 +647,7 @@
 			)
 			(symbol "5277_0_1"
 				(circle
-					(center 0 3.302)
+					(center 0 2.54)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -660,8 +660,8 @@
 			)
 			(symbol "5277_1_1"
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
+					(at 0 1.27 90)
+					(length 0.508)
 					(name "1"
 						(effects
 							(font
@@ -3374,6 +3374,12 @@
 		(uuid "74cf3fda-49cb-4c16-a226-b9db5e53ccb9")
 	)
 	(junction
+		(at 66.04 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79f5dca0-5050-4b9e-8573-1561958b5d86")
+	)
+	(junction
 		(at 226.06 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3408,12 +3414,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7e0177b-7bc2-4dcf-a3ef-01826d60799a")
-	)
-	(junction
-		(at 66.04 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abeb1641-7716-409a-937f-8178b258949e")
 	)
 	(junction
 		(at 66.04 55.88)
@@ -3950,6 +3950,16 @@
 			(type default)
 		)
 		(uuid "631d893e-ca8d-48ac-a4e5-3fffbfa42c6e")
+	)
+	(wire
+		(pts
+			(xy 66.04 140.97) (xy 71.12 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e4e545-4096-4667-b617-e0f51957fadc")
 	)
 	(wire
 		(pts
@@ -4653,16 +4663,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 140.97) (xy 71.12 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eea43bb7-d724-42e7-baf9-74dcde42823b")
-	)
-	(wire
-		(pts
 			(xy 146.05 64.77) (xy 148.59 64.77)
 		)
 		(stroke
@@ -5248,7 +5248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06a5e7e4-87fa-4877-8b38-fcdbb2903476")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 137.16 195.58 0)
 			(effects
 				(font
@@ -5299,7 +5299,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5383,7 +5383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15514108-6cfe-43ab-ab4f-d1cb196b8388")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 222.504 48.26 90)
 			(effects
 				(font
@@ -5435,7 +5435,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5451,7 +5451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1601a194-f51d-412d-8d2d-4c67bbc41b35")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 119.38 195.58 0)
 			(effects
 				(font
@@ -5502,7 +5502,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5517,7 +5517,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "197725e9-769a-4277-b2ab-4854552be186")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 189.484 132.08 90)
 			(effects
 				(font
@@ -5569,7 +5569,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5585,7 +5585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a15cc65-31d2-455e-918d-5f7f7b6d5ddd")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 157.48 195.58 0)
 			(effects
 				(font
@@ -5636,7 +5636,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5789,7 +5789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2da225e0-478c-4b90-8352-41ccbc6e145b")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 25.4 93.98 0)
 			(effects
 				(font
@@ -5839,7 +5839,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5854,7 +5854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31762ccb-fdac-48c4-982a-916065d653a9")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 119.38 55.88 0)
 			(effects
 				(font
@@ -5905,7 +5905,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6290,7 +6290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cd71d03-7dde-40d2-9046-0b4db09c689c")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 53.34 91.44 0)
 			(effects
 				(font
@@ -6340,7 +6340,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6355,7 +6355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f73c8c5-2e55-4a31-84e3-653a9f3adc5b")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 82.042 146.812 90)
 			(effects
 				(font
@@ -6409,7 +6409,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6424,7 +6424,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4041865a-903c-4847-85e3-425bc0037c43")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 72.898 146.05 0)
 			(effects
 				(font
@@ -6477,7 +6477,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6492,7 +6492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "421fcf2a-a446-4c74-9af0-8a43a71a125b")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 179.07 146.558 90)
 			(effects
 				(font
@@ -6546,7 +6546,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6630,7 +6630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a32f5f9-b8a5-4c06-8a07-2b41adab780e")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 182.88 77.47 0)
 			(effects
 				(font
@@ -6681,7 +6681,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6834,7 +6834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54c6d6a8-54e3-44dd-9d73-2f2ee894322a")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 82.804 60.452 90)
 			(effects
 				(font
@@ -6888,7 +6888,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6903,7 +6903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a30bb08-787f-4caa-b735-ddfaa6571128")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 205.994 134.62 90)
 			(effects
 				(font
@@ -6955,7 +6955,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6963,15 +6963,15 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:5277")
-		(at 66.04 55.88 0)
+		(at 66.04 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5a330432-f7ac-492d-899b-7bfaef67a265")
-		(property "Reference" "TP33"
-			(at 67.056 52.832 0)
+		(property "Reference" "TP34"
+			(at 67.056 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6980,7 +6980,7 @@
 			)
 		)
 		(property "Value" "5277"
-			(at 50.038 68.834 0)
+			(at 50.038 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6989,7 +6989,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:5277"
-			(at 56.134 67.056 0)
+			(at 56.134 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6998,7 +6998,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 73.914 63.246 0)
+			(at 73.914 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,7 +7007,7 @@
 			)
 		)
 		(property "Description" "Test Plugs & Test Jacks TEST POINT (BLUE) - COMPACT"
-			(at 76.454 65.278 0)
+			(at 76.454 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,7 +7021,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "TP33")
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -7036,7 +7036,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "608f6705-0771-4840-9cd0-21966a2fba65")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 172.974 129.54 90)
 			(effects
 				(font
@@ -7088,7 +7088,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7103,7 +7103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67c51a0b-78b1-4fe5-9e8e-4083dc15c84c")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 224.79 48.26 0)
 			(effects
 				(font
@@ -7153,7 +7153,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7168,7 +7168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a58e05b-a82a-49b1-aed3-414397f05559")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 208.28 134.62 0)
 			(effects
 				(font
@@ -7218,7 +7218,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7233,7 +7233,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ba7cde7-269c-447d-a1f1-338be9e12cc5")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 191.77 43.18 0)
 			(effects
 				(font
@@ -7283,7 +7283,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -7367,7 +7367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75eb2303-22dd-47da-924e-e3410cc09c1a")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 129.54 157.48 0)
 			(effects
 				(font
@@ -7417,7 +7417,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7708,7 +7708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e0fb46d-c5b8-4264-91fe-e32654ad4806")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 168.91 138.43 0)
 			(effects
 				(font
@@ -7758,7 +7758,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7773,7 +7773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ec9f0c3-49e6-452b-9d82-19a16703e22d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 146.05 71.12 0)
 			(effects
 				(font
@@ -7824,7 +7824,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7839,7 +7839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f5f43dc-dd3a-4714-b571-e9b518bc31b3")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 53.34 179.07 0)
 			(effects
 				(font
@@ -7889,7 +7889,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7905,7 +7905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94d19715-4c9b-438d-be9e-1a7457bb6086")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 101.6 195.58 0)
 			(effects
 				(font
@@ -7956,7 +7956,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7971,7 +7971,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "998810fd-2f5c-4700-b66a-4362d83169ef")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 205.994 45.72 90)
 			(effects
 				(font
@@ -8023,7 +8023,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8031,15 +8031,15 @@
 	)
 	(symbol
 		(lib_id "SiC_Inverter:5277")
-		(at 66.04 140.97 0)
+		(at 66.04 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9acd8ab3-2572-4a36-95c4-ba5c4871dfb2")
-		(property "Reference" "TP34"
-			(at 67.056 137.922 0)
+		(property "Reference" "TP35"
+			(at 67.056 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +8048,7 @@
 			)
 		)
 		(property "Value" "5277"
-			(at 50.038 153.924 0)
+			(at 50.038 155.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,7 +8057,7 @@
 			)
 		)
 		(property "Footprint" "SiC_Inverter:5277"
-			(at 56.134 152.146 0)
+			(at 56.134 153.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,7 +8066,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p62.pdf"
-			(at 73.914 148.336 0)
+			(at 73.914 149.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8075,7 +8075,7 @@
 			)
 		)
 		(property "Description" "Test Plugs & Test Jacks TEST POINT (BLUE) - COMPACT"
-			(at 76.454 150.368 0)
+			(at 76.454 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8089,7 +8089,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "TP34")
+					(reference "TP35")
 					(unit 1)
 				)
 			)
@@ -8104,7 +8104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b5fb7a8-cfb9-4b96-8256-ef2be41c215b")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 189.484 43.18 90)
 			(effects
 				(font
@@ -8156,7 +8156,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8171,7 +8171,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a64f2596-7c78-49d8-ac35-9ddaf95f4812")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 63.5 62.2299 90)
 			(effects
 				(font
@@ -8225,7 +8225,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8240,7 +8240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9c71848-e3e2-4744-9042-89f0bf01557f")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 166.37 163.83 0)
 			(effects
 				(font
@@ -8291,7 +8291,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8307,7 +8307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac5213b5-9acd-4c2a-b269-e4d30a064ab2")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 170.18 106.68 0)
 			(effects
 				(font
@@ -8358,7 +8358,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8373,7 +8373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aeba4e28-a98f-402b-85fc-798bca8c96c5")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 127 60.96 0)
 			(effects
 				(font
@@ -8423,7 +8423,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8439,7 +8439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b55dd532-cafc-4210-86f4-97c4e732cdf2")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 226.06 106.68 0)
 			(effects
 				(font
@@ -8490,7 +8490,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8582,7 +8582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0026b76-f35c-42c5-b08c-3ecf0a4ee502")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 111.76 147.32 0)
 			(effects
 				(font
@@ -8632,7 +8632,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8717,7 +8717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c32abb1b-6922-496d-90c2-e79ae38d29ed")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 205.74 106.68 0)
 			(effects
 				(font
@@ -8768,7 +8768,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8783,7 +8783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6dfe9c9-efdb-4e74-a96f-24ac4a6e5c74")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 208.28 45.72 0)
 			(effects
 				(font
@@ -8833,7 +8833,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -8848,7 +8848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7aceb8b-fc5b-489d-a47a-89382e2fdc1f")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 25.4 181.61 0)
 			(effects
 				(font
@@ -8898,7 +8898,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8913,7 +8913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8e1100a-166a-4159-a404-51e1aa79b8de")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 195.58 60.198 90)
 			(effects
 				(font
@@ -8967,7 +8967,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8982,7 +8982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc516e21-0b31-4f26-850e-89fc5c416bf0")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 72.898 60.96 0)
 			(effects
 				(font
@@ -9035,7 +9035,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9050,7 +9050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdfb3e2e-40da-4b2b-b6de-7fb7cbc5c99a")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 82.55 52.832 90)
 			(effects
 				(font
@@ -9104,7 +9104,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9119,7 +9119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce4f1262-3cad-4ef5-ae69-4cfbc1122af7")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 157.48 182.88 0)
 			(effects
 				(font
@@ -9169,7 +9169,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9253,7 +9253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd513522-53d4-4edd-93be-1f0b46e63e55")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 63.5 147.3199 90)
 			(effects
 				(font
@@ -9307,7 +9307,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -9391,7 +9391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2df444d-ca1f-4239-ad81-8e62d08c08b2")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 30.48 130.81 0)
 			(effects
 				(font
@@ -9441,7 +9441,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9456,7 +9456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6f04bf2-a05b-4d90-944e-6314e22e046c")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 226.06 93.98 0)
 			(effects
 				(font
@@ -9506,7 +9506,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -9521,7 +9521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e826c17a-ed7f-497d-8856-709bf9e94436")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 175.26 129.54 0)
 			(effects
 				(font
@@ -9571,7 +9571,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9586,7 +9586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e96a3375-62c8-468f-a5f7-6dae975e2a73")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 191.77 132.08 0)
 			(effects
 				(font
@@ -9636,7 +9636,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9884,7 +9884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f49d4405-c019-413c-b7e3-55f0d2f21b08")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 187.96 106.68 0)
 			(effects
 				(font
@@ -9935,7 +9935,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9950,7 +9950,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5ae06e3-0075-45ea-9e37-0877faace37f")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 82.042 136.652 90)
 			(effects
 				(font
@@ -10004,7 +10004,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10096,7 +10096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb223050-4d85-43c2-af4e-72596c4140eb")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 185.42 52.07 0)
 			(effects
 				(font
@@ -10146,7 +10146,7 @@
 		(instances
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
