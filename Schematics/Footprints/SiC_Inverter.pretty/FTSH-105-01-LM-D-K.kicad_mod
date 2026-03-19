@@ -6,7 +6,7 @@
 	(descr "FTSH-105-XX-YYY-D-K")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 0 -5 0)
+		(at 3 -4 0)
 		(layer "F.SilkS")
 		(uuid "104284a7-bb4d-44b3-bc5c-bda20f44f17b")
 		(effects

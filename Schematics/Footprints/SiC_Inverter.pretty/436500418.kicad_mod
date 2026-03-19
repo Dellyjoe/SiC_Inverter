@@ -6,7 +6,7 @@
 	(descr "43650-04YY_18192063")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at -12 -5 0)
+		(at -5 -5 0)
 		(layer "F.SilkS")
 		(uuid "b24ddaf1-ebf4-4683-956e-3dd22cfe99dd")
 		(effects
@@ -214,7 +214,7 @@
 		(uuid "a4c1c33d-faa2-42e2-aec3-485b23370d1a")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -2 6 0)
+		(at -4 6 0)
 		(layer "F.Fab")
 		(uuid "49e2a054-e908-49a8-b5d3-752ec86d7049")
 		(effects

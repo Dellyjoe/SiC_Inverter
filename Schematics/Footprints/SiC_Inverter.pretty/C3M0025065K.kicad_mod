@@ -194,17 +194,6 @@
 		(layer "F.Fab")
 		(uuid "95e49ebc-434b-49d4-909e-d69816a033f7")
 	)
-	(fp_circle
-		(center -2.6035 0)
-		(end -2.4003 0)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "4f6c3cbb-e85c-4b5d-bf7e-526f11d801b3")
-	)
 	(fp_text user "${REFERENCE}"
 		(at 8.404762 8 0)
 		(unlocked yes)

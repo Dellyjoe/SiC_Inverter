@@ -6,7 +6,7 @@
 	(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=13mm, height=20mm, Electrolytic Capacitor")
 	(tags "CP Radial series Radial pin pitch 5.00mm diameter 13mm height 20mm Electrolytic Capacitor")
 	(property "Reference" "REF**"
-		(at 2.5 -7.75 0)
+		(at 3 -7.75 0)
 		(layer "F.SilkS")
 		(uuid "58142405-2428-4c92-a1c0-9f5cf5a7cdd6")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "ESH226M500AL4AA"
-		(at 2.5 7.75 0)
+		(at 2.5 10 0)
 		(layer "F.Fab")
 		(uuid "0d8f1557-dd7d-4583-9648-ad00dbbece75")
 		(effects
@@ -52,26 +52,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -4.584569 -3.715)
-		(end -3.284569 -3.715)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4bcb5251-66b8-4991-a93a-5d95e34797b7")
-	)
-	(fp_line
-		(start -3.934569 -4.365)
-		(end -3.934569 -3.065)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f862cda4-6f3c-4e67-8439-3254f5a9b2c4")
-	)
 	(fp_line
 		(start 2.5 -6.58)
 		(end 2.5 6.58)
@@ -2474,26 +2454,6 @@
 		(layer "F.CrtYd")
 		(uuid "dbcd798d-4506-467a-8219-7905c70c7d5e")
 	)
-	(fp_line
-		(start -3.082015 -2.8475)
-		(end -1.782015 -2.8475)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "6b99bdaf-b7f2-4033-b1b1-7e250ac2ba42")
-	)
-	(fp_line
-		(start -2.432015 -3.4975)
-		(end -2.432015 -2.1975)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "18e8c7ea-b323-4d0e-9117-3c2a87a2d707")
-	)
 	(fp_circle
 		(center 2.5 0)
 		(end 9 0)
@@ -2506,7 +2466,7 @@
 		(uuid "89d67381-3ecd-4fe1-be5b-71097a086486")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.5 0 0)
+		(at 3 8 0)
 		(layer "F.Fab")
 		(uuid "0025e52c-9a10-439b-98b8-6881e94f9318")
 		(effects

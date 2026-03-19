@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "MKP1848C52050JK2 ")
 	(property "Reference" "REF**"
-		(at -4 3 90)
+		(at 14 -6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "95fc8d95-541b-4e57-b2ed-15dc4925580d")
@@ -196,7 +196,7 @@
 		(uuid "ec5dd3d2-2058-439e-b436-f37774346737")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 14 -6 0)
+		(at 13 9 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "eb6ebd77-2279-4ac2-9a2f-8e0b74fb9e66")

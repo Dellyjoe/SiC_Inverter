@@ -6,7 +6,7 @@
 	(descr "UJC-V-G-SMT-P6-TR-1")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at -5 -4 0)
+		(at 0 -4 0)
 		(layer "F.SilkS")
 		(uuid "faf191c1-dbc1-4732-a678-1a466661088f")
 		(effects
@@ -62,48 +62,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "3d6a9b64-419d-4dc7-9110-eb695f1879cb")
-	)
-	(fp_line
-		(start -0.5 -2.5)
-		(end -0.5 -2.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d3c93ed4-9abf-4246-a099-df21e46ade4f")
-	)
-	(fp_line
-		(start -0.5 -2.4)
-		(end -0.5 -2.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "463b3ae7-3e97-45f8-b17d-b9fc15429bee")
-	)
-	(fp_arc
-		(start -0.5 -2.5)
-		(mid -0.45 -2.45)
-		(end -0.5 -2.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7063c19e-082f-4a69-91c4-a39a2714aa20")
-	)
-	(fp_arc
-		(start -0.5 -2.4)
-		(mid -0.55 -2.45)
-		(end -0.5 -2.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "12243838-baa5-47a4-886a-cfe644dda1ab")
 	)
 	(fp_line
 		(start -6.02 -2.96)

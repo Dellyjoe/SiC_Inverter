@@ -196,29 +196,6 @@
 			)
 		)
 	)
-	(fp_text user "*"
-		(at -3.048 0 0)
-		(layer "F.Fab")
-		(uuid "97a20396-6a9d-4f5a-a7ec-bd2c463851c4")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -3.048 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "c3f55f2b-06b1-4764-9762-d5e80a8c7f4c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" thru_hole rect
 		(at 0 0)
 		(size 1.27 1.27)

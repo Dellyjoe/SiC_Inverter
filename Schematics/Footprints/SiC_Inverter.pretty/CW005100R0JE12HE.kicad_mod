@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "CW005100R0JE12HE ")
 	(property "Reference" "REF**"
-		(at 16.9672 0 0)
+		(at 18 -6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "0119a992-4f73-49fa-a8c2-28745d23aafc")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "RES_CW005_VIS"
-		(at 10 8 0)
+		(at 18 8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ef134817-f046-4b83-b9a2-04b8c14b3f69")
@@ -274,7 +274,7 @@
 		(uuid "9a655cc0-3562-42bc-98e1-ef2dffdd8645")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 10 6 0)
+		(at 18 6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "cb9344e8-feb4-4652-b907-16241acaa563")

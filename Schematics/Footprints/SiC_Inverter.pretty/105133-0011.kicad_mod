@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "1051330011 ")
 	(property "Reference" "REF**"
-		(at -3 -1 0)
+		(at 0 -1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ea4a0969-93e5-4f2d-9b24-0d2c0580c8a6")
@@ -103,17 +103,6 @@
 		(layer "F.SilkS")
 		(uuid "c810df81-e83c-498e-b944-7a40682836f9")
 	)
-	(fp_circle
-		(center -5 0.9156)
-		(end -4.619 0.9156)
-		(stroke
-			(width 0.508)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "1748f19f-397b-4731-b24c-cace82821039")
-	)
 	(fp_line
 		(start -4.3815 -0.1131)
 		(end -4.3815 3.710799)
@@ -193,17 +182,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "0e82d05b-159d-42d6-8509-8963a7eb9cab")
-	)
-	(fp_circle
-		(center -4.8895 0.9156)
-		(end -4.5085 0.9156)
-		(stroke
-			(width 0.508)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "de0a377c-1b7e-420a-a2d4-5a30850bc760")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 4 7 0)
