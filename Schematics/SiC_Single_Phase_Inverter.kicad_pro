@@ -505,6 +505,12 @@
       "/EMI_Input_Filter/+VIN_EMI": [
         "5amp"
       ],
+      "/EMI_Input_Filter/BUS+_Filtered": [
+        "5amp"
+      ],
+      "/EMI_Input_Filter/BUS+_RAW": [
+        "5amp"
+      ],
       "GND": [
         "5amp"
       ]
