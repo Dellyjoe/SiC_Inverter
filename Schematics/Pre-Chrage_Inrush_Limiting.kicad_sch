@@ -8728,6 +8728,36 @@
 		)
 		(uuid "de0bfcf4-e095-4635-b17d-c20ae419f0f7")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 228.6 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2171e0e2-c7a2-42f0-a0ea-429a199cb659")
+		(property "Netclass" "5amp"
+			(at 230.632 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 436.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "SiC_Inverter:464369202")
 		(at 252.73 55.88 0)
