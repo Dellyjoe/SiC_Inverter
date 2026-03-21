@@ -3074,7 +3074,7 @@
 	)
 	(rectangle
 		(start 34.798 83.82)
-		(end 62.738 105.156)
+		(end 63.5 105.156)
 		(stroke
 			(width 0)
 			(type default)
@@ -3098,7 +3098,7 @@
 	)
 	(rectangle
 		(start 34.798 171.45)
-		(end 62.738 192.786)
+		(end 63.5 192.786)
 		(stroke
 			(width 0)
 			(type default)
@@ -5743,7 +5743,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 p"
+		(property "Value" "100 pF"
 			(at 138.176 184.15 0)
 			(effects
 				(font
@@ -5963,7 +5963,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 p"
+		(property "Value" "100 pF"
 			(at 171.196 95.25 0)
 			(effects
 				(font
@@ -6186,7 +6186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15 u"
+		(property "Value" "15 uF"
 			(at 26.416 182.88 0)
 			(effects
 				(font
@@ -7154,7 +7154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 u"
+		(property "Value" "0.1 uF"
 			(at 46.736 95.25 0)
 			(effects
 				(font
@@ -7229,7 +7229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 p"
+		(property "Value" "100 pF"
 			(at 206.756 95.25 0)
 			(effects
 				(font
@@ -7304,7 +7304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 u"
+		(property "Value" "1 uF"
 			(at 168.656 184.15 0)
 			(effects
 				(font
@@ -7923,7 +7923,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 u"
+		(property "Value" "1 uF"
 			(at 58.42 95.25 0)
 			(effects
 				(font
@@ -8208,7 +8208,7 @@
 		(dnp no)
 		(uuid "7275fba1-8d00-4673-9b81-a2ffa6b86612")
 		(property "Reference" "C44"
-			(at 158.496 181.61 0)
+			(at 157.48 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,8 +8216,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 u"
-			(at 158.496 184.15 0)
+		(property "Value" "0.1 uF"
+			(at 157.226 184.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8365,7 +8365,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 u"
+		(property "Value" "0.1 uF"
 			(at 46.736 182.88 0)
 			(effects
 				(font
@@ -8440,7 +8440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 u"
+		(property "Value" "1 uF"
 			(at 58.42 182.88 0)
 			(effects
 				(font
@@ -8660,7 +8660,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 p"
+		(property "Value" "100 pF"
 			(at 120.396 184.15 0)
 			(effects
 				(font
@@ -9031,7 +9031,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 u"
+		(property "Value" "0.1 uF"
 			(at 187.706 67.31 0)
 			(effects
 				(font
@@ -9314,7 +9314,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15 u"
+		(property "Value" "15 uF"
 			(at 26.416 95.25 0)
 			(effects
 				(font
@@ -9533,7 +9533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 p"
+		(property "Value" "100 pF"
 			(at 188.976 95.25 0)
 			(effects
 				(font
@@ -9821,7 +9821,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 u"
+		(property "Value" "1 uF"
 			(at 237.236 95.25 0)
 			(effects
 				(font
@@ -10111,7 +10111,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 u"
+		(property "Value" "0.1 uF"
 			(at 227.076 95.25 0)
 			(effects
 				(font
@@ -10186,7 +10186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 u"
+		(property "Value" "0.1 uF"
 			(at 171.196 153.67 0)
 			(effects
 				(font
@@ -10261,7 +10261,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 p"
+		(property "Value" "100 pF"
 			(at 102.616 184.15 0)
 			(effects
 				(font

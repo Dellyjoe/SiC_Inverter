@@ -3008,6 +3008,75 @@
 		)
 	)
 	(symbol
+		(lib_id "SiC_Inverter:C3216X8R1E105M160AA")
+		(at 195.58 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d670b67-068e-4c20-b79d-51f820b9c105")
+		(property "Reference" "C69"
+			(at 188.722 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 188.722 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 218.44 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
+			(at 347.472 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
+			(at 217.678 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0e3e586-3f5b-40ba-825b-af8c87fe5150")
+		)
+		(pin "1"
+			(uuid "d6f996a0-5a0c-49fb-976f-c315c74d448f")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/a4e77945-709f-47b6-8253-e2d18e80adc4"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SiC_Inverter:C2012X8R1E105M125AE")
 		(at 24.13 179.07 0)
 		(unit 1)
@@ -3730,75 +3799,6 @@
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/a4e77945-709f-47b6-8253-e2d18e80adc4"
 					(reference "#PWR0149")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SiC_Inverter:C3216X8R1E105M160AA")
-		(at 195.58 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af8e9b57-de52-436f-8599-37448c580395")
-		(property "Reference" "C69"
-			(at 188.722 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 uF"
-			(at 188.722 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 218.44 92.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/26015/mkp1848cdclink.pdf"
-			(at 347.472 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RECOMMENDED ALT 810-C3216X8R1E105K"
-			(at 217.678 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f29c7bc3-2301-43c0-b35d-77ba7257dd31")
-		)
-		(pin "2"
-			(uuid "a758f95f-43d2-41f9-b784-d3f56f54b57f")
-		)
-		(instances
-			(project "SiC_Single_Phase_Inverter"
-				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/a4e77945-709f-47b6-8253-e2d18e80adc4"
-					(reference "C69")
 					(unit 1)
 				)
 			)
