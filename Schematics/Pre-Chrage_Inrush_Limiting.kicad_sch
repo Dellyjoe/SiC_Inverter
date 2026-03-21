@@ -7314,7 +7314,7 @@
 	)
 	(text_box "Series Per-Charge resistor with MOSFET Bypass"
 		(exclude_from_sim no)
-		(at 135.128 39.624 0)
+		(at 134.874 39.624 0)
 		(size 49.276 3.048)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
