@@ -5,6 +5,89 @@
 	(uuid "330d8a8c-694e-486a-a387-07208716b3be")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SiC_Inverter:43650-0418"
 			(pin_numbers
 				(hide yes)
@@ -1346,12 +1429,6 @@
 		(uuid "4064206f-b687-45f0-953a-a13c4a53fced")
 	)
 	(junction
-		(at 100.33 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5afe75fc-5635-445d-aaba-caac19bbf37c")
-	)
-	(junction
 		(at 134.62 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1392,12 +1469,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af38043e-1b07-423c-9050-d01f57faf2c0")
-	)
-	(junction
-		(at 88.9 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1f6b7ab-8b16-41f9-b553-a2ea49814b9b")
 	)
 	(junction
 		(at 165.1 93.98)
@@ -1593,6 +1664,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 128.27) (xy 101.6 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44dce67f-aaa6-48b2-a21c-8fa4f5112ef8")
+	)
+	(wire
+		(pts
 			(xy 163.83 119.38) (xy 163.83 125.73)
 		)
 		(stroke
@@ -1640,16 +1721,6 @@
 			(type default)
 		)
 		(uuid "4a5e4c7d-e828-4e4d-9e5b-1e371de229b7")
-	)
-	(wire
-		(pts
-			(xy 100.33 128.27) (xy 101.6 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f42e2e8-ee66-44c6-b0d9-1a86358d1cf9")
 	)
 	(wire
 		(pts
@@ -1750,16 +1821,6 @@
 			(type default)
 		)
 		(uuid "6f531835-9fdb-48f5-89ff-a9d0c2e8d193")
-	)
-	(wire
-		(pts
-			(xy 88.9 128.27) (xy 100.33 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "799a6933-4239-4f43-9cd2-c931e4f83d89")
 	)
 	(wire
 		(pts
@@ -1930,16 +1991,6 @@
 			(type default)
 		)
 		(uuid "d9871020-8d48-4f82-87ab-80d681af5234")
-	)
-	(wire
-		(pts
-			(xy 86.36 128.27) (xy 88.9 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3d3b803-5942-4cd1-adf5-c15545a3726f")
 	)
 	(wire
 		(pts
@@ -2457,6 +2508,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 176.53 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "053d3dd6-374d-400c-98a4-c684113998de")
+		(property "Reference" "H10"
+			(at 179.07 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 179.07 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 176.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 176.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 154.94 119.38 270)
 		(unit 1)
@@ -2525,7 +2641,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 100.33 128.27 0)
+		(at 93.98 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2533,7 +2649,7 @@
 		(dnp no)
 		(uuid "094105e5-28c0-4fda-9c72-c3693eed9970")
 		(property "Reference" "#PWR0132"
-			(at 100.33 132.08 0)
+			(at 93.98 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +2658,7 @@
 			)
 		)
 		(property "Value" "+15V__ISO_LAHS"
-			(at 100.33 130.302 0)
+			(at 93.98 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,7 +2666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 128.27 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,7 +2675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 128.27 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2684,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 100.33 128.27 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,16 +3595,36 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 88.9 128.27 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 191.77 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "81563db4-49ca-472c-9004-9914695714ba")
-		(property "Reference" "#PWR0129"
-			(at 88.9 132.08 0)
+		(fields_autoplaced yes)
+		(uuid "755f8c38-42f5-4034-916a-216bf26878af")
+		(property "Reference" "H12"
+			(at 194.31 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 194.31 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 191.77 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,16 +3632,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V__ISO_LBHS"
-			(at 92.71 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 128.27 0)
+		(property "Datasheet" "~"
+			(at 191.77 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,37 +3641,19 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 88.9 128.27 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 191.77 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 88.9 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e33cb0a-00d6-45f6-b121-ba2b23b852ac")
 		)
 		(instances
-			(project "Power"
-				(path "/330d8a8c-694e-486a-a387-07208716b3be"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
-					(reference "#PWR0129")
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -3615,6 +3725,71 @@
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
 					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 184.15 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85959132-8eb3-4c6d-8837-2ffa12272347")
+		(property "Reference" "H11"
+			(at 186.69 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 186.69 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 184.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 184.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -4005,6 +4180,71 @@
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
 					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 168.91 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c18c2237-fe4b-466f-a1e7-29d077674c42")
+		(property "Reference" "H9"
+			(at 171.45 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 171.45 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 168.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 168.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/e9f9d5ca-7f9f-4dc3-b303-71fca817b963"
+					(reference "H9")
 					(unit 1)
 				)
 			)
