@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "a1ed0539-9735-4ad1-a8fd-87e26e7fce16")
 	(paper "A4")
 	(lib_symbols)
@@ -1223,11 +1223,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "2ce2cec5-32d3-4a43-a037-f5e3105f4dec")
 		(property "Sheetname" "Pre-charge_current_Limiting"
 			(at 90.17 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,12 +1239,14 @@
 		)
 		(property "Sheetfile" "Pre-Chrage_Inrush_Limiting.kicad_sch"
 			(at 90.17 119.9646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "BUS+_Precharge" input
@@ -1296,11 +1300,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7998be36-55a1-424f-a315-c3fdbc8a6aca")
 		(property "Sheetname" "EMI_Input_Filter"
 			(at 55.88 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,12 +1316,14 @@
 		)
 		(property "Sheetfile" "EMI_Input_Filter.kicad_sch"
 			(at 55.88 119.9646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "BUS+_Filtered" output
@@ -1358,11 +1366,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7e4e3ba0-41da-43fa-8607-bd1c726f4bc0")
 		(property "Sheetname" "Controller"
 			(at 212.09 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,6 +1382,8 @@
 		)
 		(property "Sheetfile" "Controller.kicad_sch"
 			(at 212.09 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,11 +1652,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "881dbdac-7ecf-454b-9d42-4e4e0581671c")
 		(property "Sheetname" "CISPR‑grade_Filter"
 			(at 56.388 125.0184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,12 +1668,14 @@
 		)
 		(property "Sheetfile" "CISPR‑grade_Filter.kicad_sch"
 			(at 56.388 145.3646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(instances
@@ -1683,11 +1699,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "9842b604-3f48-4932-a302-ed67fb523541")
 		(property "Sheetname" "DC_Link_Caps"
 			(at 127 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,12 +1715,14 @@
 		)
 		(property "Sheetfile" "DC_Link_Caps.kicad_sch"
 			(at 127 119.9646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "BUS_DC+" bidirectional
@@ -1736,11 +1756,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a4e77945-709f-47b6-8253-e2d18e80adc4")
 		(property "Sheetname" "USB_Console"
 			(at 127 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,6 +1772,8 @@
 		)
 		(property "Sheetfile" "USB_Console.kicad_sch"
 			(at 127 38.1766 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,11 +1822,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b6e78e1f-718a-4f31-892b-d9c389541b0d")
 		(property "Sheetname" "Full-Bridge"
 			(at 172.72 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,6 +1838,8 @@
 		)
 		(property "Sheetfile" "Full-Bridge.kicad_sch"
 			(at 172.72 136.9826 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,11 +2058,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "bc0f80e1-b57d-46ec-8488-4a939507ae45")
 		(property "Sheetname" "LC_Output_EMI_Filter"
 			(at 229.87 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,6 +2074,8 @@
 		)
 		(property "Sheetfile" "LC_Output_EMI_Filter.kicad_sch"
 			(at 229.87 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,11 +2144,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "cf3acd45-2ee3-4687-9429-99700ff01ea1")
 		(property "Sheetname" "Input_Protection"
 			(at 15.24 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,6 +2160,8 @@
 		)
 		(property "Sheetfile" "Input_Protection.kicad_sch"
 			(at 15.24 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,11 +2210,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e9f9d5ca-7f9f-4dc3-b303-71fca817b963")
 		(property "Sheetname" "Power"
 			(at 55.88 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,6 +2226,8 @@
 		)
 		(property "Sheetfile" "Power.kicad_sch"
 			(at 55.88 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
