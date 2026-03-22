@@ -2758,7 +2758,7 @@
 		)
 		(uuid "3edf94cd-5f47-4ea7-8e25-3756a729d6b4")
 	)
-	(label "USBESP_D-"
+	(label "USB_D-"
 		(at 162.56 87.63 180)
 		(effects
 			(font
@@ -2798,7 +2798,7 @@
 		)
 		(uuid "c973a970-4103-4416-9430-ff9c77952636")
 	)
-	(label "USBESP_D+"
+	(label "USB_D+"
 		(at 162.56 83.82 180)
 		(effects
 			(font
