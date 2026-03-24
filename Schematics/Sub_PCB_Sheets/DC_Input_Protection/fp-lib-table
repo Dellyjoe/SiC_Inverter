@@ -1,4 +1,4 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "DC Input")(type "KiCad")(uri "${KIPRJMOD}/Footprints/SiC_Inverter.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "SiC_Inverter") (type "KiCad") (uri "E:/Vitale_Circuit_Designs/SiC_Single_Phase_Inverter/Schematics/Footprints/SiC_Inverter.pretty") (options "") (descr ""))
 )
