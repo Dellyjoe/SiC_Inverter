@@ -3565,6 +3565,12 @@
 		(uuid "2d0ccfd6-beab-495c-9522-7ccce3d0b49f")
 	)
 	(junction
+		(at 34.29 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36212151-8f9f-4dc4-8f75-02fdda330d30")
+	)
+	(junction
 		(at 207.01 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3726,6 +3732,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 125.73) (xy 34.29 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07bd6c61-502f-4001-b00d-96c2c28331a6")
+	)
+	(wire
+		(pts
 			(xy 34.29 71.12) (xy 34.29 64.77)
 		)
 		(stroke
@@ -3756,6 +3772,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 125.73) (xy 34.29 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b95dfb5-08ca-4beb-b4cf-b5022f32217a")
+	)
+	(wire
+		(pts
 			(xy 224.79 88.9) (xy 224.79 90.17)
 		)
 		(stroke
@@ -3766,7 +3792,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 123.19) (xy 34.29 134.62)
+			(xy 34.29 123.19) (xy 34.29 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3956,7 +3982,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 130.81) (xy 41.91 137.16)
+			(xy 41.91 125.73) (xy 41.91 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5133,16 +5159,6 @@
 			(justify right bottom)
 		)
 		(uuid "5045e9ba-e6a9-45ca-8dd3-204a76604f9c")
-	)
-	(label "LegB_LS_COM"
-		(at 41.91 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5277ac01-998e-44de-87b8-9bde4c581007")
 	)
 	(label "LegB_HS_COM"
 		(at 147.32 45.72 180)
@@ -9721,89 +9737,6 @@
 	)
 	(symbol
 		(lib_id "power:GNDS")
-		(at 29.21 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8748b133-7974-4a25-8ed7-1ac427104fb7")
-		(property "Reference" "#PWR053"
-			(at 29.21 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_ISO_LBLS"
-			(at 29.718 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 29.21 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ceaffdf0-4d8a-4901-a4ac-594ef587a827")
-		)
-		(instances
-			(project "Leg_B_Power_Stage"
-				(path "/0d38f9bf-13f4-4f42-8a58-3b8cdf8f95a0"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "SiC_Single_Phase_Inverter"
-				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
 		(at 128.27 149.86 0)
 		(unit 1)
 		(body_style 1)
@@ -10802,6 +10735,83 @@
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c588f1bb-6bb7-4065-b9dd-2cd3cf3001cd")
+		(property "Reference" "#PWR053"
+			(at 29.21 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 122.174 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b00406c-a504-485d-912b-ff71ee5f6729")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/d1761b4e-8a42-4386-8dfd-35f782fbcef3"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)

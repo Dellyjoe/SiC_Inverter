@@ -3426,16 +3426,6 @@
 		)
 		(uuid "4622b807-31c2-427a-8fcb-d7e7c861f774")
 	)
-	(text "Need a Isoulated DC-DC Converter for this. THe 15V\noutput will be +15V_ISO_LALS and GND_ISO_LALS"
-		(exclude_from_sim no)
-		(at 105.156 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6ba006cb-8adc-4c71-9b4e-cf0448f5d377")
-	)
 	(text "Low Side\n"
 		(exclude_from_sim no)
 		(at 17.526 110.236 0)
@@ -3446,16 +3436,6 @@
 			(justify left)
 		)
 		(uuid "74317e1f-8981-46bf-a6b0-9d5307158cc7")
-	)
-	(text "Need a Isoulated DC-DC Converter for this. THe 15V\noutput will be +15V_ISO_LAHS and GND_ISO_LAHS"
-		(exclude_from_sim no)
-		(at 117.094 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7f136d20-9b4f-4d4d-8a02-0f3f95f4021e")
 	)
 	(text "Ceramic\n"
 		(exclude_from_sim no)
@@ -3534,6 +3514,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "000d3c8d-57a9-4adf-b9b4-e46f8710974f")
+	)
+	(junction
+		(at 35.56 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "027d65b9-8003-4294-ba8c-99f534d12372")
 	)
 	(junction
 		(at 60.96 55.88)
@@ -3727,16 +3713,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 124.46) (xy 35.56 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "073f1dd8-b691-4399-af5d-4a9c9576720e")
-	)
-	(wire
-		(pts
 			(xy 168.91 134.62) (xy 168.91 135.89)
 		)
 		(stroke
@@ -3787,6 +3763,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 127) (xy 35.56 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1104f632-72d3-4a1e-9b7a-163213bb77d7")
+	)
+	(wire
+		(pts
 			(xy 198.12 62.23) (xy 199.39 62.23)
 		)
 		(stroke
@@ -3804,6 +3790,16 @@
 			(type dash)
 		)
 		(uuid "120e9210-0053-416e-ad10-b26b4e75e22a")
+	)
+	(wire
+		(pts
+			(xy 35.56 127) (xy 35.56 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "123f05bb-804e-4bb8-9cc7-563d9e37ebb5")
 	)
 	(wire
 		(pts
@@ -4227,16 +4223,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 132.08) (xy 43.18 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67538ab0-e0e7-4e19-b319-1f0099259689")
-	)
-	(wire
-		(pts
 			(xy 182.88 71.12) (xy 186.69 71.12)
 		)
 		(stroke
@@ -4577,6 +4563,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 138.43) (xy 43.18 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b145bd-c55d-4b00-b446-dce3e34c2f51")
+	)
+	(wire
+		(pts
 			(xy 45.72 99.06) (xy 45.72 100.33)
 		)
 		(stroke
@@ -4604,6 +4600,16 @@
 			(type dash)
 		)
 		(uuid "a68bc8b8-66bb-4878-9d03-45d9ca25194c")
+	)
+	(wire
+		(pts
+			(xy 35.56 124.46) (xy 35.56 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7be1d1d-7aef-4b73-aaf1-d2162ef6dace")
 	)
 	(wire
 		(pts
@@ -5135,16 +5141,6 @@
 		)
 		(uuid "69b5568b-4bea-4ce6-abb0-6c222f35ef41")
 	)
-	(label "LegA_LS_COM"
-		(at 43.18 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e82be61-5268-4881-8bfa-2e5f38e41bf7")
-	)
 	(label "LegA_HS_Gate"
 		(at 49.53 55.88 0)
 		(effects
@@ -5286,7 +5282,7 @@
 		(uuid "e8184670-7091-42c4-a7f5-2ed875772a7f")
 	)
 	(label "LegA_LS_COM"
-		(at 35.56 129.54 180)
+		(at 35.56 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5657,6 +5653,83 @@
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "144a8026-0c4b-4f2c-8037-07783a810dcb")
+		(property "Reference" "#PWR023"
+			(at 30.48 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 123.444 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c2bcb8b-b779-4938-ac08-a6347eef84f3")
+		)
+		(instances
+			(project "SiC_Single_Phase_Inverter"
+				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10371,83 +10444,6 @@
 			(project "SiC_Single_Phase_Inverter"
 				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 30.48 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e2df444d-ca1f-4239-ad81-8e62d08c08b2")
-		(property "Reference" "#PWR023"
-			(at 30.48 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_ISO_LALS"
-			(at 30.988 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 30.48 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b54d88c-0378-4ed3-9c2e-9ba88cac6f5c")
-		)
-		(instances
-			(project "SiC_Single_Phase_Inverter"
-				(path "/a1ed0539-9735-4ad1-a8fd-87e26e7fce16/b6e78e1f-718a-4f31-892b-d9c389541b0d/df0e594b-c560-4977-9819-59c4a1d47101"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
