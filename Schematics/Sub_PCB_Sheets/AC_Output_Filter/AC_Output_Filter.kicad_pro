@@ -475,7 +475,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SiC_Single_Phase_Inverter.kicad_pro",
+    "filename": "AC_Output_Filter.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -554,7 +554,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Fab_Output/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
