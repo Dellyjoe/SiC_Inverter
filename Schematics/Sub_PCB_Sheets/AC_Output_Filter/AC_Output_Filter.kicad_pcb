@@ -3862,18 +3862,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Fix Planes Make sure they are square"
-		(at 124.95 83.55 0)
-		(layer "F.SilkS")
-		(uuid "c0dabd96-9cf4-4d56-bd66-97dc81d1378c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "Phase B Output"
 		(locked yes)
 		(at 162.672618 97.95 0)
