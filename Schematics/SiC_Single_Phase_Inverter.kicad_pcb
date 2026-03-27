@@ -9769,6 +9769,353 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "SiC_Inverter:43045-0212"
+		(layer "F.Cu")
+		(uuid "1eb816eb-ad26-4a8a-b0d8-678c9e70d107")
+		(at 477.93 91.505 180)
+		(descr "43045-02YY_121314")
+		(tags "Connector")
+		(property "Reference" "J29"
+			(at 0 -8 0)
+			(layer "F.SilkS")
+			(uuid "1f1b5b74-1fa7-473d-8d2c-45652682a3e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "43045-0212"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c8a37517-9175-4081-bef3-6cf18c1852fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/430450612_sd.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7cf3539-186f-46af-a5db-e7db887b40ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Dual Row, 2 Circuits, with PCB Polarizing Peg, Glow-Wire Capable"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "040bef2a-f3b1-47df-90fb-b3093c77823e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.91"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51925009-65c2-483a-b986-4383fd83588c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "538-430-45-0212"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95e12135-84d1-4be9-98e8-268996c523a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43045-0212?qs=QtQX4uD3c2XFLtjr%252BHeRmQ%3D%3D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa351467-7ae3-40b8-b39a-47323bbeb20c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9cd6577-cb56-4398-8b81-8af5e05f1fc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43045-0212"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22071ac3-02e2-4d5b-b3ea-b7b7421118db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b6e78e1f-718a-4f31-892b-d9c389541b0d/761ee8e3-e54a-48dc-8c14-b2689e58d9bd")
+		(sheetname "/Full-Bridge/")
+		(sheetfile "Full-Bridge.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 5 0.5)
+			(end 4 0)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "04ae2ef8-76d6-4758-ba56-6b1ec67ee3d7")
+		)
+		(fp_line
+			(start 5 -0.5)
+			(end 5 0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "701b10b4-95c3-41dd-8821-f91563af00b2")
+		)
+		(fp_line
+			(start 4 0)
+			(end 5 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "510e31ef-5c06-4d35-8c87-aa37c61f6e36")
+		)
+		(fp_line
+			(start 3.575 3.17)
+			(end -3.575 3.17)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d18976ba-20d8-4353-a79d-1bd9ba7fc06c")
+		)
+		(fp_line
+			(start -3.575 -5.6)
+			(end 3.575 -5.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c7227815-47c2-403d-a1d9-3c15361b82cc")
+		)
+		(fp_line
+			(start 4.845 4.44)
+			(end -4.845 4.44)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "af278a07-4a8b-4e22-8cf4-2c183a1460bc")
+		)
+		(fp_line
+			(start 4.845 -6.87)
+			(end 4.845 4.44)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "92f065fc-4a70-445b-9bef-238f7e386e69")
+		)
+		(fp_line
+			(start -4.845 4.44)
+			(end -4.845 -6.87)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5eaf65bc-4d30-459a-ae5c-f96c497333d3")
+		)
+		(fp_line
+			(start -4.845 -6.87)
+			(end 4.845 -6.87)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d854e897-b37e-4087-80dd-ffb083b02b83")
+		)
+		(fp_line
+			(start 5 0.5)
+			(end 4 0)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f2f6d0c6-ac22-4e99-bfb2-2042ff633285")
+		)
+		(fp_line
+			(start 5 -0.5)
+			(end 5 0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f8e4b163-8593-49fa-8f87-b022c9926b04")
+		)
+		(fp_line
+			(start 4 0)
+			(end 5 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "36025b82-f17a-4f37-bafc-6ad6f950b246")
+		)
+		(fp_line
+			(start 3.575 3.17)
+			(end -3.575 3.17)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4f6655d7-ae54-42d6-b2ec-fb773eb54b5b")
+		)
+		(fp_line
+			(start 3.575 -5.6)
+			(end 3.575 3.17)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7bd1080f-9fef-44cb-a33a-fe650316b04b")
+		)
+		(fp_line
+			(start -3.575 3.17)
+			(end -3.575 -5.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "780cee81-4097-4484-85f8-cab159fa74b3")
+		)
+		(fp_line
+			(start -3.575 -5.6)
+			(end 3.575 -5.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1d620b52-24d9-4501-b6cc-c00735edabdc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 6 0)
+			(layer "F.Fab")
+			(uuid "460fd317-0533-46ed-88f6-cf82b27e16d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -3 -3.94 180)
+			(size 1.02 1.02)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4b05c3ac-b281-41fa-ba42-4e82c3345fe7")
+		)
+		(pad "" np_thru_hole circle
+			(at 3 -3.94 180)
+			(size 1.02 1.02)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(uuid "59da2d33-4706-47fa-8e7a-1d98241163db")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 180)
+			(size 1.52 1.52)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "LOGIC_GND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "3c2db885-3b84-4895-9398-aa49ef8a612f")
+		)
+		(pad "2" thru_hole circle
+			(at 0 -3 180)
+			(size 1.52 1.52)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "+3V3")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "3a75c6cf-71fe-4097-a96d-0552178b69bb")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d-models/43045-0212.stp"
+			(offset
+				(xyz 0 1.499999977 4.499999932)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "SiC_Inverter:PC817X1CSP9F"
 		(layer "F.Cu")
 		(uuid "200a1453-cc62-4188-b535-991c4c876941")
@@ -18391,6 +18738,353 @@
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SiC_Inverter:43045-0212"
+		(layer "F.Cu")
+		(uuid "445c1e9b-16b4-4707-8f9f-e99befc4b165")
+		(at 137.75 66.66 180)
+		(descr "43045-02YY_121314")
+		(tags "Connector")
+		(property "Reference" "J30"
+			(at 0 5.56 0)
+			(layer "F.SilkS")
+			(uuid "e4e2fb59-d443-4b78-a8a9-b7b0229f0fbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "43045-0212"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "61181bb1-5c7c-4efd-a538-105a12266950")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/430450612_sd.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "980ca14a-171b-4fae-b48d-24b0a4dadf43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Dual Row, 2 Circuits, with PCB Polarizing Peg, Glow-Wire Capable"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b526e3e7-3796-4143-9da7-f2072cce1229")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.91"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52acc898-cec6-442a-b9c7-3b22c2a8b37e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "538-430-45-0212"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d51956a9-ef9b-4f50-a33f-0829cd9422c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43045-0212?qs=QtQX4uD3c2XFLtjr%252BHeRmQ%3D%3D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3c22418-6672-4d96-9b95-47dab25bf40d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca4ba09a-f680-4782-a353-54242bff3399")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43045-0212"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "706db2de-1f30-4441-846b-fa9f172de70f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e9f9d5ca-7f9f-4dc3-b303-71fca817b963/cc104924-56cf-470c-83af-6c0003379c6e")
+		(sheetname "/Power/")
+		(sheetfile "Power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 5 0.5)
+			(end 4 0)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "92c9a67a-9e98-4d2b-a754-bc930cf47cee")
+		)
+		(fp_line
+			(start 5 -0.5)
+			(end 5 0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3f528e10-18b8-43e9-8eb0-0fea63119733")
+		)
+		(fp_line
+			(start 4 0)
+			(end 5 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dd755865-b90b-467e-a246-ced1c5162b8c")
+		)
+		(fp_line
+			(start 3.575 3.17)
+			(end -3.575 3.17)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "56d58b3d-8d2e-4469-b04d-16b8947f0877")
+		)
+		(fp_line
+			(start -3.575 -5.6)
+			(end 3.575 -5.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "16827afb-582a-41a0-ae11-d58eceb8cbaa")
+		)
+		(fp_line
+			(start 4.845 4.44)
+			(end -4.845 4.44)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f67035f6-cab6-4a57-8668-f9e2f13b2098")
+		)
+		(fp_line
+			(start 4.845 -6.87)
+			(end 4.845 4.44)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3b8f80f4-98d0-43f0-8e6c-9ed066980186")
+		)
+		(fp_line
+			(start -4.845 4.44)
+			(end -4.845 -6.87)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3d0b1eec-df9b-4f7d-81e0-5253934552b1")
+		)
+		(fp_line
+			(start -4.845 -6.87)
+			(end 4.845 -6.87)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "df60ec18-727f-4219-b62d-cac472a860be")
+		)
+		(fp_line
+			(start 5 0.5)
+			(end 4 0)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "829bcd12-8ae0-40a5-b804-6cf756834441")
+		)
+		(fp_line
+			(start 5 -0.5)
+			(end 5 0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b5abeacc-3d98-4e2b-961a-d0135954241b")
+		)
+		(fp_line
+			(start 4 0)
+			(end 5 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ca8815bd-ac63-46ee-baa2-efd0f23e27bc")
+		)
+		(fp_line
+			(start 3.575 3.17)
+			(end -3.575 3.17)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7cda06a2-94de-480a-9bd7-21d72fbf6c15")
+		)
+		(fp_line
+			(start 3.575 -5.6)
+			(end 3.575 3.17)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c072a415-ec83-43f8-a270-3c2f628c49e4")
+		)
+		(fp_line
+			(start -3.575 3.17)
+			(end -3.575 -5.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "40aa469a-2fc1-4f32-87c3-0e706108db5a")
+		)
+		(fp_line
+			(start -3.575 -5.6)
+			(end 3.575 -5.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3b5591c4-33de-4ca7-9d4a-1443afab4a09")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 6 0)
+			(layer "F.Fab")
+			(uuid "c17786cf-9442-4dab-8f2c-63c1ffaff36d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -3 -3.94 180)
+			(size 1.02 1.02)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(uuid "735846e8-a982-4064-ba6b-25d4961fbec6")
+		)
+		(pad "" np_thru_hole circle
+			(at 3 -3.94 180)
+			(size 1.02 1.02)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b48005fb-338c-4689-bd72-4d6936850884")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 180)
+			(size 1.52 1.52)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "LOGIC_GND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "e6ef0dee-218d-4b2f-9133-cdbb9f8b72f4")
+		)
+		(pad "2" thru_hole circle
+			(at 0 -3 180)
+			(size 1.52 1.52)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "+3V3")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "df33092d-daad-45db-ad71-2cf7ac4c5e2d")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d-models/43045-0212.stp"
+			(offset
+				(xyz 0 1.499999977 4.499999932)
 			)
 			(scale
 				(xyz 1 1 1)

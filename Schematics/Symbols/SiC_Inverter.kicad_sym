@@ -1875,7 +1875,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "43045-02YY_121314"
+		(property "Footprint" "SiC_Inverter:43045-0212"
 			(at 16.51 -94.92 0)
 			(show_name no)
 			(do_not_autoplace no)
