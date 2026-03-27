@@ -9772,7 +9772,7 @@
 	(footprint "SiC_Inverter:43045-0212"
 		(layer "F.Cu")
 		(uuid "1eb816eb-ad26-4a8a-b0d8-678c9e70d107")
-		(at 477.93 91.505 180)
+		(at 408.7 91.505 180)
 		(descr "43045-02YY_121314")
 		(tags "Connector")
 		(property "Reference" "J29"
